@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_b1" kind="class" prot="public">
+    <compoundname>B1</compoundname>
+    <basecompoundref refid="class_a1" prot="public" virt="non-virtual">A1</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>A1</label>
+        <link refid="class_a1"/>
+      </node>
+      <node id="3">
+        <label>B1</label>
+        <link refid="class_b1"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>A1</label>
+        <link refid="class_a1"/>
+      </node>
+      <node id="5">
+        <label>B1</label>
+        <link refid="class_b1"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/workspace/CPlus/TEST/class_init.cpp" line="25" column="1" bodyfile="D:/workspace/CPlus/TEST/class_init.cpp" bodystart="25" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_a1_1aac266405df3f31b8028cd9abdd5abc8f" prot="public" virt="non-virtual"><scope>B1</scope><name>A1</name></member>
+      <member refid="class_a1_1a6c1df076af0109d61e6fec2ed31641e0" prot="public" virt="non-virtual"><scope>B1</scope><name>get</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

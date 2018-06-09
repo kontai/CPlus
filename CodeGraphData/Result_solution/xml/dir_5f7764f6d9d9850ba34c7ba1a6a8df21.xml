@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_5f7764f6d9d9850ba34c7ba1a6a8df21" kind="dir">
+    <compoundname>D:/workspace/CPlus/Class定義與宣告</compoundname>
+    <innerfile refid="class_xE4_xBD_x9C_xE7_x94_xA8_xE5_x9F_x9F_8cpp">class作用域.cpp</innerfile>
+    <innerfile refid="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp">class友元friend.cpp</innerfile>
+    <innerfile refid="class_xE5_xAE_xA3_xE5_x91_x8A_xE8_x88_x87_xE5_xAE_x9A_xE7_xBE_xA9_8cpp">class宣告與定義.cpp</innerfile>
+    <innerfile refid="class_xE5_xBB_xBA_xE6_xA7_x8B_xE5_xBC_x8F_xE5_x88_x9D_xE5_x80_xBC_xE5_x99_xA8_07p453_08_8cpp">class建構式初值器(p453).cpp</innerfile>
+    <innerfile refid="class_xE6_x88_x90_xE5_x93_xA1_xE5_x87_xBD_xE5_xBC_x8F_8cpp">class成員函式.cpp</innerfile>
+    <innerfile refid="class_xE6_xA8_x99_xE7_xB1_xA4_8cpp">class標籤.cpp</innerfile>
+    <innerfile refid="class_xE9_x87_x8D_xE8_xBC_x89_8cpp">class重載.cpp</innerfile>
+    <innerfile refid="class_xE9_x9A_xB1_xE5_xBC_x8F_xE5_x8F_x83_xE6_x95_xB8this_8cpp">class隱式參數this.cpp</innerfile>
+    <innerfile refid="class_xE9_x9A_xB1_xE5_xBC_x8F_xE8_xBD_x89_xE6_x8F_x9B_8cpp">class隱式轉換.cpp</innerfile>
+    <innerfile refid="class_xE9_x9D_x9C_xE6_x85_x8B_xE6_x88_x90_xE5_x93_xA1static_8cpp">class靜態成員static.cpp</innerfile>
+    <innerfile refid="inline_xE5_x85_xA7_xE5_xB5_x8C_xE5_x87_xBD_xE6_x95_xB8_8cpp">inline內嵌函數.cpp</innerfile>
+    <innerfile refid="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp">Overload重載.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/CPlus/Class定義與宣告/"/>
+  </compounddef>
+</doxygen>

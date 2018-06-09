@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_1ad73824ffd1b4fc174e3266e66ff621" kind="dir">
+    <compoundname>D:/workspace/CPlus/TEST</compoundname>
+    <innerfile refid="class1_8cpp">class1.cpp</innerfile>
+    <innerfile refid="class2_8cpp">class2.cpp</innerfile>
+    <innerfile refid="class3_8cpp">class3.cpp</innerfile>
+    <innerfile refid="class__init_8cpp">class_init.cpp</innerfile>
+    <innerfile refid="empty__mapcpp_8cpp">empty_mapcpp.cpp</innerfile>
+    <innerfile refid="exam1240_8cpp">exam1240.cpp</innerfile>
+    <innerfile refid="_string_8cpp">String.cpp</innerfile>
+    <innerfile refid="vitrual__class_8cpp">vitrual_class.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/CPlus/TEST/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_case_a" kind="class" prot="public">
+    <compoundname>CaseA</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_case_a_1a90c9c067c34154c2bc898ec3df0cdadf" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CaseA::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class友元friend.cpp" line="23" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class友元friend.cpp" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp_1a13d3e16f56dc49e8eff70408a52914ba" compoundref="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp" startline="27" endline="30">Add</referencedby>
+        <referencedby refid="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp_1a0bb11e11223deec6e79dd6ef5f235528" compoundref="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp" startline="33" endline="39">Read</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_case_a_1ae6bff2ad402d3fd92d1a1710c3511822" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CaseA::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class友元friend.cpp" line="23" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class友元friend.cpp" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp_1a13d3e16f56dc49e8eff70408a52914ba" compoundref="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp" startline="27" endline="30">Add</referencedby>
+        <referencedby refid="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp_1a0bb11e11223deec6e79dd6ef5f235528" compoundref="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp" startline="33" endline="39">Read</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_case_a_1a322b245ecace5a3c6a821dd1fe9f20e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CaseA::CaseA</definition>
+        <argsstring>()</argsstring>
+        <name>CaseA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class友元friend.cpp" line="15" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class友元friend.cpp" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_case_a_1a906f3e9c68299de3c71f5297a6bc4ace" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CaseA::CaseA</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>CaseA</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class友元friend.cpp" line="16" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class友元friend.cpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_case_a_1a132adceb7d9463e7552b209755d47457" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend int</type>
+        <definition>int Add</definition>
+        <argsstring>(CaseA &amp;)</argsstring>
+        <name>Add</name>
+        <param>
+          <type><ref refid="class_case_a" kindref="compound">CaseA</ref> &amp;</type>
+          <defname>t</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class友元friend.cpp" line="19" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class友元friend.cpp" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_case_a_1a4cd6540df4e1cc02e82483a291a5a5a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend istream &amp;</type>
+        <definition>istream&amp; Read</definition>
+        <argsstring>(istream &amp;, CaseA &amp;)</argsstring>
+        <name>Read</name>
+        <param>
+          <type>istream &amp;</type>
+          <defname>keyin</defname>
+        </param>
+        <param>
+          <type><ref refid="class_case_a" kindref="compound">CaseA</ref> &amp;</type>
+          <defname>Cain</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class友元friend.cpp" line="21" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class友元friend.cpp" bodystart="33" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/CPlus/Class定義與宣告/class友元friend.cpp" line="13" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class友元friend.cpp" bodystart="12" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_case_a_1a90c9c067c34154c2bc898ec3df0cdadf" prot="private" virt="non-virtual"><scope>CaseA</scope><name>a</name></member>
+      <member refid="class_case_a_1a132adceb7d9463e7552b209755d47457" prot="public" virt="non-virtual"><scope>CaseA</scope><name>Add</name></member>
+      <member refid="class_case_a_1ae6bff2ad402d3fd92d1a1710c3511822" prot="private" virt="non-virtual"><scope>CaseA</scope><name>b</name></member>
+      <member refid="class_case_a_1a322b245ecace5a3c6a821dd1fe9f20e0" prot="public" virt="non-virtual"><scope>CaseA</scope><name>CaseA</name></member>
+      <member refid="class_case_a_1a906f3e9c68299de3c71f5297a6bc4ace" prot="public" virt="non-virtual"><scope>CaseA</scope><name>CaseA</name></member>
+      <member refid="class_case_a_1a4cd6540df4e1cc02e82483a291a5a5a9" prot="public" virt="non-virtual"><scope>CaseA</scope><name>Read</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

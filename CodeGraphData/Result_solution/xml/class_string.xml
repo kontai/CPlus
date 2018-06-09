@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_string" kind="class" prot="public">
+    <compoundname>String</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_string_1af26bb9bb6cacdb1437e25a929fc3a80d" prot="private" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* String::ptr</definition>
+        <argsstring></argsstring>
+        <name>ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/String.cpp" line="40" column="1" bodyfile="D:/workspace/CPlus/TEST/String.cpp" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_string_1a8036be2e8ff7b0d464f8e9475f5f8dde" compoundref="_string_8cpp" startline="20" endline="28">operator=</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_string_1a3fba40cf6cb11735ffddc355a5ff68f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>String::String</definition>
+        <argsstring>(const char *str)</argsstring>
+        <name>String</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/String.cpp" line="13" column="1" bodyfile="D:/workspace/CPlus/TEST/String.cpp" bodystart="13" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_string_1a8036be2e8ff7b0d464f8e9475f5f8dde" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_string" kindref="compound">String</ref> &amp;</type>
+        <definition>String&amp; String::operator=</definition>
+        <argsstring>(const String &amp;tmp)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_string" kindref="compound">String</ref> &amp;</type>
+          <declname>tmp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/String.cpp" line="20" column="1" bodyfile="D:/workspace/CPlus/TEST/String.cpp" bodystart="20" bodyend="28"/>
+        <references refid="class_string_1af26bb9bb6cacdb1437e25a929fc3a80d" compoundref="_string_8cpp" startline="40">ptr</references>
+      </memberdef>
+      <memberdef kind="function" id="class_string_1ac40b2a3fb58c2d8556f5e6ff73510036" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>String::~String</definition>
+        <argsstring>()</argsstring>
+        <name>~String</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/String.cpp" line="31" column="1" bodyfile="D:/workspace/CPlus/TEST/String.cpp" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_string_1abb07a3c9995d60c7eb608e5c1336b1e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void String::print</definition>
+        <argsstring>()</argsstring>
+        <name>print</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/String.cpp" line="35" column="1" bodyfile="D:/workspace/CPlus/TEST/String.cpp" bodystart="35" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/CPlus/TEST/String.cpp" line="11" column="1" bodyfile="D:/workspace/CPlus/TEST/String.cpp" bodystart="10" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_string_1a8036be2e8ff7b0d464f8e9475f5f8dde" prot="public" virt="non-virtual"><scope>String</scope><name>operator=</name></member>
+      <member refid="class_string_1abb07a3c9995d60c7eb608e5c1336b1e3" prot="public" virt="non-virtual"><scope>String</scope><name>print</name></member>
+      <member refid="class_string_1af26bb9bb6cacdb1437e25a929fc3a80d" prot="private" virt="non-virtual"><scope>String</scope><name>ptr</name></member>
+      <member refid="class_string_1a3fba40cf6cb11735ffddc355a5ff68f4" prot="public" virt="non-virtual"><scope>String</scope><name>String</name></member>
+      <member refid="class_string_1ac40b2a3fb58c2d8556f5e6ff73510036" prot="public" virt="non-virtual"><scope>String</scope><name>~String</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

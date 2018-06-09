@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classconst_ref" kind="class" prot="public">
+    <compoundname>constRef</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classconst_ref_1a4f819fd8e3fd4bcdd27f7823de5fda89" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int constRef::i</definition>
+        <argsstring></argsstring>
+        <name>i</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" line="31" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classconst_ref_1a64b1256cf0107b69042e6bc4a6f655d0" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int constRef::ci</definition>
+        <argsstring></argsstring>
+        <name>ci</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" line="32" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classconst_ref_1ab6262f3b5f1b74ca654b0b3de446f915" prot="private" static="no" mutable="no">
+        <type>int &amp;</type>
+        <definition>int&amp; constRef::ri</definition>
+        <argsstring></argsstring>
+        <name>ri</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" line="33" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classconst_ref_1a0887446ff753748f6a4f6f32ddc2f66d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>constRef::constRef</definition>
+        <argsstring>(int jj)</argsstring>
+        <name>constRef</name>
+        <param>
+          <type>int</type>
+          <declname>jj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" line="18" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" bodystart="18" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" line="15" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" bodystart="15" bodyend="34"/>
+    <listofallmembers>
+      <member refid="classconst_ref_1a64b1256cf0107b69042e6bc4a6f655d0" prot="private" virt="non-virtual"><scope>constRef</scope><name>ci</name></member>
+      <member refid="classconst_ref_1a0887446ff753748f6a4f6f32ddc2f66d" prot="public" virt="non-virtual"><scope>constRef</scope><name>constRef</name></member>
+      <member refid="classconst_ref_1a4f819fd8e3fd4bcdd27f7823de5fda89" prot="private" virt="non-virtual"><scope>constRef</scope><name>i</name></member>
+      <member refid="classconst_ref_1ab6262f3b5f1b74ca654b0b3de446f915" prot="private" virt="non-virtual"><scope>constRef</scope><name>ri</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

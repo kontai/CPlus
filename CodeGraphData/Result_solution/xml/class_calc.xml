@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_calc" kind="class" prot="public">
+    <compoundname>Calc</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_calc_1a7f5e7dbb16b78e157b6e18846d0c77f3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Calc::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/vitrual_class.cpp" line="37" column="1" bodyfile="D:/workspace/CPlus/TEST/vitrual_class.cpp" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_calc_1aae62ad65127bcc4dd9cad2b8e06ff343" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Calc::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/vitrual_class.cpp" line="37" column="1" bodyfile="D:/workspace/CPlus/TEST/vitrual_class.cpp" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_calc_1a1ca27c4f809fc769e060a836255ab4a2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Calc::sum</definition>
+        <argsstring></argsstring>
+        <name>sum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/vitrual_class.cpp" line="37" column="1" bodyfile="D:/workspace/CPlus/TEST/vitrual_class.cpp" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_calc_1a7225fbb8e0fcd00222dc4902e3ee444c" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Calc::str</definition>
+        <argsstring></argsstring>
+        <name>str</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/vitrual_class.cpp" line="38" column="1" bodyfile="D:/workspace/CPlus/TEST/vitrual_class.cpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_calc_1a294b818e0eb87df939dd44867de48e64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Calc::Calc</definition>
+        <argsstring>(int a=0, int b=0)</argsstring>
+        <name>Calc</name>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/vitrual_class.cpp" line="8" column="1" bodyfile="D:/workspace/CPlus/TEST/vitrual_class.cpp" bodystart="8" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_calc_1aeb49f45667c4122aebe74ab4f9893dfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_calc" kindref="compound">Calc</ref> &amp;</type>
+        <definition>Calc&amp; Calc::add</definition>
+        <argsstring>(int aa, int bb)</argsstring>
+        <name>add</name>
+        <param>
+          <type>int</type>
+          <declname>aa</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/vitrual_class.cpp" line="11" column="1" bodyfile="D:/workspace/CPlus/TEST/vitrual_class.cpp" bodystart="11" bodyend="18"/>
+        <referencedby refid="vitrual__class_8cpp_1a309cd510f60ce5409bcd60bd3b4edd28" compoundref="vitrual__class_8cpp" startline="41" endline="47">maini</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_calc_1a99f4f9e41dcac0519d405f1739cfcec6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_calc" kindref="compound">Calc</ref> &amp;</type>
+        <definition>Calc&amp; Calc::sub</definition>
+        <argsstring>(int ab, int ba)</argsstring>
+        <name>sub</name>
+        <param>
+          <type>int</type>
+          <declname>ab</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ba</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/vitrual_class.cpp" line="19" column="1" bodyfile="D:/workspace/CPlus/TEST/vitrual_class.cpp" bodystart="19" bodyend="25"/>
+        <referencedby refid="vitrual__class_8cpp_1a309cd510f60ce5409bcd60bd3b4edd28" compoundref="vitrual__class_8cpp" startline="41" endline="47">maini</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_calc_1a1c2f1893e47d64a387477f7c257bc103" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_calc" kindref="compound">Calc</ref> &amp;</type>
+        <definition>Calc&amp; Calc::sum1</definition>
+        <argsstring>()</argsstring>
+        <name>sum1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/vitrual_class.cpp" line="27" column="1" bodyfile="D:/workspace/CPlus/TEST/vitrual_class.cpp" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_calc_1abd275d9ba1544231ed7da393ba408079" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_calc" kindref="compound">Calc</ref> &amp;</type>
+        <definition>Calc&amp; Calc::out_sum</definition>
+        <argsstring>(ostream &amp;out)</argsstring>
+        <name>out_sum</name>
+        <param>
+          <type>ostream &amp;</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/vitrual_class.cpp" line="32" column="1" bodyfile="D:/workspace/CPlus/TEST/vitrual_class.cpp" bodystart="32" bodyend="35"/>
+        <referencedby refid="vitrual__class_8cpp_1a309cd510f60ce5409bcd60bd3b4edd28" compoundref="vitrual__class_8cpp" startline="41" endline="47">maini</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/CPlus/TEST/vitrual_class.cpp" line="6" column="1" bodyfile="D:/workspace/CPlus/TEST/vitrual_class.cpp" bodystart="6" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_calc_1a7f5e7dbb16b78e157b6e18846d0c77f3" prot="private" virt="non-virtual"><scope>Calc</scope><name>a</name></member>
+      <member refid="class_calc_1aeb49f45667c4122aebe74ab4f9893dfc" prot="public" virt="non-virtual"><scope>Calc</scope><name>add</name></member>
+      <member refid="class_calc_1aae62ad65127bcc4dd9cad2b8e06ff343" prot="private" virt="non-virtual"><scope>Calc</scope><name>b</name></member>
+      <member refid="class_calc_1a294b818e0eb87df939dd44867de48e64" prot="public" virt="non-virtual"><scope>Calc</scope><name>Calc</name></member>
+      <member refid="class_calc_1abd275d9ba1544231ed7da393ba408079" prot="public" virt="non-virtual"><scope>Calc</scope><name>out_sum</name></member>
+      <member refid="class_calc_1a7225fbb8e0fcd00222dc4902e3ee444c" prot="private" virt="non-virtual"><scope>Calc</scope><name>str</name></member>
+      <member refid="class_calc_1a99f4f9e41dcac0519d405f1739cfcec6" prot="public" virt="non-virtual"><scope>Calc</scope><name>sub</name></member>
+      <member refid="class_calc_1a1ca27c4f809fc769e060a836255ab4a2" prot="private" virt="non-virtual"><scope>Calc</scope><name>sum</name></member>
+      <member refid="class_calc_1a1c2f1893e47d64a387477f7c257bc103" prot="public" virt="non-virtual"><scope>Calc</scope><name>sum1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

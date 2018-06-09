@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_screen" kind="class" prot="public">
+    <compoundname>Screen</compoundname>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="class_screen_1a906689ef59ba71f6a570730b3217095b" prot="private" static="no">
+        <type>string::size_type</type>
+        <definition>typedef string::size_type Screen::index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/class1.cpp" line="13" column="1" bodyfile="D:/workspace/CPlus/TEST/class1.cpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_screen_1a6e1463853191857acf2f193b1d9cfed2" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Screen::content</definition>
+        <argsstring></argsstring>
+        <name>content</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/class1.cpp" line="28" column="1" bodyfile="D:/workspace/CPlus/TEST/class1.cpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_screen_1ac668a487b89b8abcd165cee38186084d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_screen_1a906689ef59ba71f6a570730b3217095b" kindref="member">index</ref></type>
+        <definition>index Screen::cursor</definition>
+        <argsstring></argsstring>
+        <name>cursor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/class1.cpp" line="29" column="1" bodyfile="D:/workspace/CPlus/TEST/class1.cpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_screen_1ab49bbeb174b7cf06d7ae17907aa35426" prot="private" static="no" mutable="no">
+        <type><ref refid="class_screen_1a906689ef59ba71f6a570730b3217095b" kindref="member">index</ref></type>
+        <definition>index Screen::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/class1.cpp" line="30" column="1" bodyfile="D:/workspace/CPlus/TEST/class1.cpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_screen_1aa9fbfc7b48c7bdd671f287e7f7be57b4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_screen_1a906689ef59ba71f6a570730b3217095b" kindref="member">index</ref></type>
+        <definition>index Screen::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/class1.cpp" line="30" column="1" bodyfile="D:/workspace/CPlus/TEST/class1.cpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_screen_1a942b4a990811e6b12e625f4a0a2514f7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>char</type>
+        <definition>char Screen::get</definition>
+        <argsstring>() const </argsstring>
+        <name>get</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/class1.cpp" line="15" column="1" bodyfile="D:/workspace/CPlus/TEST/class1.cpp" bodystart="36" bodyend="39"/>
+        <referencedby refid="class1_8cpp_1a1a0ce738e7691d0fa33455a630d00e93" compoundref="class1_8cpp" startline="63" endline="73">mainClass1</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_screen_1a7b189dc85d1534e73fd48278531b6646" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char</type>
+        <definition>const char Screen::get</definition>
+        <argsstring>(index, index) const </argsstring>
+        <name>get</name>
+        <param>
+          <type><ref refid="class_screen_1a906689ef59ba71f6a570730b3217095b" kindref="member">index</ref></type>
+          <defname>x</defname>
+        </param>
+        <param>
+          <type><ref refid="class_screen_1a906689ef59ba71f6a570730b3217095b" kindref="member">index</ref></type>
+          <defname>y</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/class1.cpp" line="16" column="1" bodyfile="D:/workspace/CPlus/TEST/class1.cpp" bodystart="41" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_screen_1a43a89c4aad0c94f02ccbaba372706ff9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_screen" kindref="compound">Screen</ref> &amp;</type>
+        <definition>Screen &amp; Screen::set</definition>
+        <argsstring>(char)</argsstring>
+        <name>set</name>
+        <param>
+          <type>char</type>
+          <defname>ch</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/class1.cpp" line="18" column="1" bodyfile="D:/workspace/CPlus/TEST/class1.cpp" bodystart="47" bodyend="51"/>
+        <referencedby refid="class1_8cpp_1a1a0ce738e7691d0fa33455a630d00e93" compoundref="class1_8cpp" startline="63" endline="73">mainClass1</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_screen_1a5fbb7a51fa1276e07067b8324aaa7a2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_screen" kindref="compound">Screen</ref> &amp;</type>
+        <definition>Screen &amp; Screen::move</definition>
+        <argsstring>(index, index)</argsstring>
+        <name>move</name>
+        <param>
+          <type><ref refid="class_screen_1a906689ef59ba71f6a570730b3217095b" kindref="member">index</ref></type>
+          <defname>x</defname>
+        </param>
+        <param>
+          <type><ref refid="class_screen_1a906689ef59ba71f6a570730b3217095b" kindref="member">index</ref></type>
+          <defname>y</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/class1.cpp" line="19" column="1" bodyfile="D:/workspace/CPlus/TEST/class1.cpp" bodystart="53" bodyend="58"/>
+        <referencedby refid="class1_8cpp_1a1a0ce738e7691d0fa33455a630d00e93" compoundref="class1_8cpp" startline="63" endline="73">mainClass1</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_screen_1af32855632c065844581adbd1461a312d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_screen" kindref="compound">Screen</ref> &amp;</type>
+        <definition>Screen&amp; Screen::display</definition>
+        <argsstring>(ostream &amp;os)</argsstring>
+        <name>display</name>
+        <param>
+          <type>ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/class1.cpp" line="20" column="1" bodyfile="D:/workspace/CPlus/TEST/class1.cpp" bodystart="20" bodyend="23"/>
+        <referencedby refid="class1_8cpp_1a1a0ce738e7691d0fa33455a630d00e93" compoundref="class1_8cpp" startline="63" endline="73">mainClass1</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_screen_1a618ecf1a1ad21c25a0ad90cee574388a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Screen::Screen</definition>
+        <argsstring>(index wd, index ht, const string &amp;str)</argsstring>
+        <name>Screen</name>
+        <param>
+          <type><ref refid="class_screen_1a906689ef59ba71f6a570730b3217095b" kindref="member">index</ref></type>
+          <declname>wd</declname>
+        </param>
+        <param>
+          <type><ref refid="class_screen_1a906689ef59ba71f6a570730b3217095b" kindref="member">index</ref></type>
+          <declname>ht</declname>
+        </param>
+        <param>
+          <type>const string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/class1.cpp" line="25" column="1" bodyfile="D:/workspace/CPlus/TEST/class1.cpp" bodystart="25" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_screen_1ac269a2381587b028597c63a4dcec4e26" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Screen::do_display</definition>
+        <argsstring>(ostream &amp;os)</argsstring>
+        <name>do_display</name>
+        <param>
+          <type>ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/class1.cpp" line="31" column="1" bodyfile="D:/workspace/CPlus/TEST/class1.cpp" bodystart="31" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/CPlus/TEST/class1.cpp" line="12" column="1" bodyfile="D:/workspace/CPlus/TEST/class1.cpp" bodystart="11" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_screen_1a6e1463853191857acf2f193b1d9cfed2" prot="private" virt="non-virtual"><scope>Screen</scope><name>content</name></member>
+      <member refid="class_screen_1ac668a487b89b8abcd165cee38186084d" prot="private" virt="non-virtual"><scope>Screen</scope><name>cursor</name></member>
+      <member refid="class_screen_1af32855632c065844581adbd1461a312d" prot="public" virt="non-virtual"><scope>Screen</scope><name>display</name></member>
+      <member refid="class_screen_1ac269a2381587b028597c63a4dcec4e26" prot="private" virt="non-virtual"><scope>Screen</scope><name>do_display</name></member>
+      <member refid="class_screen_1a942b4a990811e6b12e625f4a0a2514f7" prot="public" virt="non-virtual"><scope>Screen</scope><name>get</name></member>
+      <member refid="class_screen_1a7b189dc85d1534e73fd48278531b6646" prot="public" virt="non-virtual"><scope>Screen</scope><name>get</name></member>
+      <member refid="class_screen_1aa9fbfc7b48c7bdd671f287e7f7be57b4" prot="private" virt="non-virtual"><scope>Screen</scope><name>height</name></member>
+      <member refid="class_screen_1a906689ef59ba71f6a570730b3217095b" prot="private" virt="non-virtual"><scope>Screen</scope><name>index</name></member>
+      <member refid="class_screen_1a5fbb7a51fa1276e07067b8324aaa7a2e" prot="public" virt="non-virtual"><scope>Screen</scope><name>move</name></member>
+      <member refid="class_screen_1a618ecf1a1ad21c25a0ad90cee574388a" prot="public" virt="non-virtual"><scope>Screen</scope><name>Screen</name></member>
+      <member refid="class_screen_1a43a89c4aad0c94f02ccbaba372706ff9" prot="public" virt="non-virtual"><scope>Screen</scope><name>set</name></member>
+      <member refid="class_screen_1ab49bbeb174b7cf06d7ae17907aa35426" prot="private" virt="non-virtual"><scope>Screen</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

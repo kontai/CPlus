@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_person" kind="class" prot="public">
+    <compoundname>Person</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_person_1a669b64897b4d823a27bb5866368d4dfa" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Person::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class標籤.cpp" line="29" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class標籤.cpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_person_1a49b89812b117d23b906c02d10d8fe2a7" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Person::address</definition>
+        <argsstring></argsstring>
+        <name>address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class標籤.cpp" line="30" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class標籤.cpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_person_1a643ce9fb6dbe888119c0d84c28b3f3e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Person::Person</definition>
+        <argsstring>(const string &amp;na, const string &amp;add)</argsstring>
+        <name>Person</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>na</declname>
+        </param>
+        <param>
+          <type>const string &amp;</type>
+          <declname>add</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class標籤.cpp" line="24" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class標籤.cpp" bodystart="24" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_person_1ab683002f52dd547db3a1a35276e5359b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Person::getadd</definition>
+        <argsstring>() const </argsstring>
+        <name>getadd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class標籤.cpp" line="26" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class標籤.cpp" bodystart="33" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_person_1a732b55e4933ef1440fc881577ce2d60c" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Person::getname</definition>
+        <argsstring>() const </argsstring>
+        <name>getname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class標籤.cpp" line="28" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class標籤.cpp" bodystart="37" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/CPlus/Class定義與宣告/class標籤.cpp" line="22" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class標籤.cpp" bodystart="22" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_person_1a49b89812b117d23b906c02d10d8fe2a7" prot="private" virt="non-virtual"><scope>Person</scope><name>address</name></member>
+      <member refid="class_person_1ab683002f52dd547db3a1a35276e5359b" prot="public" virt="non-virtual"><scope>Person</scope><name>getadd</name></member>
+      <member refid="class_person_1a732b55e4933ef1440fc881577ce2d60c" prot="private" virt="non-virtual"><scope>Person</scope><name>getname</name></member>
+      <member refid="class_person_1a669b64897b4d823a27bb5866368d4dfa" prot="private" virt="non-virtual"><scope>Person</scope><name>name</name></member>
+      <member refid="class_person_1a643ce9fb6dbe888119c0d84c28b3f3e2" prot="public" virt="non-virtual"><scope>Person</scope><name>Person</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="vitrual__class_8cpp" kind="file">
+    <compoundname>vitrual_class.cpp</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">cctype</includes>
+    <incdepgraph>
+      <node id="76">
+        <label>D:/workspace/CPlus/TEST/vitrual_class.cpp</label>
+        <link refid="vitrual_class.cpp"/>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+      </node>
+      <node id="78">
+        <label>cctype</label>
+      </node>
+      <node id="77">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_calc" prot="public">Calc</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="vitrual__class_8cpp_1a309cd510f60ce5409bcd60bd3b4edd28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int maini</definition>
+        <argsstring>(int argc, char argv[])</argsstring>
+        <name>maini</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>argv</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/vitrual_class.cpp" line="41" column="1" bodyfile="D:/workspace/CPlus/TEST/vitrual_class.cpp" bodystart="41" bodyend="47"/>
+        <references refid="class_calc_1aeb49f45667c4122aebe74ab4f9893dfc" compoundref="vitrual__class_8cpp" startline="11" endline="18">Calc::add</references>
+        <references refid="class_calc_1abd275d9ba1544231ed7da393ba408079" compoundref="vitrual__class_8cpp" startline="32" endline="35">Calc::out_sum</references>
+        <references refid="class_calc_1a99f4f9e41dcac0519d405f1739cfcec6" compoundref="vitrual__class_8cpp" startline="19" endline="25">Calc::sub</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;cctype&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_calc" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_calc" kindref="compound">Calc</ref><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="8" refid="class_calc_1a294b818e0eb87df939dd44867de48e64" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_calc_1a294b818e0eb87df939dd44867de48e64" kindref="member">Calc</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>0,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b<sp/>=<sp/>0)<sp/>:a(a),<sp/>b(b),sum(0)<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_calc_1aeb49f45667c4122aebe74ab4f9893dfc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_calc" kindref="compound">Calc</ref><sp/>&amp;<ref refid="class_calc_1aeb49f45667c4122aebe74ab4f9893dfc" kindref="member">add</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>aa,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>bb)<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>a<sp/>=<sp/>aa;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>b<sp/>=<sp/>bb;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sum<sp/>+=<sp/>a<sp/>+<sp/>b;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;a+b=&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>sum<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19" refid="class_calc_1a99f4f9e41dcac0519d405f1739cfcec6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_calc" kindref="compound">Calc</ref><sp/>&amp;<ref refid="class_calc_1a99f4f9e41dcac0519d405f1739cfcec6" kindref="member">sub</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ab,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ba)<sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>a<sp/>=<sp/>ab;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>b<sp/>=<sp/>ba;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sum<sp/>-=<sp/>a<sp/>-<sp/>b;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;a-b=&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>sum<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="class_calc_1a1c2f1893e47d64a387477f7c257bc103" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_calc" kindref="compound">Calc</ref><sp/>&amp;<ref refid="class_calc_1a1c2f1893e47d64a387477f7c257bc103" kindref="member">sum1</ref>(){</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;a=&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>a<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>b=&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>b<sp/>&lt;&lt;</highlight><highlight class="stringliteral">&quot;<sp/>sum=&quot;</highlight><highlight class="normal">&lt;&lt;sum&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="class_calc_1abd275d9ba1544231ed7da393ba408079" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_calc" kindref="compound">Calc</ref>&amp;<sp/><ref refid="class_calc_1abd275d9ba1544231ed7da393ba408079" kindref="member">out_sum</ref>(ostream<sp/>&amp;out)<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>out<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Final<sp/>sum&quot;</highlight><highlight class="normal">&lt;&lt;sum<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="37" refid="class_calc_1a1ca27c4f809fc769e060a836255ab4a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a,<sp/>b,<sp/><ref refid="class_calc_1a1ca27c4f809fc769e060a836255ab4a2" kindref="member">sum</ref>;</highlight></codeline>
+<codeline lineno="38" refid="class_calc_1a7225fbb8e0fcd00222dc4902e3ee444c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_calc_1a7225fbb8e0fcd00222dc4902e3ee444c" kindref="member">str</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="vitrual__class_8cpp_1a309cd510f60ce5409bcd60bd3b4edd28" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="vitrual__class_8cpp_1a309cd510f60ce5409bcd60bd3b4edd28" kindref="member">maini</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>argc,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>argv[])<sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_calc" kindref="compound">Calc</ref><sp/>a1(2,<sp/>3);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>a1.<ref refid="class_calc_1aeb49f45667c4122aebe74ab4f9893dfc" kindref="member">add</ref>(2,<sp/>3).<ref refid="class_calc_1a99f4f9e41dcac0519d405f1739cfcec6" kindref="member">sub</ref>(33,<sp/>21).<ref refid="class_calc_1abd275d9ba1544231ed7da393ba408079" kindref="member">out_sum</ref>(cout);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>system(</highlight><highlight class="stringliteral">&quot;pause&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/workspace/CPlus/TEST/vitrual_class.cpp"/>
+  </compounddef>
+</doxygen>

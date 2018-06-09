@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_account" kind="class" prot="public">
+    <compoundname>Account</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_account_1a6b06fb956a5f08a3ba797e81b2beba2f" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Account::owner</definition>
+        <argsstring></argsstring>
+        <name>owner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" line="27" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_account_1a2995d8b1dff15decf733f612e919cad5" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Account::amount</definition>
+        <argsstring></argsstring>
+        <name>amount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" line="29" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_account_1aa271405359b9b87f4428290ae2e3ee06" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Account::index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" line="30" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_account_1a5f8afa751497df589b6fa3396e5b08a6" prot="private" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double Account::interestRate</definition>
+        <argsstring></argsstring>
+        <name>interestRate</name>
+        <initializer>= 3.4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" line="31" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_account_1a3f5bb7aa4703031e573cea2d889cad59" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int Account::initVal</definition>
+        <argsstring></argsstring>
+        <name>initVal</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" line="34" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_account_1a9a315b809d0fdb1bdb578ba0852aefc2" prot="private" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double Account::arr_con[initVal]</definition>
+        <argsstring>[initVal]</argsstring>
+        <name>arr_con</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" line="36" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_account_1a5899747499170fe7bb28a56b592daeb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Account::applyint</definition>
+        <argsstring>()</argsstring>
+        <name>applyint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" line="17" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" bodystart="17" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_account_1afcd32c458f1b9b0f2fa7b9c3403ae13a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double Account::rate</definition>
+        <argsstring>()</argsstring>
+        <name>rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" line="21" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" bodystart="21" bodyend="23"/>
+        <referencedby refid="class_xE9_x9D_x9C_xE6_x85_x8B_xE6_x88_x90_xE5_x93_xA1static_8cpp_1a915f026d398776f74bc8cc6842d04c0f" compoundref="class_xE9_x9D_x9C_xE6_x85_x8B_xE6_x88_x90_xE5_x93_xA1static_8cpp" startline="66" endline="79">mainStaticClass</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_account_1a56a48ab5d879319e13c22d5bd20bc4ed" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Account::rate</definition>
+        <argsstring>(double)</argsstring>
+        <name>rate</name>
+        <param>
+          <type>double</type>
+          <defname>newRate</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" line="24" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" bodystart="43" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_account_1a03bbd5a7886e8e9f6bf51e721b4e99f5" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>static double Account::initRate</definition>
+        <argsstring>()</argsstring>
+        <name>initRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" line="32" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" line="15" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" bodystart="15" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_account_1a2995d8b1dff15decf733f612e919cad5" prot="private" virt="non-virtual"><scope>Account</scope><name>amount</name></member>
+      <member refid="class_account_1a5899747499170fe7bb28a56b592daeb5" prot="public" virt="non-virtual"><scope>Account</scope><name>applyint</name></member>
+      <member refid="class_account_1a9a315b809d0fdb1bdb578ba0852aefc2" prot="private" virt="non-virtual"><scope>Account</scope><name>arr_con</name></member>
+      <member refid="class_account_1aa271405359b9b87f4428290ae2e3ee06" prot="private" virt="non-virtual"><scope>Account</scope><name>index</name></member>
+      <member refid="class_account_1a03bbd5a7886e8e9f6bf51e721b4e99f5" prot="private" virt="non-virtual"><scope>Account</scope><name>initRate</name></member>
+      <member refid="class_account_1a3f5bb7aa4703031e573cea2d889cad59" prot="private" virt="non-virtual"><scope>Account</scope><name>initVal</name></member>
+      <member refid="class_account_1a5f8afa751497df589b6fa3396e5b08a6" prot="private" virt="non-virtual"><scope>Account</scope><name>interestRate</name></member>
+      <member refid="class_account_1a6b06fb956a5f08a3ba797e81b2beba2f" prot="private" virt="non-virtual"><scope>Account</scope><name>owner</name></member>
+      <member refid="class_account_1afcd32c458f1b9b0f2fa7b9c3403ae13a" prot="public" virt="non-virtual"><scope>Account</scope><name>rate</name></member>
+      <member refid="class_account_1a56a48ab5d879319e13c22d5bd20bc4ed" prot="public" virt="non-virtual"><scope>Account</scope><name>rate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

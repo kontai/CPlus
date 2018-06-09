@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp" kind="file">
+    <compoundname>classå‹å…ƒfriend.cpp</compoundname>
+    <includes local="no">iostream</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/classå‹å…ƒfriend.cpp</label>
+        <link refid="classå‹å…ƒfriend.cpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_case_a" prot="public">CaseA</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp_1a13d3e16f56dc49e8eff70408a52914ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Add</definition>
+        <argsstring>(CaseA &amp;t)</argsstring>
+        <name>Add</name>
+        <param>
+          <type><ref refid="class_case_a" kindref="compound">CaseA</ref> &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/classå‹å…ƒfriend.cpp" line="27" column="1" bodyfile="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/classå‹å…ƒfriend.cpp" bodystart="27" bodyend="30"/>
+        <references refid="class_case_a_1a90c9c067c34154c2bc898ec3df0cdadf" compoundref="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp" startline="23">CaseA::a</references>
+        <references refid="class_case_a_1ae6bff2ad402d3fd92d1a1710c3511822" compoundref="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp" startline="23">CaseA::b</references>
+        <referencedby refid="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp_1abccf5633fff72b81e6ca54d08856d800" compoundref="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp" startline="42" endline="56">mainFriend</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp_1a0bb11e11223deec6e79dd6ef5f235528" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>istream &amp;</type>
+        <definition>istream&amp; Read</definition>
+        <argsstring>(istream &amp;keyin, CaseA &amp;Cain)</argsstring>
+        <name>Read</name>
+        <param>
+          <type>istream &amp;</type>
+          <declname>keyin</declname>
+        </param>
+        <param>
+          <type><ref refid="class_case_a" kindref="compound">CaseA</ref> &amp;</type>
+          <declname>Cain</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/classå‹å…ƒfriend.cpp" line="33" column="1" bodyfile="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/classå‹å…ƒfriend.cpp" bodystart="33" bodyend="39"/>
+        <references refid="class_case_a_1a90c9c067c34154c2bc898ec3df0cdadf" compoundref="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp" startline="23">CaseA::a</references>
+        <references refid="class_case_a_1ae6bff2ad402d3fd92d1a1710c3511822" compoundref="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp" startline="23">CaseA::b</references>
+        <referencedby refid="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp_1abccf5633fff72b81e6ca54d08856d800" compoundref="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp" startline="42" endline="56">mainFriend</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp_1abccf5633fff72b81e6ca54d08856d800" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int mainFriend</definition>
+        <argsstring>()</argsstring>
+        <name>mainFriend</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/classå‹å…ƒfriend.cpp" line="42" column="1" bodyfile="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/classå‹å…ƒfriend.cpp" bodystart="42" bodyend="56"/>
+        <references refid="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp_1a13d3e16f56dc49e8eff70408a52914ba" compoundref="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp" startline="27" endline="30">Add</references>
+        <references refid="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp_1a0bb11e11223deec6e79dd6ef5f235528" compoundref="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp" startline="33" endline="39">Read</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/****************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">[5/6/2017<sp/><sp/>10:52]</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">class¤Í¤¸friend.cpp</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">****************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//¤Í¤¸¤¹³\«D¦¨­û¨ç¦¡¦s¨úclass<sp/>privateª«¥ó</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_case_a" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_case_a" kindref="compound">CaseA</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="15" refid="class_case_a_1a322b245ecace5a3c6a821dd1fe9f20e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_case_a_1a322b245ecace5a3c6a821dd1fe9f20e0" kindref="member">CaseA</ref>():a(0),b(0){<sp/>}</highlight></codeline>
+<codeline lineno="16" refid="class_case_a_1a906f3e9c68299de3c71f5297a6bc4ace" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_case_a_1a906f3e9c68299de3c71f5297a6bc4ace" kindref="member">CaseA</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y):a(x),b(y){<sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//«Å§i¤Í¤¸§t¦¡.Åı«Dclass¦¨­û¨ç¦¡¤]¯à°÷¦s¨úprivateª«¥ó!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp_1a13d3e16f56dc49e8eff70408a52914ba" kindref="member">Add</ref>(<ref refid="class_case_a" kindref="compound">CaseA</ref>&amp;);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/>istream&amp;<sp/><ref refid="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp_1a0bb11e11223deec6e79dd6ef5f235528" kindref="member">Read</ref>(istream<sp/>&amp;,<sp/><ref refid="class_case_a" kindref="compound">CaseA</ref><sp/>&amp;);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="23" refid="class_case_a_1ae6bff2ad402d3fd92d1a1710c3511822" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a,<sp/><ref refid="class_case_a_1ae6bff2ad402d3fd92d1a1710c3511822" kindref="member">b</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp_1a13d3e16f56dc49e8eff70408a52914ba" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp_1a13d3e16f56dc49e8eff70408a52914ba" kindref="member">Add</ref>(<ref refid="class_case_a" kindref="compound">CaseA</ref>&amp;<sp/>t)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>t.<ref refid="class_case_a_1a90c9c067c34154c2bc898ec3df0cdadf" kindref="member">a</ref><sp/>+<sp/>t.<ref refid="class_case_a_1ae6bff2ad402d3fd92d1a1710c3511822" kindref="member">b</ref>;<sp/><sp/></highlight><highlight class="comment">//¦b«D¦¨­û¨ç¦¡non-member¦s¨ú¦¨­û¨ç¦¡ª«¥ó</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp_1a0bb11e11223deec6e79dd6ef5f235528" refkind="member"><highlight class="normal">istream&amp;<sp/><ref refid="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp_1a0bb11e11223deec6e79dd6ef5f235528" kindref="member">Read</ref>(istream<sp/>&amp;keyin,<ref refid="class_case_a" kindref="compound">CaseA</ref>&amp;<sp/>Cain)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;give<sp/>some<sp/>integer=&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>keyin<sp/>&gt;&gt;<sp/>Cain.<ref refid="class_case_a_1a90c9c067c34154c2bc898ec3df0cdadf" kindref="member">a</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>keyin<sp/>&gt;&gt;<sp/>Cain.<ref refid="class_case_a_1ae6bff2ad402d3fd92d1a1710c3511822" kindref="member">b</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>keyin;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp_1abccf5633fff72b81e6ca54d08856d800" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp_1abccf5633fff72b81e6ca54d08856d800" kindref="member">mainFriend</ref>(){</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_case_a" kindref="compound">CaseA</ref><sp/>ta(33,66);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/><ref refid="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp_1a13d3e16f56dc49e8eff70408a52914ba" kindref="member">Add</ref>(ta)<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_case_a" kindref="compound">CaseA</ref><sp/>tb;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_xE5_x8F_x8B_xE5_x85_x83friend_8cpp_1a0bb11e11223deec6e79dd6ef5f235528" kindref="member">Read</ref>(cin,<sp/>tb)&gt;&gt;a;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>a;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">system(</highlight><highlight class="stringliteral">&quot;pause&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/classå‹å…ƒfriend.cpp"/>
+  </compounddef>
+</doxygen>

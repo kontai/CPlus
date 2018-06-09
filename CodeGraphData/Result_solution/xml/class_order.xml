@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_order" kind="class" prot="public">
+    <compoundname>Order</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_order_1a1d649ca37e2429392ae4d50e4dd682d7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Order::i</definition>
+        <argsstring></argsstring>
+        <name>i</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" line="42" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_order_1a4e6a280d7091d8cdb34d4b0051354ef5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Order::j</definition>
+        <argsstring></argsstring>
+        <name>j</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" line="43" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_order_1a4d6d1c70a2eb8f3d51aa9daf18eda4b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Order::Order</definition>
+        <argsstring>(int val)</argsstring>
+        <name>Order</name>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" line="45" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" bodystart="45" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" line="41" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" bodystart="41" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_order_1a1d649ca37e2429392ae4d50e4dd682d7" prot="private" virt="non-virtual"><scope>Order</scope><name>i</name></member>
+      <member refid="class_order_1a4e6a280d7091d8cdb34d4b0051354ef5" prot="private" virt="non-virtual"><scope>Order</scope><name>j</name></member>
+      <member refid="class_order_1a4d6d1c70a2eb8f3d51aa9daf18eda4b0" prot="public" virt="non-virtual"><scope>Order</scope><name>Order</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

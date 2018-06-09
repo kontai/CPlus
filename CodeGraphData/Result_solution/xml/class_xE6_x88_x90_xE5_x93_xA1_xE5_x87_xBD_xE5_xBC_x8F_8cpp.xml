@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_xE6_x88_x90_xE5_x93_xA1_xE5_x87_xBD_xE5_xBC_x8F_8cpp" kind="file">
+    <compoundname>classæˆå“¡å‡½å¼.cpp</compoundname>
+    <includes local="no">iostream</includes>
+    <incdepgraph>
+      <node id="15">
+        <label>iostream</label>
+      </node>
+      <node id="14">
+        <label>D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/classæˆå“¡å‡½å¼.cpp</label>
+        <link refid="classæˆå“¡å‡½å¼.cpp"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">/************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>class«Å§i¦¡¤@¯ë³£©ñ¶iªíÀYÀÉ,ex:Sales_Item.h<sp/>(class¦WºÙ©R¦W)</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">*<sp/>class¥DÅé¥~©w¸qªº¦¨­û¨ç¦¡«h©ñ¶i·½ÀÉ(Sales_Item.ccp)</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">/*<sp/><sp/>bool<sp/>same_isbn(const<sp/>Sales_Item<sp/>&amp;rha)<sp/><sp/><sp/>const<sp/><sp/><sp/>//</highlight></codeline>
+<codeline lineno="10"><highlight class="comment">/*<sp/><sp/>¨ç¼Æ¥½§Àªºconst,«ü©ú¦¹¨ç¼Æ¬°const¦¨­û¨ç¼Æ</highlight></codeline>
+<codeline lineno="11"><highlight class="comment">/*<sp/><sp/>¬°Áô³ëªºthis°Ñ¼Æ«¬§O,¦¹³B¦Pµ¥this-&gt;isbn(©I¥s¨ç¼Æªºª«¥ó,¨äª«¥óªºclass¦¨­ûisbn)</highlight></codeline>
+<codeline lineno="12"><highlight class="comment">/*<sp/><sp/>&quot;constª«¥ó&quot;©ÎªÌ&quot;point<sp/>to<sp/>constª«¥ó&quot;,¥u¯à¥Î¨Ó©I¥sconst¦¨­û¨ç¼Æ</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">/************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Sales_Item<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>avg_prince()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>same_isbn(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Sales_Item<sp/>&amp;rha)<sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//©w¸q©óclass¤ºªº¦¨­û¨ç¦¡,±N³Qµø¬°inline¨ç¦¡.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>isbn<sp/>==<sp/>rha.isbn;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//¦¨­û¨ç¦¡¥i¦s¨ú¨äclassªºprivate¦¨­û</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>Sales_Item()<sp/>:units_sold(0),<sp/>revence(0.0)<sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//«Øºc¦¡:¦p¦P¦¨­û¨ç¦¡,¦ıµL«¬§O;Ãş¦W«á±µµÛ¤Ş¼Æ¦C(¥i¬°ªÅ),«á­±ªº«_¸¹¤@ª½¨ì¥ª¤j¬A¸¹¤º¥i¥H³]¸m¦¨­û¨ç¼Æªì­È(default).</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//«Øºc¦¡©¹©¹¬°¤F©w¸qclass¤º¦¨­û(«D¤º«Ø«¬§O)ªºªì­È</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>Sales_Item(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>&amp;ir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>&amp;</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/>:units_sold(ir),<sp/>revence(id)<sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/>isbn;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>units_sold;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>revence;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">};<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//¦p¦Pstruct,classµ²§ô­n¥[¤W¤À¸¹;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Sales_Item::avg_prince()<sp/>const<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//¦¨­û¨ç¦¡¥²¶·¦bclass¤º©w¸q,¦ı¨ç¦¡¥DÅé¥i¥H¦bclass¥~©w¸q</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(units_sold)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>revence<sp/>/<sp/>units_sold;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mainClassSales()<sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>system(</highlight><highlight class="stringliteral">&quot;pause&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/classæˆå“¡å‡½å¼.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_xE5_xBB_xBA_xE6_xA7_x8B_xE5_xBC_x8F_xE5_x88_x9D_xE5_x80_xBC_xE5_x99_xA8_07p453_08_8cpp" kind="file">
+    <compoundname>classå»ºæ§‹å¼åˆå€¼å™¨(p453).cpp</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">string</includes>
+    <incdepgraph>
+      <node id="12">
+        <label>string</label>
+      </node>
+      <node id="10">
+        <label>D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/classå»ºæ§‹å¼åˆå€¼å™¨(p453).cpp</label>
+        <link refid="classå»ºæ§‹å¼åˆå€¼å™¨(p453).cpp"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classconst_ref" prot="public">constRef</innerclass>
+    <innerclass refid="class_order" prot="public">Order</innerclass>
+    <innerclass refid="class_sales__item" prot="public">Sales_item</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="class_xE5_xBB_xBA_xE6_xA7_x8B_xE5_xBC_x8F_xE5_x88_x9D_xE5_x80_xBC_xE5_x99_xA8_07p453_08_8cpp_1a41925d2c9fc90140a24509bf9a48788b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int mainClassInit</definition>
+        <argsstring>()</argsstring>
+        <name>mainClassInit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/classå»ºæ§‹å¼åˆå€¼å™¨(p453).cpp" line="70" column="1" bodyfile="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/classå»ºæ§‹å¼åˆå€¼å™¨(p453).cpp" bodystart="70" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/****************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">[4/24/2017<sp/><sp/>21:05]</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">class«Øºc¦¡ªì­È¾¹.cpp</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">****************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>¹ï©óconstÃş«¬©ÎreferenceÃş«¬¦¨­ûÅÜ¼Æ,©Î¨äclass«¬§O¨S¦³default«Øºc¦¡ªº¦¨­ûÅÜ¼Æ</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>¥²¶·¨Ï¥Îªì­È¾¹ªì©l¤Æ</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="classconst_ref" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classconst_ref" kindref="compound">constRef</ref><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//§Q¥Îªì­È¦Cªì©l¤Æ</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="classconst_ref_1a0887446ff753748f6a4f6f32ddc2f66d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classconst_ref_1a0887446ff753748f6a4f6f32ddc2f66d" kindref="member">constRef</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>jj)<sp/>:i(jj),<sp/>ci(jj),<sp/>ri(jj)<sp/>{</highlight></codeline>
+<codeline lineno="19" refid="classconst_ref_1a4f819fd8e3fd4bcdd27f7823de5fda89" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//¦b«Øºc¦¡¥DÅé,§Q¥Î&quot;½á­È&quot;ªì©l¤Æ&quot;</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"></highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>constRefII(int<sp/>jjj)</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i<sp/>=<sp/>jjj;</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//ci<sp/>=<sp/>jj;<sp/><sp/>//¿ù»~,constµLªk½á­È</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ri<sp/>=<sp/>jjj;</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i;</highlight></codeline>
+<codeline lineno="32" refid="classconst_ref_1a64b1256cf0107b69042e6bc4a6f655d0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classconst_ref_1a64b1256cf0107b69042e6bc4a6f655d0" kindref="member">ci</ref>;</highlight></codeline>
+<codeline lineno="33" refid="classconst_ref_1ab6262f3b5f1b74ca654b0b3de446f915" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>&amp;<ref refid="classconst_ref_1ab6262f3b5f1b74ca654b0b3de446f915" kindref="member">ri</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//«Øºc¦¡ªì©l¤Æ¶¶§Ç//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>«Øºc¦¡ªì©l¤Æ¶¶§Ç¬O®Ú¾ÚÅÜ¼Æ©w¸q¶¶§Ç,¤£¬Oªì©l¤Æ°õ¦æ¶¶§Ç</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="class_order" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_order" kindref="compound">Order</ref><sp/>{</highlight></codeline>
+<codeline lineno="42" refid="class_order_1a1d649ca37e2429392ae4d50e4dd682d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_order_1a1d649ca37e2429392ae4d50e4dd682d7" kindref="member">i</ref>;</highlight></codeline>
+<codeline lineno="43" refid="class_order_1a4e6a280d7091d8cdb34d4b0051354ef5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_order_1a4e6a280d7091d8cdb34d4b0051354ef5" kindref="member">j</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="45" refid="class_order_1a4d6d1c70a2eb8f3d51aa9daf18eda4b0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_order_1a4d6d1c70a2eb8f3d51aa9daf18eda4b0" kindref="member">Order</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>val)<sp/>:j(val),<sp/>i(j)<sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">//¿ù»~,®³¥¼³Qªì©l¤Æªºj¨Óªì©l¤Æi</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="class_sales__item" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_sales__item" kindref="compound">Sales_item</ref><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="51" refid="class_sales__item_1acf89bd6effadcde69e193f4538661cba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_sales__item_1acf89bd6effadcde69e193f4538661cba" kindref="member">Sales_item</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;book)<sp/>:isbn(book),<sp/>units_sold(0),<sp/>revenus(0.0)<sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//°Ñ¼Æ¦C¦p¦³¹w³]¤Ş¼Æ,±N·|¨ú¥N¹w³]«Øºc¦¡</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Sales_item(const<sp/>string<sp/>&amp;num=&quot;&quot;):isbn(num),units_sold(0),revenus(0.0){<sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//¥H¤U¨â­Ó«Øºc¦¡¥Ñ©ó³£¬O¹w³]«Øºc¦¡,·í©w¸qclass¹ï¶H¨Sµ¹¤Ş¼Æ®É,·|³y¦¨½Ä¬ğ</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_sales__item" kindref="compound">Sales_item</ref>(istream<sp/>&amp;is<sp/>=<sp/>cin);<sp/></highlight><highlight class="comment">//±Ncin§@¬°°Ñ¼Æ¦C¤Ş¼Æ</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>&quot;¤w¦³¹w³]¤Ş¼Æ&quot;»P¤U¦C«Øºc¦¡(defaultªì©l­È)­«½Æ</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Sales_item():units_sold(0),revenus(0.0){<sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="64" refid="class_sales__item_1a4f214b73598d118cb3ad73bb82d51c35" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_sales__item_1a4f214b73598d118cb3ad73bb82d51c35" kindref="member">isbn</ref>;</highlight></codeline>
+<codeline lineno="65" refid="class_sales__item_1a9a231099efa4988fc877865f03bfd478" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_sales__item_1a9a231099efa4988fc877865f03bfd478" kindref="member">units_sold</ref>;</highlight></codeline>
+<codeline lineno="66" refid="class_sales__item_1a3454d85157b2ee13c3d024d5f8e92273" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_sales__item_1a3454d85157b2ee13c3d024d5f8e92273" kindref="member">revenus</ref>;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="class_xE5_xBB_xBA_xE6_xA7_x8B_xE5_xBC_x8F_xE5_x88_x9D_xE5_x80_xBC_xE5_x99_xA8_07p453_08_8cpp_1a41925d2c9fc90140a24509bf9a48788b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_xE5_xBB_xBA_xE6_xA7_x8B_xE5_xBC_x8F_xE5_x88_x9D_xE5_x80_xBC_xE5_x99_xA8_07p453_08_8cpp_1a41925d2c9fc90140a24509bf9a48788b" kindref="member">mainClassInit</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Sales_item<sp/>next;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_sales__item" kindref="compound">Sales_item</ref><sp/>last(</highlight><highlight class="stringliteral">&quot;9-99-999&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Sales_item<sp/><sp/>fin(cin);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>system(</highlight><highlight class="stringliteral">&quot;pause&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/classå»ºæ§‹å¼åˆå€¼å™¨(p453).cpp"/>
+  </compounddef>
+</doxygen>

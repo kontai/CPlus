@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="inline_xE5_x85_xA7_xE5_xB5_x8C_xE5_x87_xBD_xE6_x95_xB8_8cpp" kind="file">
+    <compoundname>inlineå…§åµŒå‡½æ•¸.cpp</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">list</includes>
+    <includes local="no">string</includes>
+    <incdepgraph>
+      <node id="41">
+        <label>list</label>
+      </node>
+      <node id="42">
+        <label>string</label>
+      </node>
+      <node id="40">
+        <label>vector</label>
+      </node>
+      <node id="39">
+        <label>iostream</label>
+      </node>
+      <node id="38">
+        <label>D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/inlineå…§åµŒå‡½æ•¸.cpp</label>
+        <link refid="inlineå…§åµŒå‡½æ•¸.cpp"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_mala" prot="public">Mala</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/****************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">[3/29/2017<sp/><sp/>21:11]</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">inline¤º´O¨ç¼Æ.cpp</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">****************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;list&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//¤º´O¨ç¼Æ¬O¦b¤@¯ëªº¨ç¼Æ«e­±¡A¥[¤Winline³o­ÓÃöÁä¦r¡A¨Ò¦p¥H¤Uªº¨Ò¤l</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//¤º´O¨ç¼Æ¬O¥Î¨Ó¥[³tC++ªº°õ¦æ³t«×¡A¦bµ{¦¡½Xªº»yªk¤W¤£·|¦³¤°»ò¤Ó¤jªº®t²§¡A¦ý¬O¦bCompiler½sÄ¶®É¡A«o·|¦³¤£¤@¼Ëªº®ÄªG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>¤@¯ë¦Ó¨¥¡A·í§Ú­Ì¼¶¼g¨ç¼Æ¡A¨Ã©I¥s¨Ï¥Î¡A¹q¸£ªº¾÷¾¹»y¨¥«ü¥O·|¬ö¿ý¥Ø«e¤u§@¶¥¬qªº°O¾ÐÅé¦ì§}¡AµM«á¸õ¦Ü¨ç¼Æªº°O¾ÐÅé¦ì¸m³B²z§¹µ{§Ç«á¡A¨Ã¦^¨ì­ì¥ýªº¦ì§}¤W¡A¦Ó³o¼Ë¨Ó¦^·|³y¦¨®É¶¡¤WªºÃB¥~­t¾á¡C</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//C++©ó¬O´£¨Ñ³oºØ¤º´O¨ç¼Æ¡A·í§Ú­Ì¥[¤JÃöÁä¦r®É¡A¦b½sÄ¶®É«K·|§â¨ç¼Æ¤¤ªºµ{¦¡ª½±µ®i¶}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//§Y«K¥[¤Jinline·Q­n¨Ï¥Î¤º´O¨ç¼Æ¡A½sÄ¶®É¤]¤£¤@©w´N·|¹ê§@¡A½sÄ¶¾¹·|¿ï¾Ü¡A¦pªG§A°õ¦æªº¨ç¼Æ¤¤µ{¦¡½X©Ò»Ý®É¶¡¤j©ó³B²z©I¥s¨ç¼Æªº®É¶¡¡A«h¯à¸`¬Ùªº®É¶¡¤ñ¸û¤Ö¡A¤Ï¤§­Y¬O§Aªº¨ç¼Æ¤¤µ{¦¡½X°õ¦æªº®É¶¡«Üµu¡A«h¨Ï¥Î¤º«e¨ç¼Æ¥i¥H¬Ù¥h¸û¦hªº©I¥s¨ç¼Æªº®É¶¡¡A¨Ã¥B¦pªG±`±`·|¨Ï¥Î¨ì¦¹¨ç¼Æ¡A¨Ï¥Î¤º´Oªº®Ä²v¤]·|¤ñ¸û¦n</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//inline<sp/>int<sp/>sqa(int<sp/>x)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>return<sp/>x*x;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//int<sp/>mainInline(){</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>int<sp/>val<sp/>=<sp/>2;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>sqa(val);<sp/><sp/>//inline:¦¹³Bª½±µ®i¶}¦¨2*2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//system(&quot;pause&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//return<sp/>0;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="class_mala" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_mala" kindref="compound">Mala</ref><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>text1();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>text1(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>r,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>t2);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_mala" kindref="compound">Mala</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;str);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="42" refid="class_mala_1af5f81a035749a8ca3c653c8baedc0117" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_mala_1af5f81a035749a8ca3c653c8baedc0117" kindref="member">content</ref>;</highlight></codeline>
+<codeline lineno="43" refid="class_mala_1aedf31d7715a0130576f694a31ea61ef6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>r,<sp/><ref refid="class_mala_1aedf31d7715a0130576f694a31ea61ef6" kindref="member">t2</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/inlineå…§åµŒå‡½æ•¸.cpp"/>
+  </compounddef>
+</doxygen>

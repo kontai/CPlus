@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_mala" kind="class" prot="public">
+    <compoundname>Mala</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_mala_1af5f81a035749a8ca3c653c8baedc0117" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Mala::content</definition>
+        <argsstring></argsstring>
+        <name>content</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/inline內嵌函數.cpp" line="42" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/inline內嵌函數.cpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mala_1afc02b361fdb38a1e8993664bb42943fc" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t Mala::r</definition>
+        <argsstring></argsstring>
+        <name>r</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/inline內嵌函數.cpp" line="43" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/inline內嵌函數.cpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_mala_1aedf31d7715a0130576f694a31ea61ef6" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t Mala::t2</definition>
+        <argsstring></argsstring>
+        <name>t2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/inline內嵌函數.cpp" line="43" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/inline內嵌函數.cpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mala_1ae81bcafc277440b4f93dd44cc631d275" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char</type>
+        <definition>char Mala::text1</definition>
+        <argsstring>()</argsstring>
+        <name>text1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/inline內嵌函數.cpp" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mala_1a7ea9b0c337d27dac80b84a5b85433ab6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>char</type>
+        <definition>char Mala::text1</definition>
+        <argsstring>(size_t r, size_t t2)</argsstring>
+        <name>text1</name>
+        <param>
+          <type>size_t</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>t2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/inline內嵌函數.cpp" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mala_1a85432a8d7d0e855cd70bb7a286263a12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Mala::Mala</definition>
+        <argsstring>(string &amp;str)</argsstring>
+        <name>Mala</name>
+        <param>
+          <type>string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/inline內嵌函數.cpp" line="40" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/CPlus/Class定義與宣告/inline內嵌函數.cpp" line="36" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/inline內嵌函數.cpp" bodystart="36" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_mala_1af5f81a035749a8ca3c653c8baedc0117" prot="private" virt="non-virtual"><scope>Mala</scope><name>content</name></member>
+      <member refid="class_mala_1a85432a8d7d0e855cd70bb7a286263a12" prot="public" virt="non-virtual"><scope>Mala</scope><name>Mala</name></member>
+      <member refid="class_mala_1afc02b361fdb38a1e8993664bb42943fc" prot="private" virt="non-virtual"><scope>Mala</scope><name>r</name></member>
+      <member refid="class_mala_1aedf31d7715a0130576f694a31ea61ef6" prot="private" virt="non-virtual"><scope>Mala</scope><name>t2</name></member>
+      <member refid="class_mala_1ae81bcafc277440b4f93dd44cc631d275" prot="public" virt="non-virtual"><scope>Mala</scope><name>text1</name></member>
+      <member refid="class_mala_1a7ea9b0c337d27dac80b84a5b85433ab6" prot="public" virt="non-virtual"><scope>Mala</scope><name>text1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

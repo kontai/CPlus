@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a1" kind="class" prot="public">
+    <compoundname>A1</compoundname>
+    <derivedcompoundref refid="class_b1" prot="public" virt="non-virtual">B1</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a1_1ac4b946dcd7fdb2f21dd2bdf3dc3903cc" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string A1::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/class_init.cpp" line="19" column="1" bodyfile="D:/workspace/CPlus/TEST/class_init.cpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a1_1a198939a00c2b0accbebaa18207918c5f" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string A1::city</definition>
+        <argsstring></argsstring>
+        <name>city</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/class_init.cpp" line="19" column="1" bodyfile="D:/workspace/CPlus/TEST/class_init.cpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a1_1a1e57260f548de6716dc3dee116793a9a" prot="private" static="no" mutable="no">
+        <type>short</type>
+        <definition>short A1::age</definition>
+        <argsstring></argsstring>
+        <name>age</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/class_init.cpp" line="20" column="1" bodyfile="D:/workspace/CPlus/TEST/class_init.cpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a1_1ab9539119fb1fa7dc7d545d650c98333a" prot="private" static="no" mutable="no">
+        <type>string::size_type</type>
+        <definition>string::size_type A1::st</definition>
+        <argsstring></argsstring>
+        <name>st</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/class_init.cpp" line="21" column="1" bodyfile="D:/workspace/CPlus/TEST/class_init.cpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a1_1aac266405df3f31b8028cd9abdd5abc8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>A1::A1</definition>
+        <argsstring>(const string myname, int myage, const string mycity)</argsstring>
+        <name>A1</name>
+        <param>
+          <type>const string</type>
+          <declname>myname</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>myage</declname>
+        </param>
+        <param>
+          <type>const string</type>
+          <declname>mycity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/class_init.cpp" line="9" column="1" bodyfile="D:/workspace/CPlus/TEST/class_init.cpp" bodystart="9" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a1_1a6c1df076af0109d61e6fec2ed31641e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void A1::get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/class_init.cpp" line="11" column="1" bodyfile="D:/workspace/CPlus/TEST/class_init.cpp" bodystart="11" bodyend="15"/>
+        <referencedby refid="class__init_8cpp_1a41c000f65723b0609f3515b5c3c3db74" compoundref="class__init_8cpp" startline="32" endline="40">maininit</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>A1</label>
+        <link refid="class_a1"/>
+      </node>
+      <node id="1">
+        <label>B1</label>
+        <link refid="class_b1"/>
+        <childnode refid="0" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="D:/workspace/CPlus/TEST/class_init.cpp" line="7" column="1" bodyfile="D:/workspace/CPlus/TEST/class_init.cpp" bodystart="6" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_a1_1aac266405df3f31b8028cd9abdd5abc8f" prot="public" virt="non-virtual"><scope>A1</scope><name>A1</name></member>
+      <member refid="class_a1_1a1e57260f548de6716dc3dee116793a9a" prot="private" virt="non-virtual"><scope>A1</scope><name>age</name></member>
+      <member refid="class_a1_1a198939a00c2b0accbebaa18207918c5f" prot="private" virt="non-virtual"><scope>A1</scope><name>city</name></member>
+      <member refid="class_a1_1a6c1df076af0109d61e6fec2ed31641e0" prot="public" virt="non-virtual"><scope>A1</scope><name>get</name></member>
+      <member refid="class_a1_1ac4b946dcd7fdb2f21dd2bdf3dc3903cc" prot="private" virt="non-virtual"><scope>A1</scope><name>name</name></member>
+      <member refid="class_a1_1ab9539119fb1fa7dc7d545d650c98333a" prot="private" virt="non-virtual"><scope>A1</scope><name>st</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

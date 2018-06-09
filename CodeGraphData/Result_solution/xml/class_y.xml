@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_y" kind="class" prot="public">
+    <compoundname>Y</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_y_1a22d52808ba10039b42bcd386bde39f34" prot="private" static="no" mutable="no">
+        <type><ref refid="class_x" kindref="compound">X</ref></type>
+        <definition>X Y::de</definition>
+        <argsstring></argsstring>
+        <name>de</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class宣告與定義.cpp" line="25" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class宣告與定義.cpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_y_1aeb456acde29d81e2293d2a7f6803f3eb" prot="private" static="no" mutable="no">
+        <type><ref refid="class_x" kindref="compound">X</ref> *</type>
+        <definition>X* Y::call</definition>
+        <argsstring></argsstring>
+        <name>call</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class宣告與定義.cpp" line="26" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class宣告與定義.cpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_y_1a4df25620cf0b785789abae874f73fbe2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_y" kindref="compound">Y</ref> *</type>
+        <definition>Y* Y::th</definition>
+        <argsstring></argsstring>
+        <name>th</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class宣告與定義.cpp" line="27" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class宣告與定義.cpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="52">
+        <label>X</label>
+        <link refid="class_x"/>
+        <childnode refid="52" relation="usage">
+          <edgelabel>Y</edgelabel>
+        </childnode>
+      </node>
+      <node id="51">
+        <label>Y</label>
+        <link refid="class_y"/>
+        <childnode refid="52" relation="usage">
+          <edgelabel>de</edgelabel>
+          <edgelabel>call</edgelabel>
+        </childnode>
+        <childnode refid="51" relation="usage">
+          <edgelabel>th</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/workspace/CPlus/Class定義與宣告/class宣告與定義.cpp" line="23" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class宣告與定義.cpp" bodystart="23" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_y_1aeb456acde29d81e2293d2a7f6803f3eb" prot="private" virt="non-virtual"><scope>Y</scope><name>call</name></member>
+      <member refid="class_y_1a22d52808ba10039b42bcd386bde39f34" prot="private" virt="non-virtual"><scope>Y</scope><name>de</name></member>
+      <member refid="class_y_1a4df25620cf0b785789abae874f73fbe2" prot="private" virt="non-virtual"><scope>Y</scope><name>th</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

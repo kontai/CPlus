@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_foo" kind="class" prot="public">
+    <compoundname>Foo</compoundname>
+    <derivedcompoundref refid="class_bar" prot="public" virt="non-virtual">Bar</derivedcompoundref>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_foo_1aefd4ae77722d86b892449b2d0830734d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class Bar</definition>
+        <argsstring></argsstring>
+        <name>Bar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/exam1240.cpp" line="13" column="1" bodyfile="D:/workspace/CPlus/TEST/exam1240.cpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_foo_1a7277860558de074e45e883d3f6f1f17f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Foo::f1</definition>
+        <argsstring></argsstring>
+        <name>f1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/exam1240.cpp" line="15" column="1" bodyfile="D:/workspace/CPlus/TEST/exam1240.cpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_foo_1a64969c722c639a606111bebb48398fbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Foo::Foo</definition>
+        <argsstring>(int a=0)</argsstring>
+        <name>Foo</name>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/exam1240.cpp" line="11" column="1" bodyfile="D:/workspace/CPlus/TEST/exam1240.cpp" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_foo_1a581f17aa4b900a1bb6d08444dbe90d14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Foo::ret</definition>
+        <argsstring>()</argsstring>
+        <name>ret</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/exam1240.cpp" line="12" column="1" bodyfile="D:/workspace/CPlus/TEST/exam1240.cpp" bodystart="12" bodyend="12"/>
+        <referencedby refid="exam1240_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="exam1240_8cpp" startline="42" endline="51">main</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="22">
+        <label>Bar</label>
+        <link refid="class_bar"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>Foo</label>
+        <link refid="class_foo"/>
+      </node>
+    </inheritancegraph>
+    <location file="D:/workspace/CPlus/TEST/exam1240.cpp" line="9" column="1" bodyfile="D:/workspace/CPlus/TEST/exam1240.cpp" bodystart="9" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_foo_1aefd4ae77722d86b892449b2d0830734d" prot="public" virt="non-virtual"><scope>Foo</scope><name>Bar</name></member>
+      <member refid="class_foo_1a7277860558de074e45e883d3f6f1f17f" prot="private" virt="non-virtual"><scope>Foo</scope><name>f1</name></member>
+      <member refid="class_foo_1a64969c722c639a606111bebb48398fbb" prot="public" virt="non-virtual"><scope>Foo</scope><name>Foo</name></member>
+      <member refid="class_foo_1a581f17aa4b900a1bb6d08444dbe90d14" prot="public" virt="non-virtual"><scope>Foo</scope><name>ret</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

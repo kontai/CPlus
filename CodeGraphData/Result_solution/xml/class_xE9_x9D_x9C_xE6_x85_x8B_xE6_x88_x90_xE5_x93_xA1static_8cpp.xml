@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_xE9_x9D_x9C_xE6_x85_x8B_xE6_x88_x90_xE5_x93_xA1static_8cpp" kind="file">
+    <compoundname>classéœæ…‹æˆå“¡static.cpp</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">string</includes>
+    <incdepgraph>
+      <node id="36">
+        <label>string</label>
+      </node>
+      <node id="34">
+        <label>D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/classéœæ…‹æˆå“¡static.cpp</label>
+        <link refid="classéœæ…‹æˆå“¡static.cpp"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_account" prot="public">Account</innerclass>
+    <innerclass refid="class_bar" prot="public">Bar</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="class_xE9_x9D_x9C_xE6_x85_x8B_xE6_x88_x90_xE5_x93_xA1static_8cpp_1a915f026d398776f74bc8cc6842d04c0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int mainStaticClass</definition>
+        <argsstring>()</argsstring>
+        <name>mainStaticClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/classéœæ…‹æˆå“¡static.cpp" line="66" column="1" bodyfile="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/classéœæ…‹æˆå“¡static.cpp" bodystart="66" bodyend="79"/>
+        <references refid="class_account_1afcd32c458f1b9b0f2fa7b9c3403ae13a" compoundref="class_xE9_x9D_x9C_xE6_x85_x8B_xE6_x88_x90_xE5_x93_xA1static_8cpp" startline="21" endline="23">Account::rate</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/****************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">[5/9/2017<sp/><sp/>20:58]</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">classÀRºA¦¨­ûstatic.cpp</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">****************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//static¦¨­û¦WºÙ¸¨¦bclass§@¥Î°ì¤¤,¥i¥HÁ×§K©M¨ä¥Lclassesªº¦¨­û©Î¬O©Mglobalª«¥óµo¥Í¦WºÙ½Ä¬ğ</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//¼F¦æ«Ê¸Ë¡Cstatic¦¨­û¥i¥H¬Oprivate,globalª«¥ó«o¤£¯à</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//¾\Åªµ{¦¡½X¥i¥H»´ÃP¬İ¥X¤@­Óµ{¦¡½X©M¨äclass¤§¶¡¦³ÃöÁp,¨Ïµ{¦¡·N¹Ï§ó²M·¡</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_account" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_account" kindref="compound">Account</ref><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="17" refid="class_account_1a5899747499170fe7bb28a56b592daeb5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_account_1a5899747499170fe7bb28a56b592daeb5" kindref="member">applyint</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>amount<sp/>+=<sp/>amount*interestRate;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_account_1afcd32c458f1b9b0f2fa7b9c3403ae13a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_account_1afcd32c458f1b9b0f2fa7b9c3403ae13a" kindref="member">rate</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>interestRate;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>rate(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="27" refid="class_account_1a6b06fb956a5f08a3ba797e81b2beba2f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_account_1a6b06fb956a5f08a3ba797e81b2beba2f" kindref="member">owner</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//static<sp/>double<sp/>amount;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="class_account_1a2995d8b1dff15decf733f612e919cad5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_account_1a2995d8b1dff15decf733f612e919cad5" kindref="member">amount</ref>;</highlight></codeline>
+<codeline lineno="30" refid="class_account_1aa271405359b9b87f4428290ae2e3ee06" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><ref refid="class_account_1aa271405359b9b87f4428290ae2e3ee06" kindref="member">index</ref>;</highlight></codeline>
+<codeline lineno="31" refid="class_account_1a5f8afa751497df589b6fa3396e5b08a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_account_1a5f8afa751497df589b6fa3396e5b08a6" kindref="member">interestRate</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>initRate();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//¾ã¼Æ«¬const<sp/>static¦¨­ûÅÜ¼Æ¥i¥H¦bclass¥»Åé¤ºª½±µªì©l¤Æ</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="class_account_1a3f5bb7aa4703031e573cea2d889cad59" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>initVal<sp/>=<sp/>3;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//initVal¬Oconst;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="class_account_1a9a315b809d0fdb1bdb578ba0852aefc2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>arr_con[initVal];</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//<sp/>**ª`·N**<sp/>static¼Æ¾Ú¦¨­û¥²¶·¦bÃş©w¸q¥~³¡©w¸q,¥B¥u©w¸q¤@¦¸</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//¦bclass¥~,¤£¶·¦A¥[¤WstaticÃöÁä¦r,³oÃöÁä¦r¥u¦bclass¥»Åé¤º«Å§i¤W¥X²{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_account_1a5f8afa751497df589b6fa3396e5b08a6" kindref="member">Account::interestRate</ref><sp/>=<sp/>3.4;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="class_account_1a56a48ab5d879319e13c22d5bd20bc4ed" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_account_1afcd32c458f1b9b0f2fa7b9c3403ae13a" kindref="member">Account::rate</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>newRate)<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>interestRate<sp/>=<sp/>newRate;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">//const<sp/>static<sp/>¦¨­ûÅÜ¼Æ¤w¸g¦bclass¥DÅé¤ºªì©l¤Æ,¤´­n¦b¥~³¡©w¸q</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_account_1a3f5bb7aa4703031e573cea2d889cad59" kindref="member">Account::initVal</ref>;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="class_bar" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_bar" kindref="compound">Bar</ref></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//....</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="55" refid="class_bar_1a7a8ad7d0bc5d44be2ef78a0d345156ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_bar" kindref="compound">Bar</ref><sp/>*<ref refid="class_bar_1a7a8ad7d0bc5d44be2ef78a0d345156ff" kindref="member">mem1</ref>;</highlight></codeline>
+<codeline lineno="56" refid="class_bar_1a46a33c9a89981acfb296ece5ef84e3f1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="class_bar" kindref="compound">Bar</ref><sp/><ref refid="class_bar_1a46a33c9a89981acfb296ece5ef84e3f1" kindref="member">mam2</ref>;<sp/></highlight><highlight class="comment">//static¦¨­û¿W¥ß©ó¥ô¦óª«¥ó¦Ó¦s¦b</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Bar<sp/>mem3;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//¿ù»~</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_bar" kindref="compound">Bar</ref>&amp;<sp/>wiii(<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>=<sp/>red);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="62" refid="class_bar_1afc6aec085823182090c5ee594e5c5907" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>red<sp/>=<sp/></highlight><highlight class="charliteral">&apos;#&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="class_xE9_x9D_x9C_xE6_x85_x8B_xE6_x88_x90_xE5_x93_xA1static_8cpp_1a915f026d398776f74bc8cc6842d04c0f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_xE9_x9D_x9C_xE6_x85_x8B_xE6_x88_x90_xE5_x93_xA1static_8cpp_1a915f026d398776f74bc8cc6842d04c0f" kindref="member">mainStaticClass</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_account" kindref="compound">Account</ref><sp/>ac1;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_account" kindref="compound">Account</ref><sp/>*ac2<sp/>=<sp/>&amp;ac1;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//¥H¤U¬O©I¥sstatic<sp/>rate()ªº¤TºØµ¥»ù¤èªk</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rate;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>rate<sp/>=<sp/>ac1.<ref refid="class_account_1afcd32c458f1b9b0f2fa7b9c3403ae13a" kindref="member">rate</ref>();</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>rate<sp/>=<sp/>ac2-&gt;<ref refid="class_account_1afcd32c458f1b9b0f2fa7b9c3403ae13a" kindref="member">rate</ref>();</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>rate<sp/>=<sp/><ref refid="class_account_1afcd32c458f1b9b0f2fa7b9c3403ae13a" kindref="member">Account::rate</ref>();<sp/></highlight><highlight class="comment">//¨Ï¥Îscope¹Bºâ¤l,ª½±µ³z¹Lclass¨ú±o(static¯S©Ê)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>rate<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>system(</highlight><highlight class="stringliteral">&quot;pause&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/classéœæ…‹æˆå“¡static.cpp"/>
+  </compounddef>
+</doxygen>

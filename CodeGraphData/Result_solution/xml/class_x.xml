@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_x" kind="class" prot="public">
+    <compoundname>X</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_x_1a4c9ff8e943e66e2f4b49a443d5660955" prot="private" static="no" mutable="no">
+        <type><ref refid="class_x" kindref="compound">X</ref> *</type>
+        <definition>X* X::Y</definition>
+        <argsstring></argsstring>
+        <name>Y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class宣告與定義.cpp" line="21" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class宣告與定義.cpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="49">
+        <label>X</label>
+        <link refid="class_x"/>
+        <childnode refid="49" relation="usage">
+          <edgelabel>Y</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/workspace/CPlus/Class定義與宣告/class宣告與定義.cpp" line="19" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class宣告與定義.cpp" bodystart="19" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_x_1a4c9ff8e943e66e2f4b49a443d5660955" prot="private" virt="non-virtual"><scope>X</scope><name>Y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

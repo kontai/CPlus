@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sales__item" kind="class" prot="public">
+    <compoundname>Sales_item</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sales__item_1a4f214b73598d118cb3ad73bb82d51c35" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sales_item::isbn</definition>
+        <argsstring></argsstring>
+        <name>isbn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" line="64" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sales__item_1a9a231099efa4988fc877865f03bfd478" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sales_item::units_sold</definition>
+        <argsstring></argsstring>
+        <name>units_sold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" line="65" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sales__item_1a3454d85157b2ee13c3d024d5f8e92273" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sales_item::revenus</definition>
+        <argsstring></argsstring>
+        <name>revenus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" line="66" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sales__item_1acf89bd6effadcde69e193f4538661cba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sales_item::Sales_item</definition>
+        <argsstring>(const string &amp;book)</argsstring>
+        <name>Sales_item</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>book</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" line="51" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" bodystart="51" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sales__item_1a465acf5ab0c8ad851127d09ee03510a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Sales_item::Sales_item</definition>
+        <argsstring>(istream &amp;is=cin)</argsstring>
+        <name>Sales_item</name>
+        <param>
+          <type>istream &amp;</type>
+          <declname>is</declname>
+          <defval>cin</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" line="58" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" line="49" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class建構式初值器(p453).cpp" bodystart="49" bodyend="67"/>
+    <listofallmembers>
+      <member refid="class_sales__item_1a4f214b73598d118cb3ad73bb82d51c35" prot="private" virt="non-virtual"><scope>Sales_item</scope><name>isbn</name></member>
+      <member refid="class_sales__item_1a3454d85157b2ee13c3d024d5f8e92273" prot="private" virt="non-virtual"><scope>Sales_item</scope><name>revenus</name></member>
+      <member refid="class_sales__item_1acf89bd6effadcde69e193f4538661cba" prot="public" virt="non-virtual"><scope>Sales_item</scope><name>Sales_item</name></member>
+      <member refid="class_sales__item_1a465acf5ab0c8ad851127d09ee03510a6" prot="public" virt="non-virtual"><scope>Sales_item</scope><name>Sales_item</name></member>
+      <member refid="class_sales__item_1a9a231099efa4988fc877865f03bfd478" prot="private" virt="non-virtual"><scope>Sales_item</scope><name>units_sold</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

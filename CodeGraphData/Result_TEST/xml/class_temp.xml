@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_temp" kind="class" prot="public">
+    <compoundname>Temp</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_temp_1a2d5a8832acf621c343349e2cc56634d3" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Temp::cost</definition>
+        <argsstring></argsstring>
+        <name>cost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/class3.cpp" line="14" column="1" bodyfile="D:/workspace/CPlus/TEST/class3.cpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_temp_1a84099bc93e7d724277fbafe8ac138196" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Temp::Temp</definition>
+        <argsstring>(string &amp;st)</argsstring>
+        <name>Temp</name>
+        <param>
+          <type>string &amp;</type>
+          <declname>st</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/class3.cpp" line="17" column="1" bodyfile="D:/workspace/CPlus/TEST/class3.cpp" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_temp_1a449538857d547b4c7e841292438ba5cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Temp::Temp</definition>
+        <argsstring>()</argsstring>
+        <name>Temp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/class3.cpp" line="18" column="1" bodyfile="D:/workspace/CPlus/TEST/class3.cpp" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_temp_1ae3b3979bbece9fd7cbedcb49b5c27246" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_temp" kindref="compound">Temp</ref> &amp;</type>
+        <definition>Temp&amp; Temp::issame</definition>
+        <argsstring>(string ss)</argsstring>
+        <name>issame</name>
+        <param>
+          <type>string</type>
+          <declname>ss</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/class3.cpp" line="20" column="1" bodyfile="D:/workspace/CPlus/TEST/class3.cpp" bodystart="20" bodyend="30"/>
+        <referencedby refid="class3_8cpp_1ad4e9e3aef6ee1d3b3302d6732285abce" compoundref="class3_8cpp" startline="46" endline="57">mainExplicitAAA</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_temp_1ad709e3328dfe6593d816675d5ead5798" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_temp" kindref="compound">Temp</ref> &amp;</type>
+        <definition>Temp&amp; Temp::issame</definition>
+        <argsstring>(istream &amp;is)</argsstring>
+        <name>issame</name>
+        <param>
+          <type>istream &amp;</type>
+          <declname>is</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/class3.cpp" line="31" column="1" bodyfile="D:/workspace/CPlus/TEST/class3.cpp" bodystart="31" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/CPlus/TEST/class3.cpp" line="13" column="1" bodyfile="D:/workspace/CPlus/TEST/class3.cpp" bodystart="12" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_temp_1a2d5a8832acf621c343349e2cc56634d3" prot="private" virt="non-virtual"><scope>Temp</scope><name>cost</name></member>
+      <member refid="class_temp_1ae3b3979bbece9fd7cbedcb49b5c27246" prot="public" virt="non-virtual"><scope>Temp</scope><name>issame</name></member>
+      <member refid="class_temp_1ad709e3328dfe6593d816675d5ead5798" prot="public" virt="non-virtual"><scope>Temp</scope><name>issame</name></member>
+      <member refid="class_temp_1a84099bc93e7d724277fbafe8ac138196" prot="public" virt="non-virtual"><scope>Temp</scope><name>Temp</name></member>
+      <member refid="class_temp_1a449538857d547b4c7e841292438ba5cc" prot="public" virt="non-virtual"><scope>Temp</scope><name>Temp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

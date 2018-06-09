@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_simple__1" kind="class" prot="public">
+    <compoundname>Simple_1</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_simple__1_1a84dd8437bc2adee1928e070ab7db6e45" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Simple_1::va1</definition>
+        <argsstring></argsstring>
+        <name>va1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/empty_mapcpp.cpp" line="21" column="1" bodyfile="D:/workspace/CPlus/TEST/empty_mapcpp.cpp" bodystart="21" bodyend="-1"/>
+        <referencedby refid="empty__mapcpp_8cpp_1a80f84d8d644463a761f6d3c2d9fb4071" compoundref="empty__mapcpp_8cpp" startline="25" endline="27">add_2</referencedby>
+        <referencedby refid="empty__mapcpp_8cpp_1a95b896a8ce51020d46434afb73f2eda4" compoundref="empty__mapcpp_8cpp" startline="31" endline="38">add_2c</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple__1_1a8213f169d3c801293707f835d510c613" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Simple_1::va2</definition>
+        <argsstring></argsstring>
+        <name>va2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/empty_mapcpp.cpp" line="21" column="1" bodyfile="D:/workspace/CPlus/TEST/empty_mapcpp.cpp" bodystart="21" bodyend="-1"/>
+        <referencedby refid="empty__mapcpp_8cpp_1a80f84d8d644463a761f6d3c2d9fb4071" compoundref="empty__mapcpp_8cpp" startline="25" endline="27">add_2</referencedby>
+        <referencedby refid="empty__mapcpp_8cpp_1a95b896a8ce51020d46434afb73f2eda4" compoundref="empty__mapcpp_8cpp" startline="31" endline="38">add_2c</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple__1_1a2f592b7fca0170cbf74f45a97993eedd" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Simple_1::str</definition>
+        <argsstring></argsstring>
+        <name>str</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/empty_mapcpp.cpp" line="22" column="1" bodyfile="D:/workspace/CPlus/TEST/empty_mapcpp.cpp" bodystart="22" bodyend="-1"/>
+        <referencedby refid="empty__mapcpp_8cpp_1a95b896a8ce51020d46434afb73f2eda4" compoundref="empty__mapcpp_8cpp" startline="31" endline="38">add_2c</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_simple__1_1a23a12592ea86d2c405fbb3049d0e33c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Simple_1::Simple_1</definition>
+        <argsstring>()</argsstring>
+        <name>Simple_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/empty_mapcpp.cpp" line="12" column="1" bodyfile="D:/workspace/CPlus/TEST/empty_mapcpp.cpp" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_simple__1_1a268fd5af277ccb0397b468abfcc17581" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Simple_1::Simple_1</definition>
+        <argsstring>(int a, int b)</argsstring>
+        <name>Simple_1</name>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/empty_mapcpp.cpp" line="13" column="1" bodyfile="D:/workspace/CPlus/TEST/empty_mapcpp.cpp" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_simple__1_1a65a208621edc3ddb56b7180a61f8f36c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Simple_1::Simple_1</definition>
+        <argsstring>(int a, string &amp;b)</argsstring>
+        <name>Simple_1</name>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>string &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/empty_mapcpp.cpp" line="14" column="1" bodyfile="D:/workspace/CPlus/TEST/empty_mapcpp.cpp" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_simple__1_1a95b896a8ce51020d46434afb73f2eda4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend const <ref refid="class_simple__1" kindref="compound">Simple_1</ref> &amp;</type>
+        <definition>const Simple_1&amp; add_2c</definition>
+        <argsstring>(const Simple_1 &amp;r1, const Simple_1 &amp;r2)</argsstring>
+        <name>add_2c</name>
+        <param>
+          <type>const <ref refid="class_simple__1" kindref="compound">Simple_1</ref> &amp;</type>
+          <declname>r1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_simple__1" kindref="compound">Simple_1</ref> &amp;</type>
+          <declname>r2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/empty_mapcpp.cpp" line="16" column="1" bodyfile="D:/workspace/CPlus/TEST/empty_mapcpp.cpp" bodystart="31" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_simple__1_1a642a6159edab1f0482bd98c4e29b8ad4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend void</type>
+        <definition>void add_2</definition>
+        <argsstring>(Simple_1 &amp;)</argsstring>
+        <name>add_2</name>
+        <param>
+          <type><ref refid="class_simple__1" kindref="compound">Simple_1</ref> &amp;</type>
+          <defname>sp</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/empty_mapcpp.cpp" line="17" column="1" bodyfile="D:/workspace/CPlus/TEST/empty_mapcpp.cpp" bodystart="25" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/CPlus/TEST/empty_mapcpp.cpp" line="10" column="1" bodyfile="D:/workspace/CPlus/TEST/empty_mapcpp.cpp" bodystart="10" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_simple__1_1a642a6159edab1f0482bd98c4e29b8ad4" prot="public" virt="non-virtual"><scope>Simple_1</scope><name>add_2</name></member>
+      <member refid="class_simple__1_1a95b896a8ce51020d46434afb73f2eda4" prot="public" virt="non-virtual"><scope>Simple_1</scope><name>add_2c</name></member>
+      <member refid="class_simple__1_1a23a12592ea86d2c405fbb3049d0e33c8" prot="public" virt="non-virtual"><scope>Simple_1</scope><name>Simple_1</name></member>
+      <member refid="class_simple__1_1a268fd5af277ccb0397b468abfcc17581" prot="public" virt="non-virtual"><scope>Simple_1</scope><name>Simple_1</name></member>
+      <member refid="class_simple__1_1a65a208621edc3ddb56b7180a61f8f36c" prot="public" virt="non-virtual"><scope>Simple_1</scope><name>Simple_1</name></member>
+      <member refid="class_simple__1_1a2f592b7fca0170cbf74f45a97993eedd" prot="private" virt="non-virtual"><scope>Simple_1</scope><name>str</name></member>
+      <member refid="class_simple__1_1a84dd8437bc2adee1928e070ab7db6e45" prot="private" virt="non-virtual"><scope>Simple_1</scope><name>va1</name></member>
+      <member refid="class_simple__1_1a8213f169d3c801293707f835d510c613" prot="private" virt="non-virtual"><scope>Simple_1</scope><name>va2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

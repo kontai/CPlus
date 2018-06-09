@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_constr" kind="class" prot="public">
+    <compoundname>Constr</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_constr_1acc37c7055da4b53afba1e11744d6b7f4" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Constr::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/class2.cpp" line="20" column="1" bodyfile="D:/workspace/CPlus/TEST/class2.cpp" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class2_8cpp_1a5daec04cb45faa9ecfee847faaa810b1" compoundref="class2_8cpp" startline="26" endline="37">main_class2</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_constr_1a1213d1fff7e4eeac0ac9d9eeb9d810e0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Constr::age</definition>
+        <argsstring></argsstring>
+        <name>age</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/class2.cpp" line="21" column="1" bodyfile="D:/workspace/CPlus/TEST/class2.cpp" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class2_8cpp_1a5daec04cb45faa9ecfee847faaa810b1" compoundref="class2_8cpp" startline="26" endline="37">main_class2</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_constr_1a95b539158d954694d07ed47df9ff9a15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Constr::Constr</definition>
+        <argsstring>()</argsstring>
+        <name>Constr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/class2.cpp" line="14" column="1" bodyfile="D:/workspace/CPlus/TEST/class2.cpp" bodystart="14" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_constr_1ac6e7668518b97fa40c0f72f7df74b4ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Constr::Constr</definition>
+        <argsstring>(const string &amp;str)</argsstring>
+        <name>Constr</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/class2.cpp" line="16" column="1" bodyfile="D:/workspace/CPlus/TEST/class2.cpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/CPlus/TEST/class2.cpp" line="12" column="1" bodyfile="D:/workspace/CPlus/TEST/class2.cpp" bodystart="11" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_constr_1a1213d1fff7e4eeac0ac9d9eeb9d810e0" prot="public" virt="non-virtual"><scope>Constr</scope><name>age</name></member>
+      <member refid="class_constr_1a95b539158d954694d07ed47df9ff9a15" prot="public" virt="non-virtual"><scope>Constr</scope><name>Constr</name></member>
+      <member refid="class_constr_1ac6e7668518b97fa40c0f72f7df74b4ac" prot="public" virt="non-virtual"><scope>Constr</scope><name>Constr</name></member>
+      <member refid="class_constr_1acc37c7055da4b53afba1e11744d6b7f4" prot="public" virt="non-virtual"><scope>Constr</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

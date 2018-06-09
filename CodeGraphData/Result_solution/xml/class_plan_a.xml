@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_plan_a" kind="class" prot="public">
+    <compoundname>PlanA</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_plan_a_1a98ec9857437d80ae9ecc535ad3c9a72f" prot="public" static="no">
+        <type>string::size_type</type>
+        <definition>typedef string::size_type PlanA::index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class作用域.cpp" line="15" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class作用域.cpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_plan_a_1ad4c1e41b3a4470fd94485fbd9314515c" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char PlanA::ch</definition>
+        <argsstring></argsstring>
+        <name>ch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class作用域.cpp" line="16" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class作用域.cpp" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_xE4_xBD_x9C_xE7_x94_xA8_xE5_x9F_x9F_8cpp_1ae30ba86a828ab6122067f6b2c5ab991a" compoundref="class_xE4_xBD_x9C_xE7_x94_xA8_xE5_x9F_x9F_8cpp" startline="62" endline="75">mainScope</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_plan_a_1a418fe8f11c712cb4c01f9d0bec5c2ac6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PlanA::ia</definition>
+        <argsstring></argsstring>
+        <name>ia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class作用域.cpp" line="17" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class作用域.cpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_plan_a_1a81041336ef1f8796c11551f421235b78" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char PlanA::test</definition>
+        <argsstring></argsstring>
+        <name>test</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class作用域.cpp" line="38" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class作用域.cpp" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_plan_a_1a4957d6457a7c0c7eed4b074eefeb27d1" compoundref="class_xE4_xBD_x9C_xE7_x94_xA8_xE5_x9F_x9F_8cpp" startline="19" endline="28">test_func</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_plan_a_1a48c9af292a8674bec5704da483da96e2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_plan_a_1a98ec9857437d80ae9ecc535ad3c9a72f" kindref="member">index</ref></type>
+        <definition>PlanA::index PlanA::info</definition>
+        <argsstring>(index, index) const </argsstring>
+        <name>info</name>
+        <param>
+          <type><ref refid="class_plan_a_1a98ec9857437d80ae9ecc535ad3c9a72f" kindref="member">index</ref></type>
+          <defname>x</defname>
+        </param>
+        <param>
+          <type><ref refid="class_plan_a_1a98ec9857437d80ae9ecc535ad3c9a72f" kindref="member">index</ref></type>
+          <defname>y</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class作用域.cpp" line="18" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class作用域.cpp" bodystart="46" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_plan_a_1a4957d6457a7c0c7eed4b074eefeb27d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlanA::test_func</definition>
+        <argsstring>(char test)</argsstring>
+        <name>test_func</name>
+        <param>
+          <type>char</type>
+          <declname>test</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class作用域.cpp" line="19" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class作用域.cpp" bodystart="19" bodyend="28"/>
+        <references refid="class_xE4_xBD_x9C_xE7_x94_xA8_xE5_x9F_x9F_8cpp_1a431fc41ca0648270a5948ca48918b62d" compoundref="class_xE4_xBD_x9C_xE7_x94_xA8_xE5_x9F_x9F_8cpp" startline="11">test</references>
+        <references refid="class_plan_a_1a81041336ef1f8796c11551f421235b78" compoundref="class_xE4_xBD_x9C_xE7_x94_xA8_xE5_x9F_x9F_8cpp" startline="38">test</references>
+      </memberdef>
+      <memberdef kind="function" id="class_plan_a_1ab5b90cb642a8a74709569d79f514fc46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PlanA::PlanA</definition>
+        <argsstring>()</argsstring>
+        <name>PlanA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class作用域.cpp" line="29" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class作用域.cpp" bodystart="29" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/CPlus/Class定義與宣告/class作用域.cpp" line="13" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class作用域.cpp" bodystart="13" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_plan_a_1ad4c1e41b3a4470fd94485fbd9314515c" prot="public" virt="non-virtual"><scope>PlanA</scope><name>ch</name></member>
+      <member refid="class_plan_a_1a418fe8f11c712cb4c01f9d0bec5c2ac6" prot="public" virt="non-virtual"><scope>PlanA</scope><name>ia</name></member>
+      <member refid="class_plan_a_1a98ec9857437d80ae9ecc535ad3c9a72f" prot="public" virt="non-virtual"><scope>PlanA</scope><name>index</name></member>
+      <member refid="class_plan_a_1a48c9af292a8674bec5704da483da96e2" prot="public" virt="non-virtual"><scope>PlanA</scope><name>info</name></member>
+      <member refid="class_plan_a_1ab5b90cb642a8a74709569d79f514fc46" prot="public" virt="non-virtual"><scope>PlanA</scope><name>PlanA</name></member>
+      <member refid="class_plan_a_1a81041336ef1f8796c11551f421235b78" prot="private" virt="non-virtual"><scope>PlanA</scope><name>test</name></member>
+      <member refid="class_plan_a_1a4957d6457a7c0c7eed4b074eefeb27d1" prot="public" virt="non-virtual"><scope>PlanA</scope><name>test_func</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

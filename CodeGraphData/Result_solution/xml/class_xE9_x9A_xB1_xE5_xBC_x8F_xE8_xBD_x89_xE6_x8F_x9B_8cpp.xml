@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_xE9_x9A_xB1_xE5_xBC_x8F_xE8_xBD_x89_xE6_x8F_x9B_8cpp" kind="file">
+    <compoundname>classéš±å¼è½‰æ›.cpp</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">string</includes>
+    <incdepgraph>
+      <node id="32">
+        <label>string</label>
+      </node>
+      <node id="30">
+        <label>D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/classéš±å¼è½‰æ›.cpp</label>
+        <link refid="classéš±å¼è½‰æ›.cpp"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_implicit" prot="public">Implicit</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="class_xE9_x9A_xB1_xE5_xBC_x8F_xE8_xBD_x89_xE6_x8F_x9B_8cpp_1a43e88416ac150c59a934973686313afb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int mainClassExplicit</definition>
+        <argsstring>()</argsstring>
+        <name>mainClassExplicit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/classéš±å¼è½‰æ›.cpp" line="26" column="1" bodyfile="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/classéš±å¼è½‰æ›.cpp" bodystart="26" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/****************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">[5/4/2017<sp/><sp/>14:36]</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">classÁô¦¡Âà´«.cpp</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">****************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_implicit" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_implicit" kindref="compound">Implicit</ref><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="13" refid="class_implicit_1acc4435edfb8b90fa66ddeff5d31ed87a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="class_implicit_1acc4435edfb8b90fa66ddeff5d31ed87a" kindref="member">Implicit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;st=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">):str(st)<sp/>{}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Implicit(const<sp/>string<sp/>&amp;st=&quot;&quot;):str(st)<sp/>{}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_implicit_1a094ac24397da1c0dada5811f03340ab1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_implicit_1a094ac24397da1c0dada5811f03340ab1" kindref="member">same_isbn</ref>(<ref refid="class_implicit" kindref="compound">Implicit</ref>&amp;<sp/>ref)<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>str<sp/>==<sp/>ref.<ref refid="class_implicit_1a6a0ac81dd4656ec59c2c7d660daf9a5d" kindref="member">str</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="21" refid="class_implicit_1a6a0ac81dd4656ec59c2c7d660daf9a5d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_implicit_1a6a0ac81dd4656ec59c2c7d660daf9a5d" kindref="member">str</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="class_xE9_x9A_xB1_xE5_xBC_x8F_xE8_xBD_x89_xE6_x8F_x9B_8cpp_1a43e88416ac150c59a934973686313afb" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_xE9_x9A_xB1_xE5_xBC_x8F_xE8_xBD_x89_xE6_x8F_x9B_8cpp_1a43e88416ac150c59a934973686313afb" kindref="member">mainClassExplicit</ref>(){</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_implicit" kindref="compound">Implicit</ref><sp/>aa(</highlight><highlight class="stringliteral">&quot;abcd&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_implicit" kindref="compound">Implicit</ref><sp/>bb=<ref refid="class_implicit" kindref="compound">Implicit</ref>(</highlight><highlight class="stringliteral">&quot;abc&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//·í¦³³]¥ß«Øºc¦¡®É,&quot;def&quot;·|Áô¦¡Âà´«¦¨Implicit(&quot;def&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Implicit<sp/>cc<sp/>=<sp/>&quot;def&quot;;<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//·í«Øºc¦¡¥Hexplicit«Å§i,©w¸q/½Õ¥Îclass¹ï¶H¤£¯à°÷¨Ì¾aÁô¦¡Âà´«,½sÄ¶·|³ø¿ù</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">system(</highlight><highlight class="stringliteral">&quot;pause&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/classéš±å¼è½‰æ›.cpp"/>
+  </compounddef>
+</doxygen>

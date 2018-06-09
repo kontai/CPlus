@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp" kind="file">
+    <compoundname>Overloadé‡è¼‰.cpp</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">string</includes>
+    <incdepgraph>
+      <node id="46">
+        <label>string</label>
+      </node>
+      <node id="44">
+        <label>D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/Overloadé‡è¼‰.cpp</label>
+        <link refid="Overloadé‡è¼‰.cpp"/>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp_1a9fcf2dae9425dbaa326f6ae71ac952be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wh</definition>
+        <argsstring>(int a)</argsstring>
+        <name>wh</name>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/Overloadé‡è¼‰.cpp" line="13" column="1" bodyfile="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/Overloadé‡è¼‰.cpp" bodystart="13" bodyend="15"/>
+        <referencedby refid="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp_1aac7671693dd3aa0923d95456ba01d682" compoundref="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp" startline="40" endline="48">mainOverload</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp_1a0e6d638ff00defe4191eade67eae4f3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wh</definition>
+        <argsstring>(double a)</argsstring>
+        <name>wh</name>
+        <param>
+          <type>double</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/Overloadé‡è¼‰.cpp" line="17" column="1" bodyfile="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/Overloadé‡è¼‰.cpp" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp_1a10e1643c64050d3b96c5f0bd12037ab3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void wh</definition>
+        <argsstring>(string &amp;a)</argsstring>
+        <name>wh</name>
+        <param>
+          <type>string &amp;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/Overloadé‡è¼‰.cpp" line="24" column="1" bodyfile="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/Overloadé‡è¼‰.cpp" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp_1a540a63a869627f27cb2e3a767da10656" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int *</type>
+        <definition>int* wh</definition>
+        <argsstring>(int *a)</argsstring>
+        <name>wh</name>
+        <param>
+          <type>int *</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/Overloadé‡è¼‰.cpp" line="31" column="1" bodyfile="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/Overloadé‡è¼‰.cpp" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp_1a0ce1cc68576479df248a0f67f3c9ddf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double *</type>
+        <definition>double* wh</definition>
+        <argsstring>(double *a)</argsstring>
+        <name>wh</name>
+        <param>
+          <type>double *</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/Overloadé‡è¼‰.cpp" line="35" column="1" bodyfile="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/Overloadé‡è¼‰.cpp" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp_1aac7671693dd3aa0923d95456ba01d682" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int mainOverload</definition>
+        <argsstring>()</argsstring>
+        <name>mainOverload</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/Overloadé‡è¼‰.cpp" line="40" column="1" bodyfile="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/Overloadé‡è¼‰.cpp" bodystart="40" bodyend="48"/>
+        <references refid="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp_1a9fcf2dae9425dbaa326f6ae71ac952be" compoundref="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp" startline="13" endline="15">wh</references>
+      </memberdef>
+      <memberdef kind="function" id="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp_1ac6da8f9fedb90be6972aaf3af5f750c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long wh</definition>
+        <argsstring>(long *const)</argsstring>
+        <name>wh</name>
+        <param>
+          <type>long *</type>
+          <declname>const</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/Overloadé‡è¼‰.cpp" line="50" column="1" bodyfile="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/Overloadé‡è¼‰.cpp" bodystart="50" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">­«¸ü:</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">(¤@)¨ç¼Æ¦W¬Û¦P,¦ı¬O°Ñ¼Æ¤£¦P(ªğ¦^­È¤]¤£¥i¬Û¦P)</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">(¤G)¥²¶·¦b¬Û¦P§@¥Î°ì¸Ì(½sÄ¶¾¹¥ı´M§ä¨ç¼Æ¦W,¤~°µ«¬§OÀË´ú)</highlight></codeline>
+<codeline lineno="10"><highlight class="comment">(¤T)°Ñ¼Æ¼Æ¶q»P«¬§O,¬O­«¸ü°Ï¤À±ø¥ó</highlight></codeline>
+<codeline lineno="11"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp_1a9fcf2dae9425dbaa326f6ae71ac952be" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp_1a9fcf2dae9425dbaa326f6ae71ac952be" kindref="member">wh</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a)<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>a<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp_1a0e6d638ff00defe4191eade67eae4f3f" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp_1a9fcf2dae9425dbaa326f6ae71ac952be" kindref="member">wh</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a)<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>a<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//void<sp/>wh(const<sp/>double);<sp/>//error:¦pªG¤Ş¼Æ¤£¬Oreference,const»P«Dconst¹ê»Ú¤W¬O¬Û¦Pªº(¥u¬O½Æ»s¤Ş¼Æ­È)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//const<sp/>reference<sp/>diff.<sp/>w/<sp/>reference</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//void<sp/>wh(const<sp/>string<sp/>&amp;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp_1a10e1643c64050d3b96c5f0bd12037ab3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp_1a9fcf2dae9425dbaa326f6ae71ac952be" kindref="member">wh</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;a)<sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>a<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//long<sp/>wh(long*);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//long<sp/>wh(long<sp/>*const);<sp/>//­«½Æ«Å§i(const¬°«ü°w¥»¨­[½Æ»s­È],¦Ó«D©Ò«ü«¬§O)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp_1a540a63a869627f27cb2e3a767da10656" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp_1a9fcf2dae9425dbaa326f6ae71ac952be" kindref="member">wh</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*a)<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>a<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>a;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="35" refid="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp_1a0ce1cc68576479df248a0f67f3c9ddf9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp_1a9fcf2dae9425dbaa326f6ae71ac952be" kindref="member">wh</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*a)<sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>a<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>a;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp_1aac7671693dd3aa0923d95456ba01d682" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp_1aac7671693dd3aa0923d95456ba01d682" kindref="member">mainOverload</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>ss<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;One<sp/>Two<sp/>Three&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp_1a9fcf2dae9425dbaa326f6ae71ac952be" kindref="member">wh</ref>(ss);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp_1a9fcf2dae9425dbaa326f6ae71ac952be" kindref="member">wh</ref>(1.22);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp_1a9fcf2dae9425dbaa326f6ae71ac952be" kindref="member">wh</ref>(20);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>system(</highlight><highlight class="stringliteral">&quot;pause&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp_1ac6da8f9fedb90be6972aaf3af5f750c0" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="_overload_xE9_x87_x8D_xE8_xBC_x89_8cpp_1a9fcf2dae9425dbaa326f6ae71ac952be" kindref="member">wh</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>*<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/Overloadé‡è¼‰.cpp"/>
+  </compounddef>
+</doxygen>

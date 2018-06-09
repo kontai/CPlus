@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_implicit" kind="class" prot="public">
+    <compoundname>Implicit</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_implicit_1a6a0ac81dd4656ec59c2c7d660daf9a5d" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Implicit::str</definition>
+        <argsstring></argsstring>
+        <name>str</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class隱式轉換.cpp" line="21" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class隱式轉換.cpp" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_implicit_1a094ac24397da1c0dada5811f03340ab1" compoundref="class_xE9_x9A_xB1_xE5_xBC_x8F_xE8_xBD_x89_xE6_x8F_x9B_8cpp" startline="16" endline="18">same_isbn</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_implicit_1acc4435edfb8b90fa66ddeff5d31ed87a" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Implicit::Implicit</definition>
+        <argsstring>(const string &amp;st=&quot;&quot;)</argsstring>
+        <name>Implicit</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>st</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class隱式轉換.cpp" line="13" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class隱式轉換.cpp" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_implicit_1a094ac24397da1c0dada5811f03340ab1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Implicit::same_isbn</definition>
+        <argsstring>(Implicit &amp;ref)</argsstring>
+        <name>same_isbn</name>
+        <param>
+          <type><ref refid="class_implicit" kindref="compound">Implicit</ref> &amp;</type>
+          <declname>ref</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Class定義與宣告/class隱式轉換.cpp" line="16" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class隱式轉換.cpp" bodystart="16" bodyend="18"/>
+        <references refid="class_implicit_1a6a0ac81dd4656ec59c2c7d660daf9a5d" compoundref="class_xE9_x9A_xB1_xE5_xBC_x8F_xE8_xBD_x89_xE6_x8F_x9B_8cpp" startline="21">str</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/CPlus/Class定義與宣告/class隱式轉換.cpp" line="11" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class隱式轉換.cpp" bodystart="11" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_implicit_1acc4435edfb8b90fa66ddeff5d31ed87a" prot="public" virt="non-virtual"><scope>Implicit</scope><name>Implicit</name></member>
+      <member refid="class_implicit_1a094ac24397da1c0dada5811f03340ab1" prot="public" virt="non-virtual"><scope>Implicit</scope><name>same_isbn</name></member>
+      <member refid="class_implicit_1a6a0ac81dd4656ec59c2c7d660daf9a5d" prot="private" virt="non-virtual"><scope>Implicit</scope><name>str</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

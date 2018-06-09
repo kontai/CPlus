@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_xE5_xAE_xA3_xE5_x91_x8A_xE8_x88_x87_xE5_xAE_x9A_xE7_xBE_xA9_8cpp" kind="file">
+    <compoundname>classå®£å‘Šèˆ‡å®šç¾©.cpp</compoundname>
+    <includes local="no">iostream</includes>
+    <incdepgraph>
+      <node id="7">
+        <label>D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/classå®£å‘Šèˆ‡å®šç¾©.cpp</label>
+        <link refid="classå®£å‘Šèˆ‡å®šç¾©.cpp"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_load" prot="public">Load</innerclass>
+    <innerclass refid="class_x" prot="public">X</innerclass>
+    <innerclass refid="class_y" prot="public">Y</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="class_xE5_xAE_xA3_xE5_x91_x8A_xE8_x88_x87_xE5_xAE_x9A_xE7_xBE_xA9_8cpp_1a7e474d784e732d53fee6a549b08f962e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int mainClassDeclare</definition>
+        <argsstring>()</argsstring>
+        <name>mainClassDeclare</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/classå®£å‘Šèˆ‡å®šç¾©.cpp" line="32" column="1" bodyfile="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/classå®£å‘Šèˆ‡å®šç¾©.cpp" bodystart="32" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/****************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">[4/4/2017<sp/><sp/>15:41]</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">class«Å§i»P©w¸q.cpp</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">****************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//«Å§i,¦ýµL©w¸q(¤£§¹¾ãªº«¬§O);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/></highlight><highlight class="comment">//class¨Ï¥Î«e¥²¶·©w¸q,¤£µM½sÄ¶¾¹¤£ª¾¹D¦s©ñ³o«¬§Oªºª«¥ó,¸Ó¤À°t¦h¤Ö¤j¤p</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Nondefind;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_load" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_load" kindref="compound">Load</ref><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Nondefind<sp/>a;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_load_1a6badf19c3d1a41530392d207814b3930" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Nondefind<sp/>*<ref refid="class_load_1a6badf19c3d1a41530392d207814b3930" kindref="member">b</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="class_x" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_x" kindref="compound">X</ref><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//¦¹³BX©|¥¼§¹¾ã©w¸q,¦ý¥u­n«Å§i¹L,´N¥i®³¦Û¨­pointer<sp/>©Î<sp/>reference<sp/>°µ¦Û¤vªº¦¨­ûÅÜ¼Æ</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_x_1a4c9ff8e943e66e2f4b49a443d5660955" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_x" kindref="compound">X</ref><sp/><sp/>*<ref refid="class_x_1a4c9ff8e943e66e2f4b49a443d5660955" kindref="member">Y</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="23" refid="class_y" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_y" kindref="compound">Y</ref><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//¬Û¤¬½Õ¥Î</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="class_y_1a22d52808ba10039b42bcd386bde39f34" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_x" kindref="compound">X</ref><sp/><ref refid="class_y_1a22d52808ba10039b42bcd386bde39f34" kindref="member">de</ref>;</highlight></codeline>
+<codeline lineno="26" refid="class_y_1aeb456acde29d81e2293d2a7f6803f3eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_x" kindref="compound">X</ref><sp/>*<ref refid="class_y_1aeb456acde29d81e2293d2a7f6803f3eb" kindref="member">call</ref>;</highlight></codeline>
+<codeline lineno="27" refid="class_y_1a4df25620cf0b785789abae874f73fbe2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_y" kindref="compound">Y</ref><sp/>*<ref refid="class_y_1a4df25620cf0b785789abae874f73fbe2" kindref="member">th</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="class_xE5_xAE_xA3_xE5_x91_x8A_xE8_x88_x87_xE5_xAE_x9A_xE7_xBE_xA9_8cpp_1a7e474d784e732d53fee6a549b08f962e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_xE5_xAE_xA3_xE5_x91_x8A_xE8_x88_x87_xE5_xAE_x9A_xE7_xBE_xA9_8cpp_1a7e474d784e732d53fee6a549b08f962e" kindref="member">mainClassDeclare</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//¿ù»~:¥¼©w¸qªºclass</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Nondefind<sp/>obj;</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"></highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//¿ù»~,pointer<sp/>©Î<sp/>reference<sp/>½Õ¥Î«e,´N¥²¶·­n§¹¾ã©w¸q</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Nondefind<sp/>*obj;</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//©w¸qª«¥ó,¨Ã¤À°tªÅ¶¡(ªÅ¶¡¨¬¥H®e¯Ç©ñ¸m¤@­Ó¸Óclassª«¥ó)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_x" kindref="compound">X</ref><sp/>abc;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//¨C­Óª«¥ó³£¦³¦U¦ÛÀx¦sªÅ¶¡,¨Ã»P¨ä¥Lª«¥ó¿W¥ß</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_x" kindref="compound">X</ref><sp/>def;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>system(</highlight><highlight class="stringliteral">&quot;pause&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/workspace/CPlus/Classå®šç¾©èˆ‡å®£å‘Š/classå®£å‘Šèˆ‡å®šç¾©.cpp"/>
+  </compounddef>
+</doxygen>
