@@ -17,6 +17,13 @@
     <member refid="class_bar_1ad7ba9aab9c32f004f7b92b376f6cf7ce" kind="function"><name>Fooval</name></member>
     <member refid="class_bar_1ac2430e813f82abc7f8b47faebf4f23ed" kind="function"><name>callsFooVal</name></member>
   </compound>
+  <compound refid="class_boo" kind="class"><name>Boo</name>
+    <member refid="class_boo_1a9b1daebe238794076791a49276b36188" kind="variable"><name>ii</name></member>
+    <member refid="class_boo_1a627aadc2b4fe08581da93a617051e880" kind="variable"><name>va1</name></member>
+    <member refid="class_boo_1a705eb8000df7da259f4cca01d2a5faa3" kind="function"><name>Boo</name></member>
+    <member refid="class_boo_1ad3638850786c7f3f9bc71cf1962bcc7f" kind="function"><name>Boo</name></member>
+    <member refid="class_boo_1a4a42259ca00b4c61ab26d24d73ab06cb" kind="function"><name>show</name></member>
+  </compound>
   <compound refid="class_calc" kind="class"><name>Calc</name>
     <member refid="class_calc_1a7f5e7dbb16b78e157b6e18846d0c77f3" kind="variable"><name>a</name></member>
     <member refid="class_calc_1aae62ad65127bcc4dd9cad2b8e06ff343" kind="variable"><name>b</name></member>
@@ -98,7 +105,10 @@
     <member refid="empty__mapcpp_8cpp_1a5f634295f33442799e8c035afeb7ee94" kind="function"><name>maini2</name></member>
   </compound>
   <compound refid="exam1240_8cpp" kind="file"><name>exam1240.cpp</name>
-    <member refid="exam1240_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+    <member refid="exam1240_8cpp_1a7d78fd26285fbce3a9755b84dcf4c065" kind="function"><name>mainE1240</name></member>
+  </compound>
+  <compound refid="st_8cpp" kind="file"><name>st.cpp</name>
+    <member refid="st_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
   </compound>
   <compound refid="_string_8cpp" kind="file"><name>String.cpp</name>
     <member refid="_string_8cpp_1a08091344ba1b3455724284fb4b955ee7" kind="function"><name>mainString</name></member>

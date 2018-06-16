@@ -22,10 +22,10 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="49">
+      <node id="51">
         <label>X</label>
         <link refid="class_x"/>
-        <childnode refid="49" relation="usage">
+        <childnode refid="51" relation="usage">
           <edgelabel>Y</edgelabel>
         </childnode>
       </node>

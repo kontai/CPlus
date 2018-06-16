@@ -33,6 +33,14 @@
     <member refid="class_bar_1ad7ba9aab9c32f004f7b92b376f6cf7ce" kind="function"><name>Fooval</name></member>
     <member refid="class_bar_1ac2430e813f82abc7f8b47faebf4f23ed" kind="function"><name>callsFooVal</name></member>
   </compound>
+  <compound refid="class_boo" kind="class"><name>Boo</name>
+    <member refid="class_boo_1a627aadc2b4fe08581da93a617051e880" kind="variable"><name>va1</name></member>
+    <member refid="class_boo_1a50791c3d777834116a2bd3126ece92d4" kind="variable"><name>ccnt</name></member>
+    <member refid="class_boo_1ac915b47ce1f717d562e5de5b7e3439c8" kind="variable"><name>ckind</name></member>
+    <member refid="class_boo_1a11a9a8b4f388a8c953c0bfe44157a573" kind="variable"><name>anl_pair</name></member>
+    <member refid="class_boo_1aba7bea8d4b6f6dacd90042847b4e7b16" kind="function"><name>Boo</name></member>
+    <member refid="class_boo_1a00599db240a6f250daa09c1b7c57d615" kind="friend"><name>back_animal</name></member>
+  </compound>
   <compound refid="class_calc" kind="class"><name>Calc</name>
     <member refid="class_calc_1a7f5e7dbb16b78e157b6e18846d0c77f3" kind="variable"><name>a</name></member>
     <member refid="class_calc_1aae62ad65127bcc4dd9cad2b8e06ff343" kind="variable"><name>b</name></member>
@@ -238,7 +246,11 @@
     <member refid="empty__mapcpp_8cpp_1a5f634295f33442799e8c035afeb7ee94" kind="function"><name>maini2</name></member>
   </compound>
   <compound refid="exam1240_8cpp" kind="file"><name>exam1240.cpp</name>
-    <member refid="exam1240_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+    <member refid="exam1240_8cpp_1a7d78fd26285fbce3a9755b84dcf4c065" kind="function"><name>mainE1240</name></member>
+  </compound>
+  <compound refid="st_8cpp" kind="file"><name>st.cpp</name>
+    <member refid="st_8cpp_1a3dc5b8d347e5f7b113b9525bf71657e1" kind="function"><name>back_animal</name></member>
+    <member refid="st_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
   </compound>
   <compound refid="_string_8cpp" kind="file"><name>String.cpp</name>
     <member refid="_string_8cpp_1a08091344ba1b3455724284fb4b955ee7" kind="function"><name>mainString</name></member>

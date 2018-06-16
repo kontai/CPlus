@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="st_8cpp" kind="file">
+    <compoundname>st.cpp</compoundname>
+    <includes local="no">iostream</includes>
+    <incdepgraph>
+      <node id="24">
+        <label>D:/workspace/CPlus/TEST/st.cpp</label>
+        <link refid="st.cpp"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_boo" prot="public">Boo</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="st_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/st.cpp" line="24" column="1" bodyfile="D:/workspace/CPlus/TEST/st.cpp" bodystart="24" bodyend="31"/>
+        <references refid="class_boo_1a4a42259ca00b4c61ab26d24d73ab06cb" compoundref="st_8cpp" startline="20" endline="22">Boo::show</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">[9/6/2018<sp/>15:48</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">st.cpp</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">*************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="9" refid="class_boo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_boo" kindref="compound">Boo</ref><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="11" refid="class_boo_1a705eb8000df7da259f4cca01d2a5faa3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_boo_1a705eb8000df7da259f4cca01d2a5faa3" kindref="member">Boo</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="12" refid="class_boo_1ad3638850786c7f3f9bc71cf1962bcc7f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_boo_1ad3638850786c7f3f9bc71cf1962bcc7f" kindref="member">Boo</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a):va1(a){}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>show();</highlight></codeline>
+<codeline lineno="14" refid="class_boo_1a9b1daebe238794076791a49276b36188" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ii=3;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="16" refid="class_boo_1a627aadc2b4fe08581da93a617051e880" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_boo_1a627aadc2b4fe08581da93a617051e880" kindref="member">va1</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="class_boo_1a4a42259ca00b4c61ab26d24d73ab06cb" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_boo_1a4a42259ca00b4c61ab26d24d73ab06cb" kindref="member">Boo::show</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>ii<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="st_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="st_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kindref="member">main</ref>(){</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_boo" kindref="compound">Boo</ref><sp/>it;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>it.<ref refid="class_boo_1a4a42259ca00b4c61ab26d24d73ab06cb" kindref="member">show</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>system(</highlight><highlight class="stringliteral">&quot;pause&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/workspace/CPlus/TEST/st.cpp"/>
+  </compounddef>
+</doxygen>

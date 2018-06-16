@@ -48,21 +48,21 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="52">
+      <node id="54">
         <label>X</label>
         <link refid="class_x"/>
-        <childnode refid="52" relation="usage">
+        <childnode refid="54" relation="usage">
           <edgelabel>Y</edgelabel>
         </childnode>
       </node>
-      <node id="51">
+      <node id="53">
         <label>Y</label>
         <link refid="class_y"/>
-        <childnode refid="52" relation="usage">
+        <childnode refid="54" relation="usage">
           <edgelabel>de</edgelabel>
           <edgelabel>call</edgelabel>
         </childnode>
-        <childnode refid="51" relation="usage">
+        <childnode refid="53" relation="usage">
           <edgelabel>th</edgelabel>
         </childnode>
       </node>

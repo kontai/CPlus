@@ -143,8 +143,11 @@
     <ClCompile Include="class1.cpp" />
     <ClCompile Include="class3.cpp" />
     <ClCompile Include="class_init.cpp" />
+    <ClCompile Include="cp_struct.cpp" />
+    <ClCompile Include="default_class.cpp" />
     <ClCompile Include="empty_mapcpp.cpp" />
     <ClCompile Include="exam1240.cpp" />
+    <ClCompile Include="st.cpp" />
     <ClCompile Include="String.cpp" />
     <ClCompile Include="vitrual_class.cpp" />
   </ItemGroup>

@@ -64,7 +64,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="D:/workspace/CPlus/TEST/exam1240.cpp" line="12" column="1" bodyfile="D:/workspace/CPlus/TEST/exam1240.cpp" bodystart="12" bodyend="12"/>
-        <referencedby refid="exam1240_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="exam1240_8cpp" startline="42" endline="51">main</referencedby>
+        <referencedby refid="exam1240_8cpp_1a7d78fd26285fbce3a9755b84dcf4c065" compoundref="exam1240_8cpp" startline="42" endline="51">mainE1240</referencedby>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -72,13 +72,13 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="22">
+      <node id="24">
         <label>Bar</label>
         <link refid="class_bar"/>
-        <childnode refid="21" relation="public-inheritance">
+        <childnode refid="23" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="21">
+      <node id="23">
         <label>Foo</label>
         <link refid="class_foo"/>
       </node>

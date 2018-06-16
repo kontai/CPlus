@@ -17,11 +17,11 @@
     <innerclass refid="class_foo" prot="public">Foo</innerclass>
     <innerclass refid="class_bar" prot="public">Bar</innerclass>
       <sectiondef kind="func">
-      <memberdef kind="function" id="exam1240_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="exam1240_8cpp_1a7d78fd26285fbce3a9755b84dcf4c065" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
-        <definition>int main</definition>
+        <definition>int mainE1240</definition>
         <argsstring>()</argsstring>
-        <name>main</name>
+        <name>mainE1240</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -78,7 +78,7 @@
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;now<sp/>si=&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/><ref refid="class_bar_1ab95b6278e39b1fad913d0c0533a4d40b" kindref="member">Bar::si</ref><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
 <codeline lineno="40"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="exam1240_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="exam1240_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kindref="member">main</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="42" refid="exam1240_8cpp_1a7d78fd26285fbce3a9755b84dcf4c065" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="exam1240_8cpp_1a7d78fd26285fbce3a9755b84dcf4c065" kindref="member">mainE1240</ref>()<sp/>{</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_foo" kindref="compound">Foo</ref><sp/>pp(20);</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_bar" kindref="compound">Bar</ref><sp/>pp2(30);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>pp2.<ref refid="class_foo_1a581f17aa4b900a1bb6d08444dbe90d14" kindref="member">ret</ref>()<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
