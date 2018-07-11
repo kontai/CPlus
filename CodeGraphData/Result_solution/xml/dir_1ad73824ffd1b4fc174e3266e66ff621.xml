@@ -6,6 +6,9 @@
     <innerfile refid="class2_8cpp">class2.cpp</innerfile>
     <innerfile refid="class3_8cpp">class3.cpp</innerfile>
     <innerfile refid="class__init_8cpp">class_init.cpp</innerfile>
+    <innerfile refid="combin__structor_8cpp">combin_structor.cpp</innerfile>
+    <innerfile refid="cp__struct_8cpp">cp_struct.cpp</innerfile>
+    <innerfile refid="default__class_8cpp">default_class.cpp</innerfile>
     <innerfile refid="empty__mapcpp_8cpp">empty_mapcpp.cpp</innerfile>
     <innerfile refid="exam1240_8cpp">exam1240.cpp</innerfile>
     <innerfile refid="st_8cpp">st.cpp</innerfile>

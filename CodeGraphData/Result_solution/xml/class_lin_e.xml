@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_lin_e" kind="class" prot="public">
+    <compoundname>LinE</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_lin_e_1a73e2f2ebad012a9090669356021b942d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int LinE::lx</definition>
+        <argsstring></argsstring>
+        <name>lx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/combin_structor.cpp" line="38" column="1" bodyfile="D:/workspace/CPlus/TEST/combin_structor.cpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lin_e_1ac9bbf04613baecc1f67753467ccd08b3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int LinE::ly</definition>
+        <argsstring></argsstring>
+        <name>ly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/combin_structor.cpp" line="38" column="1" bodyfile="D:/workspace/CPlus/TEST/combin_structor.cpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lin_e_1a6886e48b6b4765db3f897dde6f9e4ab9" prot="private" static="no" mutable="no">
+        <type><ref refid="class_poin_t" kindref="compound">PoinT</ref></type>
+        <definition>PoinT LinE::Px</definition>
+        <argsstring></argsstring>
+        <name>Px</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/combin_structor.cpp" line="39" column="1" bodyfile="D:/workspace/CPlus/TEST/combin_structor.cpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lin_e_1a8d1fd479e80609808c30faedca283fba" prot="private" static="no" mutable="no">
+        <type><ref refid="class_poin_t" kindref="compound">PoinT</ref></type>
+        <definition>PoinT LinE::Py</definition>
+        <argsstring></argsstring>
+        <name>Py</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/combin_structor.cpp" line="39" column="1" bodyfile="D:/workspace/CPlus/TEST/combin_structor.cpp" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_lin_e_1a3b3d63781be0c70f1d09857f8dda84b2" compoundref="combin__structor_8cpp" startline="67" endline="72">LinE</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_lin_e_1a0a411f7b3538ab51eb33b713c64bf3ce" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double LinE::len</definition>
+        <argsstring></argsstring>
+        <name>len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/combin_structor.cpp" line="40" column="1" bodyfile="D:/workspace/CPlus/TEST/combin_structor.cpp" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_lin_e_1a3b3d63781be0c70f1d09857f8dda84b2" compoundref="combin__structor_8cpp" startline="67" endline="72">LinE</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_lin_e_1a4a40f6d75551e3b6f79ea65cddf30521" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>LinE::LinE</definition>
+        <argsstring>()</argsstring>
+        <name>LinE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/combin_structor.cpp" line="30" column="1" bodyfile="D:/workspace/CPlus/TEST/combin_structor.cpp" bodystart="62" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lin_e_1a3b3d63781be0c70f1d09857f8dda84b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>LinE::LinE</definition>
+        <argsstring>(PoinT &amp;, PoinT &amp;)</argsstring>
+        <name>LinE</name>
+        <param>
+          <type><ref refid="class_poin_t" kindref="compound">PoinT</ref> &amp;</type>
+          <defname>pa</defname>
+        </param>
+        <param>
+          <type><ref refid="class_poin_t" kindref="compound">PoinT</ref> &amp;</type>
+          <defname>pb</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/combin_structor.cpp" line="31" column="1" bodyfile="D:/workspace/CPlus/TEST/combin_structor.cpp" bodystart="67" bodyend="72"/>
+        <references refid="class_poin_t_1a406d71e6744ec41cf9729675df995c35" compoundref="combin__structor_8cpp" startline="43" endline="45">PoinT::getX</references>
+        <references refid="class_poin_t_1ad3b0e99b33caae45ad200ea4871011ef" compoundref="combin__structor_8cpp" startline="47" endline="49">PoinT::getY</references>
+        <references refid="class_lin_e_1a0a411f7b3538ab51eb33b713c64bf3ce" compoundref="combin__structor_8cpp" startline="40">len</references>
+        <references refid="class_lin_e_1a8d1fd479e80609808c30faedca283fba" compoundref="combin__structor_8cpp" startline="39">Py</references>
+      </memberdef>
+      <memberdef kind="function" id="class_lin_e_1a0de6bdf0c4d42ad70c3e5a5666a8bafa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>LinE::LinE</definition>
+        <argsstring>(LinE &amp;)</argsstring>
+        <name>LinE</name>
+        <param>
+          <type><ref refid="class_lin_e" kindref="compound">LinE</ref> &amp;</type>
+          <defname>l</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/combin_structor.cpp" line="32" column="1" bodyfile="D:/workspace/CPlus/TEST/combin_structor.cpp" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lin_e_1afaf91cbb9914fe1b2998914e8dcf55e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LinE::~LinE</definition>
+        <argsstring>()</argsstring>
+        <name>~LinE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/combin_structor.cpp" line="33" column="1" bodyfile="D:/workspace/CPlus/TEST/combin_structor.cpp" bodystart="33" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="26">
+        <label>PoinT</label>
+        <link refid="class_poin_t"/>
+      </node>
+      <node id="25">
+        <label>LinE</label>
+        <link refid="class_lin_e"/>
+        <childnode refid="26" relation="usage">
+          <edgelabel>Px</edgelabel>
+          <edgelabel>Py</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/workspace/CPlus/TEST/combin_structor.cpp" line="28" column="1" bodyfile="D:/workspace/CPlus/TEST/combin_structor.cpp" bodystart="28" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_lin_e_1a0a411f7b3538ab51eb33b713c64bf3ce" prot="private" virt="non-virtual"><scope>LinE</scope><name>len</name></member>
+      <member refid="class_lin_e_1a4a40f6d75551e3b6f79ea65cddf30521" prot="public" virt="non-virtual"><scope>LinE</scope><name>LinE</name></member>
+      <member refid="class_lin_e_1a3b3d63781be0c70f1d09857f8dda84b2" prot="public" virt="non-virtual"><scope>LinE</scope><name>LinE</name></member>
+      <member refid="class_lin_e_1a0de6bdf0c4d42ad70c3e5a5666a8bafa" prot="public" virt="non-virtual"><scope>LinE</scope><name>LinE</name></member>
+      <member refid="class_lin_e_1a73e2f2ebad012a9090669356021b942d" prot="private" virt="non-virtual"><scope>LinE</scope><name>lx</name></member>
+      <member refid="class_lin_e_1ac9bbf04613baecc1f67753467ccd08b3" prot="private" virt="non-virtual"><scope>LinE</scope><name>ly</name></member>
+      <member refid="class_lin_e_1a6886e48b6b4765db3f897dde6f9e4ab9" prot="private" virt="non-virtual"><scope>LinE</scope><name>Px</name></member>
+      <member refid="class_lin_e_1a8d1fd479e80609808c30faedca283fba" prot="private" virt="non-virtual"><scope>LinE</scope><name>Py</name></member>
+      <member refid="class_lin_e_1afaf91cbb9914fe1b2998914e8dcf55e6" prot="public" virt="non-virtual"><scope>LinE</scope><name>~LinE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

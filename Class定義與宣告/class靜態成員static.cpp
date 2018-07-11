@@ -29,7 +29,6 @@ private:
 	double amount;
 	int  index;
 	static double interestRate;
-	static  double initRate();
 	//整數型const static成員變數可以在class本體內直接初始化
 	static const  int initVal = 3;
 	//initVal是const;
@@ -63,9 +62,12 @@ private:
 
 };
 
-int mainStaticClass() {
+int main()Static_ {
 	Account ac1;
 	Account *ac2 = &ac1;
+	double d=Account::rate();
+	cout << d << endl;
+
 
 	//以下是呼叫static rate()的三種等價方法
 	double rate;

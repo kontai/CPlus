@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a" kind="class" prot="public">
+    <compoundname>A</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_1af66abb1280df7a77bd6363f1cd43d862" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int A::va1</definition>
+        <argsstring></argsstring>
+        <name>va1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/cp_struct.cpp" line="32" column="1" bodyfile="D:/workspace/CPlus/TEST/cp_struct.cpp" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_a_1a59a082345799544105d6aef95c243ff0" compoundref="cp__struct_8cpp" startline="21" endline="25">funC</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_1a79485083b0d09cbfd254ebd2876104c5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int A::va2</definition>
+        <argsstring></argsstring>
+        <name>va2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/cp_struct.cpp" line="32" column="1" bodyfile="D:/workspace/CPlus/TEST/cp_struct.cpp" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_a_1a59a082345799544105d6aef95c243ff0" compoundref="cp__struct_8cpp" startline="21" endline="25">funC</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_1a810b9d592f6827564491d2339f5cb51c" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string A::str</definition>
+        <argsstring></argsstring>
+        <name>str</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/cp_struct.cpp" line="33" column="1" bodyfile="D:/workspace/CPlus/TEST/cp_struct.cpp" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_a_1a59a082345799544105d6aef95c243ff0" compoundref="cp__struct_8cpp" startline="21" endline="25">funC</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_1a4142862ec27f2f3d8deb026d51a5c5a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>A::A</definition>
+        <argsstring>()</argsstring>
+        <name>A</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/cp_struct.cpp" line="15" column="1" bodyfile="D:/workspace/CPlus/TEST/cp_struct.cpp" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_1a0fab06d4ffc8182390ff058ebef22534" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>A::A</definition>
+        <argsstring>(int a, int b, const string &amp;s)</argsstring>
+        <name>A</name>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const string &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/cp_struct.cpp" line="16" column="1" bodyfile="D:/workspace/CPlus/TEST/cp_struct.cpp" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_1a8d74412b1ff05d7493b4c546795bf405" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>A::~A</definition>
+        <argsstring>()</argsstring>
+        <name>~A</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/cp_struct.cpp" line="19" column="1" bodyfile="D:/workspace/CPlus/TEST/cp_struct.cpp" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_1a59a082345799544105d6aef95c243ff0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void A::funC</definition>
+        <argsstring>(const A &amp;rh)</argsstring>
+        <name>funC</name>
+        <param>
+          <type>const <ref refid="class_a" kindref="compound">A</ref> &amp;</type>
+          <declname>rh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/cp_struct.cpp" line="21" column="1" bodyfile="D:/workspace/CPlus/TEST/cp_struct.cpp" bodystart="21" bodyend="25"/>
+        <references refid="class_a_1a810b9d592f6827564491d2339f5cb51c" compoundref="cp__struct_8cpp" startline="33">str</references>
+        <references refid="class_a_1af66abb1280df7a77bd6363f1cd43d862" compoundref="cp__struct_8cpp" startline="32">va1</references>
+        <references refid="class_a_1a79485083b0d09cbfd254ebd2876104c5" compoundref="cp__struct_8cpp" startline="32">va2</references>
+        <referencedby refid="cp__struct_8cpp_1a312a14698994670f23138a2337512148" compoundref="cp__struct_8cpp" startline="47" endline="60">mainCPC</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_1a07bc26dd5056481b6c0125c676285b73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int A::get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/cp_struct.cpp" line="27" column="1" bodyfile="D:/workspace/CPlus/TEST/cp_struct.cpp" bodystart="27" bodyend="29"/>
+        <referencedby refid="cp__struct_8cpp_1ace4288b2b750695e2fb8589ea04a20bb" compoundref="cp__struct_8cpp" startline="36" endline="38">funP</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/CPlus/TEST/cp_struct.cpp" line="12" column="1" bodyfile="D:/workspace/CPlus/TEST/cp_struct.cpp" bodystart="12" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_a_1a4142862ec27f2f3d8deb026d51a5c5a0" prot="public" virt="non-virtual"><scope>A</scope><name>A</name></member>
+      <member refid="class_a_1a0fab06d4ffc8182390ff058ebef22534" prot="public" virt="non-virtual"><scope>A</scope><name>A</name></member>
+      <member refid="class_a_1a59a082345799544105d6aef95c243ff0" prot="public" virt="non-virtual"><scope>A</scope><name>funC</name></member>
+      <member refid="class_a_1a07bc26dd5056481b6c0125c676285b73" prot="public" virt="non-virtual"><scope>A</scope><name>get</name></member>
+      <member refid="class_a_1a810b9d592f6827564491d2339f5cb51c" prot="private" virt="non-virtual"><scope>A</scope><name>str</name></member>
+      <member refid="class_a_1af66abb1280df7a77bd6363f1cd43d862" prot="private" virt="non-virtual"><scope>A</scope><name>va1</name></member>
+      <member refid="class_a_1a79485083b0d09cbfd254ebd2876104c5" prot="private" virt="non-virtual"><scope>A</scope><name>va2</name></member>
+      <member refid="class_a_1a8d74412b1ff05d7493b4c546795bf405" prot="public" virt="non-virtual"><scope>A</scope><name>~A</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

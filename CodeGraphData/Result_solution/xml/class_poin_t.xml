@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_poin_t" kind="class" prot="public">
+    <compoundname>PoinT</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_poin_t_1aef6c4689e9b28fe58b6c1f46c536c211" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PoinT::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/combin_structor.cpp" line="25" column="1" bodyfile="D:/workspace/CPlus/TEST/combin_structor.cpp" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_poin_t_1ac3f2d7b51c1d10fa6d2564c77a23094a" compoundref="combin__structor_8cpp" startline="51" endline="56">PoinT</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_poin_t_1a190f686c3f8651b1110fc9ff3bbfad0a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PoinT::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/combin_structor.cpp" line="25" column="1" bodyfile="D:/workspace/CPlus/TEST/combin_structor.cpp" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_poin_t_1ac3f2d7b51c1d10fa6d2564c77a23094a" compoundref="combin__structor_8cpp" startline="51" endline="56">PoinT</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_poin_t_1a1ced5f234b45576384bc3f8f724f6337" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PoinT::PoinT</definition>
+        <argsstring>()</argsstring>
+        <name>PoinT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/combin_structor.cpp" line="12" column="1" bodyfile="D:/workspace/CPlus/TEST/combin_structor.cpp" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_poin_t_1a49d5353f3802d7a3e7e03df67b9189f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PoinT::PoinT</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>PoinT</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/combin_structor.cpp" line="13" column="1" bodyfile="D:/workspace/CPlus/TEST/combin_structor.cpp" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_poin_t_1ac3f2d7b51c1d10fa6d2564c77a23094a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PoinT::PoinT</definition>
+        <argsstring>(const PoinT &amp;)</argsstring>
+        <name>PoinT</name>
+        <param>
+          <type>const <ref refid="class_poin_t" kindref="compound">PoinT</ref> &amp;</type>
+          <defname>p</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/combin_structor.cpp" line="14" column="1" bodyfile="D:/workspace/CPlus/TEST/combin_structor.cpp" bodystart="51" bodyend="56"/>
+        <references refid="class_poin_t_1aef6c4689e9b28fe58b6c1f46c536c211" compoundref="combin__structor_8cpp" startline="25">x</references>
+        <references refid="class_poin_t_1a190f686c3f8651b1110fc9ff3bbfad0a" compoundref="combin__structor_8cpp" startline="25">y</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poin_t_1a76d1a3f8e9c8a6b2fad16f1acbac8c2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PoinT::PoinT</definition>
+        <argsstring>(PoinT, PoinT)</argsstring>
+        <name>PoinT</name>
+        <param>
+          <type><ref refid="class_poin_t" kindref="compound">PoinT</ref></type>
+          <defname>ix</defname>
+        </param>
+        <param>
+          <type><ref refid="class_poin_t" kindref="compound">PoinT</ref></type>
+          <defname>iy</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/combin_structor.cpp" line="15" column="1" bodyfile="D:/workspace/CPlus/TEST/combin_structor.cpp" bodystart="57" bodyend="60"/>
+        <references refid="class_poin_t_1aef6c4689e9b28fe58b6c1f46c536c211" compoundref="combin__structor_8cpp" startline="25">x</references>
+        <references refid="class_poin_t_1a190f686c3f8651b1110fc9ff3bbfad0a" compoundref="combin__structor_8cpp" startline="25">y</references>
+      </memberdef>
+      <memberdef kind="function" id="class_poin_t_1a406d71e6744ec41cf9729675df995c35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int PoinT::getX</definition>
+        <argsstring>()</argsstring>
+        <name>getX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/combin_structor.cpp" line="16" column="1" bodyfile="D:/workspace/CPlus/TEST/combin_structor.cpp" bodystart="43" bodyend="45"/>
+        <referencedby refid="class_lin_e_1a3b3d63781be0c70f1d09857f8dda84b2" compoundref="combin__structor_8cpp" startline="67" endline="72">LinE::LinE</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_poin_t_1ad3b0e99b33caae45ad200ea4871011ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int PoinT::getY</definition>
+        <argsstring>()</argsstring>
+        <name>getY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/combin_structor.cpp" line="17" column="1" bodyfile="D:/workspace/CPlus/TEST/combin_structor.cpp" bodystart="47" bodyend="49"/>
+        <referencedby refid="class_lin_e_1a3b3d63781be0c70f1d09857f8dda84b2" compoundref="combin__structor_8cpp" startline="67" endline="72">LinE::LinE</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_poin_t_1a28fadd9799145744a56e9919a16cd366" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PoinT::~PoinT</definition>
+        <argsstring>()</argsstring>
+        <name>~PoinT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/combin_structor.cpp" line="19" column="1" bodyfile="D:/workspace/CPlus/TEST/combin_structor.cpp" bodystart="19" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/CPlus/TEST/combin_structor.cpp" line="10" column="1" bodyfile="D:/workspace/CPlus/TEST/combin_structor.cpp" bodystart="10" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_poin_t_1a406d71e6744ec41cf9729675df995c35" prot="public" virt="non-virtual"><scope>PoinT</scope><name>getX</name></member>
+      <member refid="class_poin_t_1ad3b0e99b33caae45ad200ea4871011ef" prot="public" virt="non-virtual"><scope>PoinT</scope><name>getY</name></member>
+      <member refid="class_poin_t_1a1ced5f234b45576384bc3f8f724f6337" prot="public" virt="non-virtual"><scope>PoinT</scope><name>PoinT</name></member>
+      <member refid="class_poin_t_1a49d5353f3802d7a3e7e03df67b9189f7" prot="public" virt="non-virtual"><scope>PoinT</scope><name>PoinT</name></member>
+      <member refid="class_poin_t_1ac3f2d7b51c1d10fa6d2564c77a23094a" prot="public" virt="non-virtual"><scope>PoinT</scope><name>PoinT</name></member>
+      <member refid="class_poin_t_1a76d1a3f8e9c8a6b2fad16f1acbac8c2b" prot="public" virt="non-virtual"><scope>PoinT</scope><name>PoinT</name></member>
+      <member refid="class_poin_t_1aef6c4689e9b28fe58b6c1f46c536c211" prot="private" virt="non-virtual"><scope>PoinT</scope><name>x</name></member>
+      <member refid="class_poin_t_1a190f686c3f8651b1110fc9ff3bbfad0a" prot="private" virt="non-virtual"><scope>PoinT</scope><name>y</name></member>
+      <member refid="class_poin_t_1a28fadd9799145744a56e9919a16cd366" prot="public" virt="non-virtual"><scope>PoinT</scope><name>~PoinT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

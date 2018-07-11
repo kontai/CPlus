@@ -2,34 +2,6 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="class_screen" kind="class" prot="public">
     <compoundname>Screen</compoundname>
-      <sectiondef kind="public-type">
-      <memberdef kind="typedef" id="class_screen_1a906689ef59ba71f6a570730b3217095b" prot="public" static="no">
-        <type>string::size_type</type>
-        <definition>typedef string::size_type Screen::index</definition>
-        <argsstring></argsstring>
-        <name>index</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="D:/workspace/CPlus/Class定義與宣告/class重載.cpp" line="15" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class重載.cpp" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="class_screen_1a906689ef59ba71f6a570730b3217095b" prot="public" static="no">
-        <type>string::size_type</type>
-        <definition>typedef string::size_type Screen::index</definition>
-        <argsstring></argsstring>
-        <name>index</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="D:/workspace/CPlus/Class定義與宣告/class隱式參數this.cpp" line="15" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class隱式參數this.cpp" bodystart="15" bodyend="-1"/>
-      </memberdef>
-      </sectiondef>
       <sectiondef kind="private-type">
       <memberdef kind="typedef" id="class_screen_1a906689ef59ba71f6a570730b3217095b" prot="private" static="no">
         <type>string::size_type</type>
@@ -57,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/workspace/CPlus/Class定義與宣告/class重載.cpp" line="24" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class重載.cpp" bodystart="24" bodyend="-1"/>
+        <location file="D:/workspace/CPlus/TEST/class1.cpp" line="28" column="1" bodyfile="D:/workspace/CPlus/TEST/class1.cpp" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_screen_1ac668a487b89b8abcd165cee38186084d" prot="private" static="no" mutable="no">
         <type><ref refid="class_screen_1a906689ef59ba71f6a570730b3217095b" kindref="member">index</ref></type>
@@ -70,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/workspace/CPlus/Class定義與宣告/class重載.cpp" line="25" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class重載.cpp" bodystart="25" bodyend="-1"/>
+        <location file="D:/workspace/CPlus/TEST/class1.cpp" line="29" column="1" bodyfile="D:/workspace/CPlus/TEST/class1.cpp" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_screen_1ab49bbeb174b7cf06d7ae17907aa35426" prot="private" static="no" mutable="no">
         <type><ref refid="class_screen_1a906689ef59ba71f6a570730b3217095b" kindref="member">index</ref></type>
@@ -83,46 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/workspace/CPlus/Class定義與宣告/class重載.cpp" line="26" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class重載.cpp" bodystart="26" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="class_screen_1acf129dd0dfe9f246360da856fb4c6cc6" prot="private" static="no" mutable="no">
-        <type><ref refid="class_screen_1a906689ef59ba71f6a570730b3217095b" kindref="member">index</ref></type>
-        <definition>index Screen::hight</definition>
-        <argsstring></argsstring>
-        <name>hight</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="D:/workspace/CPlus/Class定義與宣告/class重載.cpp" line="26" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class重載.cpp" bodystart="26" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="class_screen_1adc1bf6a98be46c8c5475a4182f90e9a4" prot="private" static="no" mutable="no">
-        <type>string</type>
-        <definition>string Screen::contenes</definition>
-        <argsstring></argsstring>
-        <name>contenes</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="D:/workspace/CPlus/Class定義與宣告/class隱式參數this.cpp" line="25" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class隱式參數this.cpp" bodystart="25" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="class_screen_1a96657a2fa2944c24d5e89531cdc3d976" prot="private" static="no" mutable="no">
-        <type><ref refid="class_screen_1a906689ef59ba71f6a570730b3217095b" kindref="member">index</ref></type>
-        <definition>index Screen::lenth</definition>
-        <argsstring></argsstring>
-        <name>lenth</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="D:/workspace/CPlus/Class定義與宣告/class隱式參數this.cpp" line="27" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class隱式參數this.cpp" bodystart="27" bodyend="-1"/>
+        <location file="D:/workspace/CPlus/TEST/class1.cpp" line="30" column="1" bodyfile="D:/workspace/CPlus/TEST/class1.cpp" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_screen_1aa9fbfc7b48c7bdd671f287e7f7be57b4" prot="private" static="no" mutable="no">
         <type><ref refid="class_screen_1a906689ef59ba71f6a570730b3217095b" kindref="member">index</ref></type>
@@ -150,108 +83,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/workspace/CPlus/Class定義與宣告/class重載.cpp" line="16" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class重載.cpp" bodystart="16" bodyend="18"/>
-        <referencedby refid="class1_8cpp_1a1a0ce738e7691d0fa33455a630d00e93" compoundref="class1_8cpp" startline="63" endline="73">mainClass1</referencedby>
-        <referencedby refid="class_xE9_x87_x8D_xE8_xBC_x89_8cpp_1aedf729bf230ad6bee4477d7294bda6c2" compoundref="class_xE9_x87_x8D_xE8_xBC_x89_8cpp" startline="29" endline="36">mainClassOverload</referencedby>
-        <referencedby refid="class_xE9_x9A_xB1_xE5_xBC_x8F_xE5_x8F_x83_xE6_x95_xB8this_8cpp_1aae6db7ac507ade905a8d4b3cd2948b74" compoundref="class_xE9_x9A_xB1_xE5_xBC_x8F_xE5_x8F_x83_xE6_x95_xB8this_8cpp" startline="34" endline="39">mainvis</referencedby>
-      </memberdef>
-      <memberdef kind="function" id="class_screen_1a38b1c56d50cadb4f62aec63af924af61" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>char</type>
-        <definition>const char Screen::get</definition>
-        <argsstring>(index wd, index ht) const </argsstring>
-        <name>get</name>
-        <param>
-          <type><ref refid="class_screen_1a906689ef59ba71f6a570730b3217095b" kindref="member">index</ref></type>
-          <declname>wd</declname>
-        </param>
-        <param>
-          <type><ref refid="class_screen_1a906689ef59ba71f6a570730b3217095b" kindref="member">index</ref></type>
-          <declname>ht</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="D:/workspace/CPlus/Class定義與宣告/class重載.cpp" line="19" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class重載.cpp" bodystart="19" bodyend="22"/>
-      </memberdef>
-      <memberdef kind="function" id="class_screen_1a614ff46f8edb20dc65da817e9299a0a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="class_screen" kindref="compound">Screen</ref></type>
-        <definition>Screen Screen::get</definition>
-        <argsstring>()</argsstring>
-        <name>get</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="D:/workspace/CPlus/Class定義與宣告/class隱式參數this.cpp" line="16" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="class_screen_1ae124563b32ddc378cc39d53569ea7262" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void Screen::get</definition>
-        <argsstring>(char)</argsstring>
-        <name>get</name>
-        <param>
-          <type>char</type>
-          <defname>ch</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="D:/workspace/CPlus/Class定義與宣告/class隱式參數this.cpp" line="17" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class隱式參數this.cpp" bodystart="30" bodyend="32"/>
-      </memberdef>
-      <memberdef kind="function" id="class_screen_1adf5a23cfc774e3e65aa00c0bf57a3991" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="class_screen" kindref="compound">Screen</ref></type>
-        <definition>Screen Screen::move</definition>
-        <argsstring>(index, index, char)</argsstring>
-        <name>move</name>
-        <param>
-          <type><ref refid="class_screen_1a906689ef59ba71f6a570730b3217095b" kindref="member">index</ref></type>
-        </param>
-        <param>
-          <type><ref refid="class_screen_1a906689ef59ba71f6a570730b3217095b" kindref="member">index</ref></type>
-        </param>
-        <param>
-          <type>char</type>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="D:/workspace/CPlus/Class定義與宣告/class隱式參數this.cpp" line="18" column="1"/>
+        <location file="D:/workspace/CPlus/TEST/class1.cpp" line="15" column="1" bodyfile="D:/workspace/CPlus/TEST/class1.cpp" bodystart="36" bodyend="39"/>
         <referencedby refid="class1_8cpp_1a1a0ce738e7691d0fa33455a630d00e93" compoundref="class1_8cpp" startline="63" endline="73">mainClass1</referencedby>
       </memberdef>
-      <memberdef kind="function" id="class_screen_1a942b4a990811e6b12e625f4a0a2514f7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
-        <type>char</type>
-        <definition>char Screen::get</definition>
-        <argsstring>() const </argsstring>
-        <name>get</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="D:/workspace/CPlus/TEST/class1.cpp" line="15" column="1"/>
-      </memberdef>
-      <memberdef kind="function" id="class_screen_1a7b189dc85d1534e73fd48278531b6646" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="class_screen_1a7b189dc85d1534e73fd48278531b6646" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const char</type>
         <definition>const char Screen::get</definition>
         <argsstring>(index, index) const </argsstring>
         <name>get</name>
         <param>
           <type><ref refid="class_screen_1a906689ef59ba71f6a570730b3217095b" kindref="member">index</ref></type>
+          <defname>x</defname>
         </param>
         <param>
           <type><ref refid="class_screen_1a906689ef59ba71f6a570730b3217095b" kindref="member">index</ref></type>
+          <defname>y</defname>
         </param>
         <briefdescription>
         </briefdescription>
@@ -259,7 +105,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/workspace/CPlus/TEST/class1.cpp" line="16" column="1"/>
+        <location file="D:/workspace/CPlus/TEST/class1.cpp" line="16" column="1" bodyfile="D:/workspace/CPlus/TEST/class1.cpp" bodystart="41" bodyend="45"/>
       </memberdef>
       <memberdef kind="function" id="class_screen_1a43a89c4aad0c94f02ccbaba372706ff9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_screen" kindref="compound">Screen</ref> &amp;</type>
@@ -299,6 +145,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="D:/workspace/CPlus/TEST/class1.cpp" line="19" column="1" bodyfile="D:/workspace/CPlus/TEST/class1.cpp" bodystart="53" bodyend="58"/>
+        <referencedby refid="class1_8cpp_1a1a0ce738e7691d0fa33455a630d00e93" compoundref="class1_8cpp" startline="63" endline="73">mainClass1</referencedby>
       </memberdef>
       <memberdef kind="function" id="class_screen_1af32855632c065844581adbd1461a312d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_screen" kindref="compound">Screen</ref> &amp;</type>
@@ -367,26 +214,16 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="D:/workspace/CPlus/Class定義與宣告/class重載.cpp" line="13" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class重載.cpp" bodystart="13" bodyend="27"/>
+    <location file="D:/workspace/CPlus/TEST/class1.cpp" line="12" column="1" bodyfile="D:/workspace/CPlus/TEST/class1.cpp" bodystart="11" bodyend="34"/>
     <listofallmembers>
-      <member refid="class_screen_1adc1bf6a98be46c8c5475a4182f90e9a4" prot="private" virt="non-virtual"><scope>Screen</scope><name>contenes</name></member>
       <member refid="class_screen_1a6e1463853191857acf2f193b1d9cfed2" prot="private" virt="non-virtual"><scope>Screen</scope><name>content</name></member>
       <member refid="class_screen_1ac668a487b89b8abcd165cee38186084d" prot="private" virt="non-virtual"><scope>Screen</scope><name>cursor</name></member>
       <member refid="class_screen_1af32855632c065844581adbd1461a312d" prot="public" virt="non-virtual"><scope>Screen</scope><name>display</name></member>
       <member refid="class_screen_1ac269a2381587b028597c63a4dcec4e26" prot="private" virt="non-virtual"><scope>Screen</scope><name>do_display</name></member>
       <member refid="class_screen_1a942b4a990811e6b12e625f4a0a2514f7" prot="public" virt="non-virtual"><scope>Screen</scope><name>get</name></member>
-      <member refid="class_screen_1a38b1c56d50cadb4f62aec63af924af61" prot="public" virt="non-virtual"><scope>Screen</scope><name>get</name></member>
-      <member refid="class_screen_1a614ff46f8edb20dc65da817e9299a0a6" prot="public" virt="non-virtual"><scope>Screen</scope><name>get</name></member>
-      <member refid="class_screen_1ae124563b32ddc378cc39d53569ea7262" prot="public" virt="non-virtual"><scope>Screen</scope><name>get</name></member>
-      <member refid="class_screen_1a942b4a990811e6b12e625f4a0a2514f7" prot="public" virt="non-virtual"><scope>Screen</scope><name>get</name></member>
       <member refid="class_screen_1a7b189dc85d1534e73fd48278531b6646" prot="public" virt="non-virtual"><scope>Screen</scope><name>get</name></member>
       <member refid="class_screen_1aa9fbfc7b48c7bdd671f287e7f7be57b4" prot="private" virt="non-virtual"><scope>Screen</scope><name>height</name></member>
-      <member refid="class_screen_1acf129dd0dfe9f246360da856fb4c6cc6" prot="private" virt="non-virtual"><scope>Screen</scope><name>hight</name></member>
-      <member refid="class_screen_1a906689ef59ba71f6a570730b3217095b" prot="public" virt="non-virtual"><scope>Screen</scope><name>index</name></member>
-      <member refid="class_screen_1a906689ef59ba71f6a570730b3217095b" prot="public" virt="non-virtual"><scope>Screen</scope><name>index</name></member>
       <member refid="class_screen_1a906689ef59ba71f6a570730b3217095b" prot="private" virt="non-virtual"><scope>Screen</scope><name>index</name></member>
-      <member refid="class_screen_1a96657a2fa2944c24d5e89531cdc3d976" prot="private" virt="non-virtual"><scope>Screen</scope><name>lenth</name></member>
-      <member refid="class_screen_1adf5a23cfc774e3e65aa00c0bf57a3991" prot="public" virt="non-virtual"><scope>Screen</scope><name>move</name></member>
       <member refid="class_screen_1a5fbb7a51fa1276e07067b8324aaa7a2e" prot="public" virt="non-virtual"><scope>Screen</scope><name>move</name></member>
       <member refid="class_screen_1a618ecf1a1ad21c25a0ad90cee574388a" prot="public" virt="non-virtual"><scope>Screen</scope><name>Screen</name></member>
       <member refid="class_screen_1a43a89c4aad0c94f02ccbaba372706ff9" prot="public" virt="non-virtual"><scope>Screen</scope><name>set</name></member>

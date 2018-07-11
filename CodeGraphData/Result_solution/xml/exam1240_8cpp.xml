@@ -4,13 +4,13 @@
     <compoundname>exam1240.cpp</compoundname>
     <includes local="no">iostream</includes>
     <incdepgraph>
-      <node id="70">
+      <node id="32">
         <label>iostream</label>
       </node>
-      <node id="69">
+      <node id="31">
         <label>D:/workspace/CPlus/TEST/exam1240.cpp</label>
         <link refid="exam1240.cpp"/>
-        <childnode refid="70" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -54,7 +54,7 @@
 <codeline lineno="15" refid="class_foo_1a7277860558de074e45e883d3f6f1f17f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_foo_1a7277860558de074e45e883d3f6f1f17f" kindref="member">f1</ref>;</highlight></codeline>
 <codeline lineno="16"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_bar" kindref="compound">Bar</ref><sp/>:</highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_foo" kindref="compound">Foo</ref><sp/>{</highlight></codeline>
+<codeline lineno="18" refid="class_bar" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_bar" kindref="compound">Bar</ref><sp/>:</highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_foo" kindref="compound">Foo</ref><sp/>{</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
 <codeline lineno="20" refid="class_bar_1ab80bd2333bd9ea4115f58394b5757cdd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_bar_1ab80bd2333bd9ea4115f58394b5757cdd" kindref="member">Bar</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>aaa):<ref refid="class_foo" kindref="compound">Foo</ref>(aaa){<sp/>callsFooVal();<sp/>}</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="class_foo" kindref="compound">Foo</ref><sp/>Fooval();</highlight></codeline>

@@ -3,49 +3,7 @@
   <compounddef id="class_bar" kind="class" prot="public">
     <compoundname>Bar</compoundname>
     <basecompoundref refid="class_foo" prot="public" virt="non-virtual">Foo</basecompoundref>
-      <sectiondef kind="private-attrib">
-      <memberdef kind="variable" id="class_bar_1a7a8ad7d0bc5d44be2ef78a0d345156ff" prot="private" static="no" mutable="no">
-        <type><ref refid="class_bar" kindref="compound">Bar</ref> *</type>
-        <definition>Bar* Bar::mem1</definition>
-        <argsstring></argsstring>
-        <name>mem1</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" line="55" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" bodystart="55" bodyend="-1"/>
-      </memberdef>
-      </sectiondef>
       <sectiondef kind="private-static-attrib">
-      <memberdef kind="variable" id="class_bar_1a46a33c9a89981acfb296ece5ef84e3f1" prot="private" static="yes" mutable="no">
-        <type><ref refid="class_bar" kindref="compound">Bar</ref></type>
-        <definition>Bar Bar::mam2</definition>
-        <argsstring></argsstring>
-        <name>mam2</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" line="56" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" bodystart="56" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="class_bar_1afc6aec085823182090c5ee594e5c5907" prot="private" static="yes" mutable="no">
-        <type>const char</type>
-        <definition>const char Bar::red</definition>
-        <argsstring></argsstring>
-        <name>red</name>
-        <initializer>= &apos;#&apos;</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" line="62" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" bodystart="62" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="variable" id="class_bar_1ab95b6278e39b1fad913d0c0533a4d40b" prot="private" static="yes" mutable="no">
         <type>int</type>
         <definition>int Bar::si</definition>
@@ -76,23 +34,6 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="class_bar_1a1fd72af0709b3b6a2d2575b748ece70e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="class_bar" kindref="compound">Bar</ref> &amp;</type>
-        <definition>Bar&amp; Bar::wiii</definition>
-        <argsstring>(char=red)</argsstring>
-        <name>wiii</name>
-        <param>
-          <type>char</type>
-          <defval><ref refid="class_bar_1afc6aec085823182090c5ee594e5c5907" kindref="member">red</ref></defval>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" line="60" column="1"/>
-      </memberdef>
       <memberdef kind="function" id="class_bar_1ab80bd2333bd9ea4115f58394b5757cdd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>Bar::Bar</definition>
@@ -165,29 +106,21 @@
         <childnode refid="12" relation="usage">
           <edgelabel>scf</edgelabel>
         </childnode>
-        <childnode refid="11" relation="usage">
-          <edgelabel>mem1</edgelabel>
-          <edgelabel>mam2</edgelabel>
-        </childnode>
       </node>
       <node id="12">
         <label>Foo</label>
         <link refid="class_foo"/>
       </node>
     </collaborationgraph>
-    <location file="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" line="51" column="1" bodyfile="D:/workspace/CPlus/Class定義與宣告/class靜態成員static.cpp" bodystart="50" bodyend="64"/>
+    <location file="D:/workspace/CPlus/TEST/exam1240.cpp" line="18" column="1" bodyfile="D:/workspace/CPlus/TEST/exam1240.cpp" bodystart="18" bodyend="27"/>
     <listofallmembers>
       <member refid="class_bar_1ab80bd2333bd9ea4115f58394b5757cdd" prot="public" virt="non-virtual"><scope>Bar</scope><name>Bar</name></member>
       <member refid="class_bar_1ac2430e813f82abc7f8b47faebf4f23ed" prot="public" virt="non-virtual"><scope>Bar</scope><name>callsFooVal</name></member>
       <member refid="class_foo_1a64969c722c639a606111bebb48398fbb" prot="public" virt="non-virtual"><scope>Bar</scope><name>Foo</name></member>
       <member refid="class_bar_1ad7ba9aab9c32f004f7b92b376f6cf7ce" prot="public" virt="non-virtual"><scope>Bar</scope><name>Fooval</name></member>
-      <member refid="class_bar_1a46a33c9a89981acfb296ece5ef84e3f1" prot="private" virt="non-virtual"><scope>Bar</scope><name>mam2</name></member>
-      <member refid="class_bar_1a7a8ad7d0bc5d44be2ef78a0d345156ff" prot="private" virt="non-virtual"><scope>Bar</scope><name>mem1</name></member>
-      <member refid="class_bar_1afc6aec085823182090c5ee594e5c5907" prot="private" virt="non-virtual"><scope>Bar</scope><name>red</name></member>
       <member refid="class_foo_1a581f17aa4b900a1bb6d08444dbe90d14" prot="public" virt="non-virtual"><scope>Bar</scope><name>ret</name></member>
       <member refid="class_bar_1a9d35f0277a32ff57b004798ecc3b7286" prot="private" virt="non-virtual"><scope>Bar</scope><name>scf</name></member>
       <member refid="class_bar_1ab95b6278e39b1fad913d0c0533a4d40b" prot="private" virt="non-virtual"><scope>Bar</scope><name>si</name></member>
-      <member refid="class_bar_1a1fd72af0709b3b6a2d2575b748ece70e" prot="public" virt="non-virtual"><scope>Bar</scope><name>wiii</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

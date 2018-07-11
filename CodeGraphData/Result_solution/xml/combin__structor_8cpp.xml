@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="combin__structor_8cpp" kind="file">
+    <compoundname>combin_structor.cpp</compoundname>
+    <includes local="no">iostream</includes>
+    <incdepgraph>
+      <node id="18">
+        <label>D:/workspace/CPlus/TEST/combin_structor.cpp</label>
+        <link refid="combin_structor.cpp"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_poin_t" prot="public">PoinT</innerclass>
+    <innerclass refid="class_lin_e" prot="public">LinE</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="combin__structor_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/combin_structor.cpp" line="77" column="1" bodyfile="D:/workspace/CPlus/TEST/combin_structor.cpp" bodystart="77" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">[16/6/2018<sp/>17:49</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">combin_structor.cpp</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">*************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_poin_t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_poin_t" kindref="compound">PoinT</ref><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="12" refid="class_poin_t_1a1ced5f234b45576384bc3f8f724f6337" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_poin_t_1a1ced5f234b45576384bc3f8f724f6337" kindref="member">PoinT</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="13" refid="class_poin_t_1a49d5353f3802d7a3e7e03df67b9189f7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_poin_t_1a49d5353f3802d7a3e7e03df67b9189f7" kindref="member">PoinT</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>y)<sp/>:x(x),<sp/>y(y)<sp/>{<sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;initial<sp/>constructor&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;<sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_poin_t" kindref="compound">PoinT</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_poin_t" kindref="compound">PoinT</ref>&amp;);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_poin_t" kindref="compound">PoinT</ref>(<ref refid="class_poin_t" kindref="compound">PoinT</ref>,<sp/><ref refid="class_poin_t" kindref="compound">PoinT</ref>);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getX();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getY();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="class_poin_t_1a28fadd9799145744a56e9919a16cd366" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_poin_t_1a28fadd9799145744a56e9919a16cd366" kindref="member">~PoinT</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;destroy<sp/>constructor...of<sp/>PoinT&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="25" refid="class_poin_t_1a190f686c3f8651b1110fc9ff3bbfad0a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/><ref refid="class_poin_t_1a190f686c3f8651b1110fc9ff3bbfad0a" kindref="member">y</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="class_lin_e" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_lin_e" kindref="compound">LinE</ref><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_lin_e" kindref="compound">LinE</ref>();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_lin_e" kindref="compound">LinE</ref>(<ref refid="class_poin_t" kindref="compound">PoinT</ref><sp/>&amp;,<sp/><ref refid="class_poin_t" kindref="compound">PoinT</ref><sp/>&amp;);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_lin_e" kindref="compound">LinE</ref>(<ref refid="class_lin_e" kindref="compound">LinE</ref>&amp;);</highlight></codeline>
+<codeline lineno="33" refid="class_lin_e_1afaf91cbb9914fe1b2998914e8dcf55e6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_lin_e_1afaf91cbb9914fe1b2998914e8dcf55e6" kindref="member">~LinE</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;destroy<sp/>constructor...of<sp/>LinE&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="38" refid="class_lin_e_1ac9bbf04613baecc1f67753467ccd08b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>lx,<sp/><ref refid="class_lin_e_1ac9bbf04613baecc1f67753467ccd08b3" kindref="member">ly</ref>;</highlight></codeline>
+<codeline lineno="39" refid="class_lin_e_1a8d1fd479e80609808c30faedca283fba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_poin_t" kindref="compound">PoinT</ref><sp/>Px,<sp/><ref refid="class_lin_e_1a8d1fd479e80609808c30faedca283fba" kindref="member">Py</ref>;</highlight></codeline>
+<codeline lineno="40" refid="class_lin_e_1a0a411f7b3538ab51eb33b713c64bf3ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_lin_e_1a0a411f7b3538ab51eb33b713c64bf3ce" kindref="member">len</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="class_poin_t_1a406d71e6744ec41cf9729675df995c35" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_poin_t_1a406d71e6744ec41cf9729675df995c35" kindref="member">PoinT::getX</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><sp/>x;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="class_poin_t_1ad3b0e99b33caae45ad200ea4871011ef" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_poin_t_1ad3b0e99b33caae45ad200ea4871011ef" kindref="member">PoinT::getY</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>y;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="class_poin_t_1ac3f2d7b51c1d10fa6d2564c77a23094a" refkind="member"><highlight class="normal"><ref refid="class_poin_t_1a1ced5f234b45576384bc3f8f724f6337" kindref="member">PoinT::PoinT</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_poin_t" kindref="compound">PoinT</ref><sp/>&amp;p)<sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_poin_t" kindref="compound">PoinT</ref><sp/>whatever;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>x<sp/>=<sp/>p.<ref refid="class_poin_t_1aef6c4689e9b28fe58b6c1f46c536c211" kindref="member">x</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>y<sp/>=<sp/>p.<ref refid="class_poin_t_1a190f686c3f8651b1110fc9ff3bbfad0a" kindref="member">y</ref>;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;calling<sp/>copy<sp/>constructor<sp/>of<sp/>PoinT&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="57" refid="class_poin_t_1a76d1a3f8e9c8a6b2fad16f1acbac8c2b" refkind="member"><highlight class="normal"><ref refid="class_poin_t_1a1ced5f234b45576384bc3f8f724f6337" kindref="member">PoinT::PoinT</ref>(<ref refid="class_poin_t" kindref="compound">PoinT</ref><sp/>ix,<sp/><ref refid="class_poin_t" kindref="compound">PoinT</ref><sp/>iy){</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_lin_e" kindref="compound">LinE</ref>(ix,<sp/>iy);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>ix.<ref refid="class_poin_t_1aef6c4689e9b28fe58b6c1f46c536c211" kindref="member">x</ref><sp/>+<sp/>iy.<ref refid="class_poin_t_1aef6c4689e9b28fe58b6c1f46c536c211" kindref="member">x</ref><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>ix.<ref refid="class_poin_t_1a190f686c3f8651b1110fc9ff3bbfad0a" kindref="member">y</ref><sp/>+<sp/>iy.<ref refid="class_poin_t_1a190f686c3f8651b1110fc9ff3bbfad0a" kindref="member">y</ref><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="class_lin_e_1a4a40f6d75551e3b6f79ea65cddf30521" refkind="member"><highlight class="normal"><ref refid="class_lin_e_1a4a40f6d75551e3b6f79ea65cddf30521" kindref="member">LinE::LinE</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Initialing<sp/>constructor<sp/>of<sp/>LinE&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="class_lin_e_1a3b3d63781be0c70f1d09857f8dda84b2" refkind="member"><highlight class="normal"><ref refid="class_lin_e_1a4a40f6d75551e3b6f79ea65cddf30521" kindref="member">LinE::LinE</ref>(<ref refid="class_poin_t" kindref="compound">PoinT</ref><sp/><sp/>&amp;pa,<sp/><ref refid="class_poin_t" kindref="compound">PoinT</ref><sp/><sp/>&amp;pb):Px(pa),Py(pb)<sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">double</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal"><sp/>(pa.<ref refid="class_poin_t_1a406d71e6744ec41cf9729675df995c35" kindref="member">getX</ref>()<sp/>-<sp/><ref refid="class_lin_e_1a8d1fd479e80609808c30faedca283fba" kindref="member">Py</ref>.<ref refid="class_poin_t_1a406d71e6744ec41cf9729675df995c35" kindref="member">getX</ref>());</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">double</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal"><sp/>(pa.<ref refid="class_poin_t_1ad3b0e99b33caae45ad200ea4871011ef" kindref="member">getY</ref>()<sp/>-<sp/><ref refid="class_lin_e_1a8d1fd479e80609808c30faedca283fba" kindref="member">Py</ref>.<ref refid="class_poin_t_1ad3b0e99b33caae45ad200ea4871011ef" kindref="member">getY</ref>());</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_lin_e_1a0a411f7b3538ab51eb33b713c64bf3ce" kindref="member">len</ref><sp/>=<sp/>sqrt(x*x<sp/>+<sp/>y<sp/>*<sp/>y);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;</highlight><highlight class="stringliteral">&quot;length<sp/>=<sp/><sp/>&quot;</highlight><highlight class="normal">&lt;&lt;<sp/><ref refid="class_lin_e_1a0a411f7b3538ab51eb33b713c64bf3ce" kindref="member">len</ref><sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="class_lin_e_1a0de6bdf0c4d42ad70c3e5a5666a8bafa" refkind="member"><highlight class="normal"><ref refid="class_lin_e_1a4a40f6d75551e3b6f79ea65cddf30521" kindref="member">LinE::LinE</ref>(<ref refid="class_lin_e" kindref="compound">LinE</ref><sp/>&amp;l):Px(l.Px),Py(l.Py)<sp/>{}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="combin__structor_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="combin__structor_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kindref="member">main</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_poin_t" kindref="compound">PoinT</ref><sp/>a(1,1),b(5,4);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_lin_e" kindref="compound">LinE</ref><sp/>c(a,b);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_lin_e" kindref="compound">LinE</ref><sp/>d(c);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>system(</highlight><highlight class="stringliteral">&quot;pause&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/workspace/CPlus/TEST/combin_structor.cpp"/>
+  </compounddef>
+</doxygen>

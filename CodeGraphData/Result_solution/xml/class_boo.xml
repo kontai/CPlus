@@ -14,7 +14,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/workspace/CPlus/TEST/st.cpp" line="16" column="1" bodyfile="D:/workspace/CPlus/TEST/st.cpp" bodystart="16" bodyend="-1"/>
+        <location file="D:/workspace/CPlus/TEST/st.cpp" line="19" column="1" bodyfile="D:/workspace/CPlus/TEST/st.cpp" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_boo_1a50791c3d777834116a2bd3126ece92d4" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -27,8 +27,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/workspace/CPlus/TEST/st.cpp" line="17" column="1" bodyfile="D:/workspace/CPlus/TEST/st.cpp" bodystart="17" bodyend="-1"/>
-        <referencedby refid="st_8cpp_1a3dc5b8d347e5f7b113b9525bf71657e1" compoundref="st_8cpp" startline="24" endline="29">back_animal</referencedby>
+        <location file="D:/workspace/CPlus/TEST/st.cpp" line="20" column="1" bodyfile="D:/workspace/CPlus/TEST/st.cpp" bodystart="20" bodyend="-1"/>
+        <referencedby refid="st_8cpp_1a3dc5b8d347e5f7b113b9525bf71657e1" compoundref="st_8cpp" startline="27" endline="32">back_animal</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_boo_1ac915b47ce1f717d562e5de5b7e3439c8" prot="private" static="no" mutable="no">
         <type>string</type>
@@ -41,8 +41,8 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/workspace/CPlus/TEST/st.cpp" line="18" column="1" bodyfile="D:/workspace/CPlus/TEST/st.cpp" bodystart="18" bodyend="-1"/>
-        <referencedby refid="st_8cpp_1a3dc5b8d347e5f7b113b9525bf71657e1" compoundref="st_8cpp" startline="24" endline="29">back_animal</referencedby>
+        <location file="D:/workspace/CPlus/TEST/st.cpp" line="21" column="1" bodyfile="D:/workspace/CPlus/TEST/st.cpp" bodystart="21" bodyend="-1"/>
+        <referencedby refid="st_8cpp_1a3dc5b8d347e5f7b113b9525bf71657e1" compoundref="st_8cpp" startline="27" endline="32">back_animal</referencedby>
       </memberdef>
       <memberdef kind="variable" id="class_boo_1a11a9a8b4f388a8c953c0bfe44157a573" prot="private" static="no" mutable="no">
         <type>pair&lt; string, int &gt;</type>
@@ -55,15 +55,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/workspace/CPlus/TEST/st.cpp" line="19" column="1" bodyfile="D:/workspace/CPlus/TEST/st.cpp" bodystart="19" bodyend="-1"/>
-        <referencedby refid="st_8cpp_1a3dc5b8d347e5f7b113b9525bf71657e1" compoundref="st_8cpp" startline="24" endline="29">back_animal</referencedby>
+        <location file="D:/workspace/CPlus/TEST/st.cpp" line="22" column="1" bodyfile="D:/workspace/CPlus/TEST/st.cpp" bodystart="22" bodyend="-1"/>
+        <referencedby refid="st_8cpp_1a3dc5b8d347e5f7b113b9525bf71657e1" compoundref="st_8cpp" startline="27" endline="32">back_animal</referencedby>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
-      <memberdef kind="function" id="class_boo_1aba7bea8d4b6f6dacd90042847b4e7b16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="class_boo_1a20f1b148c5d44ea88286a91e4551a50a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>Boo::Boo</definition>
-        <argsstring>(int a, int b, string &amp;ss)</argsstring>
+        <argsstring>(int a, int b, string ss)</argsstring>
         <name>Boo</name>
         <param>
           <type>int</type>
@@ -74,7 +74,7 @@
           <declname>b</declname>
         </param>
         <param>
-          <type>string &amp;</type>
+          <type>string</type>
           <declname>ss</declname>
         </param>
         <briefdescription>
@@ -83,7 +83,24 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/workspace/CPlus/TEST/st.cpp" line="13" column="1" bodyfile="D:/workspace/CPlus/TEST/st.cpp" bodystart="13" bodyend="13"/>
+        <location file="D:/workspace/CPlus/TEST/st.cpp" line="14" column="1" bodyfile="D:/workspace/CPlus/TEST/st.cpp" bodystart="14" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_boo_1a3f2d0b7be88c98838cde8aaf16d88cce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Boo::Boo</definition>
+        <argsstring>(const string &amp;str)</argsstring>
+        <name>Boo</name>
+        <param>
+          <type>const string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/st.cpp" line="16" column="1" bodyfile="D:/workspace/CPlus/TEST/st.cpp" bodystart="16" bodyend="16"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="friend">
@@ -110,18 +127,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/workspace/CPlus/TEST/st.cpp" line="14" column="1" bodyfile="D:/workspace/CPlus/TEST/st.cpp" bodystart="24" bodyend="29"/>
+        <location file="D:/workspace/CPlus/TEST/st.cpp" line="17" column="1" bodyfile="D:/workspace/CPlus/TEST/st.cpp" bodystart="27" bodyend="32"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="D:/workspace/CPlus/TEST/st.cpp" line="11" column="1" bodyfile="D:/workspace/CPlus/TEST/st.cpp" bodystart="11" bodyend="20"/>
+    <location file="D:/workspace/CPlus/TEST/st.cpp" line="12" column="1" bodyfile="D:/workspace/CPlus/TEST/st.cpp" bodystart="12" bodyend="23"/>
     <listofallmembers>
       <member refid="class_boo_1a11a9a8b4f388a8c953c0bfe44157a573" prot="private" virt="non-virtual"><scope>Boo</scope><name>anl_pair</name></member>
       <member refid="class_boo_1a00599db240a6f250daa09c1b7c57d615" prot="public" virt="non-virtual"><scope>Boo</scope><name>back_animal</name></member>
-      <member refid="class_boo_1aba7bea8d4b6f6dacd90042847b4e7b16" prot="public" virt="non-virtual"><scope>Boo</scope><name>Boo</name></member>
+      <member refid="class_boo_1a20f1b148c5d44ea88286a91e4551a50a" prot="public" virt="non-virtual"><scope>Boo</scope><name>Boo</name></member>
+      <member refid="class_boo_1a3f2d0b7be88c98838cde8aaf16d88cce" prot="public" virt="non-virtual"><scope>Boo</scope><name>Boo</name></member>
       <member refid="class_boo_1a50791c3d777834116a2bd3126ece92d4" prot="private" virt="non-virtual"><scope>Boo</scope><name>ccnt</name></member>
       <member refid="class_boo_1ac915b47ce1f717d562e5de5b7e3439c8" prot="private" virt="non-virtual"><scope>Boo</scope><name>ckind</name></member>
       <member refid="class_boo_1a627aadc2b4fe08581da93a617051e880" prot="private" virt="non-virtual"><scope>Boo</scope><name>va1</name></member>

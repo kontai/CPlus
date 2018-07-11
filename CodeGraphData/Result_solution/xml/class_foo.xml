@@ -72,13 +72,13 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="24">
+      <node id="22">
         <label>Bar</label>
         <link refid="class_bar"/>
-        <childnode refid="23" relation="public-inheritance">
+        <childnode refid="21" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="23">
+      <node id="21">
         <label>Foo</label>
         <link refid="class_foo"/>
       </node>

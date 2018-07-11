@@ -5,24 +5,30 @@
     <includes local="no">iostream</includes>
     <includes local="no">cctype</includes>
     <includes local="no">string</includes>
+    <includes local="no">filesystem</includes>
     <incdepgraph>
-      <node id="75">
+      <node id="38">
+        <label>filesystem</label>
+      </node>
+      <node id="37">
         <label>string</label>
       </node>
-      <node id="72">
+      <node id="34">
         <label>D:/workspace/CPlus/TEST/st.cpp</label>
         <link refid="st.cpp"/>
-        <childnode refid="73" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
-        <childnode refid="74" relation="include">
+        <childnode refid="36" relation="include">
         </childnode>
-        <childnode refid="75" relation="include">
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
         </childnode>
       </node>
-      <node id="74">
+      <node id="36">
         <label>cctype</label>
       </node>
-      <node id="73">
+      <node id="35">
         <label>iostream</label>
       </node>
     </incdepgraph>
@@ -51,23 +57,23 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/workspace/CPlus/TEST/st.cpp" line="24" column="1" bodyfile="D:/workspace/CPlus/TEST/st.cpp" bodystart="24" bodyend="29"/>
-        <references refid="class_boo_1a11a9a8b4f388a8c953c0bfe44157a573" compoundref="st_8cpp" startline="19">Boo::anl_pair</references>
-        <references refid="class_boo_1a50791c3d777834116a2bd3126ece92d4" compoundref="st_8cpp" startline="17">Boo::ccnt</references>
-        <references refid="class_boo_1ac915b47ce1f717d562e5de5b7e3439c8" compoundref="st_8cpp" startline="18">Boo::ckind</references>
+        <location file="D:/workspace/CPlus/TEST/st.cpp" line="27" column="1" bodyfile="D:/workspace/CPlus/TEST/st.cpp" bodystart="27" bodyend="32"/>
+        <references refid="class_boo_1a11a9a8b4f388a8c953c0bfe44157a573" compoundref="st_8cpp" startline="22">Boo::anl_pair</references>
+        <references refid="class_boo_1a50791c3d777834116a2bd3126ece92d4" compoundref="st_8cpp" startline="20">Boo::ccnt</references>
+        <references refid="class_boo_1ac915b47ce1f717d562e5de5b7e3439c8" compoundref="st_8cpp" startline="21">Boo::ckind</references>
       </memberdef>
-      <memberdef kind="function" id="st_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="st_8cpp_1ac1b568251cd59ee5ccb2ce1d04f67338" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
-        <definition>int main</definition>
+        <definition>int mainSt</definition>
         <argsstring>()</argsstring>
-        <name>main</name>
+        <name>mainSt</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/workspace/CPlus/TEST/st.cpp" line="32" column="1" bodyfile="D:/workspace/CPlus/TEST/st.cpp" bodystart="32" bodyend="40"/>
+        <location file="D:/workspace/CPlus/TEST/st.cpp" line="35" column="1" bodyfile="D:/workspace/CPlus/TEST/st.cpp" bodystart="35" bodyend="46"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -83,38 +89,44 @@
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;cctype&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
-<codeline lineno="11" refid="class_boo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_boo" kindref="compound">Boo</ref><sp/>{</highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="13" refid="class_boo_1aba7bea8d4b6f6dacd90042847b4e7b16" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_boo_1aba7bea8d4b6f6dacd90042847b4e7b16" kindref="member">Boo</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;ss):<sp/>va1(a),<sp/>ccnt(b),<sp/>ckind(ss),anl_pair(ss,a)<sp/>{}</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="st_8cpp_1a3dc5b8d347e5f7b113b9525bf71657e1" kindref="member">back_animal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<ref refid="class_boo" kindref="compound">Boo</ref><sp/>&amp;);</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="16" refid="class_boo_1a627aadc2b4fe08581da93a617051e880" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_boo_1a627aadc2b4fe08581da93a617051e880" kindref="member">va1</ref>;</highlight></codeline>
-<codeline lineno="17" refid="class_boo_1a50791c3d777834116a2bd3126ece92d4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_boo_1a50791c3d777834116a2bd3126ece92d4" kindref="member">ccnt</ref>;</highlight></codeline>
-<codeline lineno="18" refid="class_boo_1ac915b47ce1f717d562e5de5b7e3439c8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_boo_1ac915b47ce1f717d562e5de5b7e3439c8" kindref="member">ckind</ref>;</highlight></codeline>
-<codeline lineno="19" refid="class_boo_1a11a9a8b4f388a8c953c0bfe44157a573" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>pair&lt;string,<sp/>int&gt;<ref refid="class_boo_1a11a9a8b4f388a8c953c0bfe44157a573" kindref="member">anl_pair</ref>;</highlight></codeline>
-<codeline lineno="20"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="st_8cpp_1a3dc5b8d347e5f7b113b9525bf71657e1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="st_8cpp_1a3dc5b8d347e5f7b113b9525bf71657e1" kindref="member">back_animal</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>kind,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cnt,<ref refid="class_boo" kindref="compound">Boo</ref><sp/>&amp;i)<sp/>{</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>i.<ref refid="class_boo_1a50791c3d777834116a2bd3126ece92d4" kindref="member">ccnt</ref><sp/>=<sp/>cnt;</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>kind2[200]=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>strcpy(kind2,<sp/>i.<ref refid="class_boo_1ac915b47ce1f717d562e5de5b7e3439c8" kindref="member">ckind</ref>.c_str());</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>i.<ref refid="class_boo_1a11a9a8b4f388a8c953c0bfe44157a573" kindref="member">anl_pair</ref>.second;</highlight></codeline>
-<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="st_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="st_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kindref="member">main</ref>(){</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>kk[]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;cc&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>cc(</highlight><highlight class="stringliteral">&quot;cc&quot;</highlight><highlight class="normal">)<sp/>;</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_boo" kindref="compound">Boo</ref><sp/>a(22,<sp/>33,<sp/>cc);</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>system(</highlight><highlight class="stringliteral">&quot;pause&quot;</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
-<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include&lt;filesystem&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="12" refid="class_boo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_boo" kindref="compound">Boo</ref><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="14" refid="class_boo_1a20f1b148c5d44ea88286a91e4551a50a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_boo_1a20f1b148c5d44ea88286a91e4551a50a" kindref="member">Boo</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>ss)<sp/>:<sp/>va1(a),<sp/>ccnt(b),<sp/>ckind(ss),<sp/>anl_pair(ss,<sp/>a)<sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16" refid="class_boo_1a3f2d0b7be88c98838cde8aaf16d88cce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_boo_1a3f2d0b7be88c98838cde8aaf16d88cce" kindref="member">Boo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;str)<sp/>:ckind(str)<sp/>{}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="st_8cpp_1a3dc5b8d347e5f7b113b9525bf71657e1" kindref="member">back_animal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<ref refid="class_boo" kindref="compound">Boo</ref><sp/>&amp;);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19" refid="class_boo_1a627aadc2b4fe08581da93a617051e880" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_boo_1a627aadc2b4fe08581da93a617051e880" kindref="member">va1</ref>;</highlight></codeline>
+<codeline lineno="20" refid="class_boo_1a50791c3d777834116a2bd3126ece92d4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_boo_1a50791c3d777834116a2bd3126ece92d4" kindref="member">ccnt</ref>;</highlight></codeline>
+<codeline lineno="21" refid="class_boo_1ac915b47ce1f717d562e5de5b7e3439c8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_boo_1ac915b47ce1f717d562e5de5b7e3439c8" kindref="member">ckind</ref>;</highlight></codeline>
+<codeline lineno="22" refid="class_boo_1a11a9a8b4f388a8c953c0bfe44157a573" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>pair&lt;string,<sp/>int&gt;<ref refid="class_boo_1a11a9a8b4f388a8c953c0bfe44157a573" kindref="member">anl_pair</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="st_8cpp_1a3dc5b8d347e5f7b113b9525bf71657e1" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="st_8cpp_1a3dc5b8d347e5f7b113b9525bf71657e1" kindref="member">back_animal</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>kind,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cnt,<ref refid="class_boo" kindref="compound">Boo</ref><sp/>&amp;i)<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>i.<ref refid="class_boo_1a50791c3d777834116a2bd3126ece92d4" kindref="member">ccnt</ref><sp/>=<sp/>cnt;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>kind2[200]=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>strcpy(kind2,<sp/>i.<ref refid="class_boo_1ac915b47ce1f717d562e5de5b7e3439c8" kindref="member">ckind</ref>.c_str());</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>i.<ref refid="class_boo_1a11a9a8b4f388a8c953c0bfe44157a573" kindref="member">anl_pair</ref>.second;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="st_8cpp_1ac1b568251cd59ee5ccb2ce1d04f67338" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="st_8cpp_1ac1b568251cd59ee5ccb2ce1d04f67338" kindref="member">mainSt</ref>(){</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>kk[]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;cc&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>cc(</highlight><highlight class="stringliteral">&quot;cc&quot;</highlight><highlight class="normal">)<sp/>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_boo" kindref="compound">Boo</ref><sp/>a(22,<sp/>33,<sp/></highlight><highlight class="stringliteral">&quot;ss&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_boo" kindref="compound">Boo</ref><sp/>b(</highlight><highlight class="stringliteral">&quot;this<sp/>is<sp/>string&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>system(</highlight><highlight class="stringliteral">&quot;pause&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="D:/workspace/CPlus/TEST/st.cpp"/>
   </compounddef>

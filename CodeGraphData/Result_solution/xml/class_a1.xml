@@ -103,14 +103,14 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="0">
+      <node id="2">
         <label>A1</label>
         <link refid="class_a1"/>
       </node>
-      <node id="1">
+      <node id="3">
         <label>B1</label>
         <link refid="class_b1"/>
-        <childnode refid="0" relation="public-inheritance">
+        <childnode refid="2" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>

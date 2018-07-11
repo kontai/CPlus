@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_clock" kind="class" prot="public">
+    <compoundname>Clock</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_clock_1a57d40ee919c277b725e2d74644ccd9ce" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Clock::hour</definition>
+        <argsstring></argsstring>
+        <name>hour</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/default_class.cpp" line="32" column="1" bodyfile="D:/workspace/CPlus/TEST/default_class.cpp" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_clock_1a73522121de28d781b6f4c8492689d6d8" compoundref="default__class_8cpp" startline="15" endline="22">Clock</referencedby>
+        <referencedby refid="class_clock_1abc7df823abd30a5122436b111f6106bf" compoundref="default__class_8cpp" startline="23" endline="30">show</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_clock_1ac18ac7a80d77529917883e0a0a254917" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Clock::mintute</definition>
+        <argsstring></argsstring>
+        <name>mintute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/default_class.cpp" line="32" column="1" bodyfile="D:/workspace/CPlus/TEST/default_class.cpp" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_clock_1a73522121de28d781b6f4c8492689d6d8" compoundref="default__class_8cpp" startline="15" endline="22">Clock</referencedby>
+        <referencedby refid="class_clock_1abc7df823abd30a5122436b111f6106bf" compoundref="default__class_8cpp" startline="23" endline="30">show</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_clock_1ac1f15a3a00c3c997bc4dae5ec0cb0241" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Clock::second</definition>
+        <argsstring></argsstring>
+        <name>second</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/default_class.cpp" line="32" column="1" bodyfile="D:/workspace/CPlus/TEST/default_class.cpp" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_clock_1a73522121de28d781b6f4c8492689d6d8" compoundref="default__class_8cpp" startline="15" endline="22">Clock</referencedby>
+        <referencedby refid="class_clock_1abc7df823abd30a5122436b111f6106bf" compoundref="default__class_8cpp" startline="23" endline="30">show</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_clock_1ae4cc6b9069846d1af8168c5c58148360" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Clock::Clock</definition>
+        <argsstring>(int newH, int newM, int newS)</argsstring>
+        <name>Clock</name>
+        <param>
+          <type>int</type>
+          <declname>newH</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newM</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newS</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/default_class.cpp" line="12" column="1" bodyfile="D:/workspace/CPlus/TEST/default_class.cpp" bodystart="12" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_clock_1adbc370eb6b5f8d01645cf440188160a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Clock::Clock</definition>
+        <argsstring>()</argsstring>
+        <name>Clock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/default_class.cpp" line="14" column="1" bodyfile="D:/workspace/CPlus/TEST/default_class.cpp" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_clock_1a73522121de28d781b6f4c8492689d6d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Clock::Clock</definition>
+        <argsstring>(const Clock &amp;call)</argsstring>
+        <name>Clock</name>
+        <param>
+          <type>const <ref refid="class_clock" kindref="compound">Clock</ref> &amp;</type>
+          <declname>call</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/default_class.cpp" line="15" column="1" bodyfile="D:/workspace/CPlus/TEST/default_class.cpp" bodystart="15" bodyend="22"/>
+        <references refid="class_clock_1a57d40ee919c277b725e2d74644ccd9ce" compoundref="default__class_8cpp" startline="32">hour</references>
+        <references refid="class_clock_1ac18ac7a80d77529917883e0a0a254917" compoundref="default__class_8cpp" startline="32">mintute</references>
+        <references refid="class_clock_1ac1f15a3a00c3c997bc4dae5ec0cb0241" compoundref="default__class_8cpp" startline="32">second</references>
+      </memberdef>
+      <memberdef kind="function" id="class_clock_1abc7df823abd30a5122436b111f6106bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_clock" kindref="compound">Clock</ref></type>
+        <definition>Clock Clock::show</definition>
+        <argsstring>(Clock &amp;call2)</argsstring>
+        <name>show</name>
+        <param>
+          <type><ref refid="class_clock" kindref="compound">Clock</ref> &amp;</type>
+          <declname>call2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/workspace/CPlus/TEST/default_class.cpp" line="23" column="1" bodyfile="D:/workspace/CPlus/TEST/default_class.cpp" bodystart="23" bodyend="30"/>
+        <references refid="class_clock_1a57d40ee919c277b725e2d74644ccd9ce" compoundref="default__class_8cpp" startline="32">hour</references>
+        <references refid="class_clock_1ac18ac7a80d77529917883e0a0a254917" compoundref="default__class_8cpp" startline="32">mintute</references>
+        <references refid="class_clock_1ac1f15a3a00c3c997bc4dae5ec0cb0241" compoundref="default__class_8cpp" startline="32">second</references>
+        <referencedby refid="default__class_8cpp_1a52d1733d9fdbd0cc8b5029966abb9fa3" compoundref="default__class_8cpp" startline="37" endline="47">mainDF</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/workspace/CPlus/TEST/default_class.cpp" line="10" column="1" bodyfile="D:/workspace/CPlus/TEST/default_class.cpp" bodystart="10" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_clock_1ae4cc6b9069846d1af8168c5c58148360" prot="public" virt="non-virtual"><scope>Clock</scope><name>Clock</name></member>
+      <member refid="class_clock_1adbc370eb6b5f8d01645cf440188160a8" prot="public" virt="non-virtual"><scope>Clock</scope><name>Clock</name></member>
+      <member refid="class_clock_1a73522121de28d781b6f4c8492689d6d8" prot="public" virt="non-virtual"><scope>Clock</scope><name>Clock</name></member>
+      <member refid="class_clock_1a57d40ee919c277b725e2d74644ccd9ce" prot="private" virt="non-virtual"><scope>Clock</scope><name>hour</name></member>
+      <member refid="class_clock_1ac18ac7a80d77529917883e0a0a254917" prot="private" virt="non-virtual"><scope>Clock</scope><name>mintute</name></member>
+      <member refid="class_clock_1ac1f15a3a00c3c997bc4dae5ec0cb0241" prot="private" virt="non-virtual"><scope>Clock</scope><name>second</name></member>
+      <member refid="class_clock_1abc7df823abd30a5122436b111f6106bf" prot="public" virt="non-virtual"><scope>Clock</scope><name>show</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
