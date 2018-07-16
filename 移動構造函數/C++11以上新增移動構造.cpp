@@ -44,7 +44,7 @@ int A::get() {
 	return *p;
 }
 
-int main() {
+int mainMoveC() {
 	cout<<set().get()<<endl;
 
 	system("pause");

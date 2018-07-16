@@ -145,12 +145,17 @@
     <ClCompile Include="class_init.cpp" />
     <ClCompile Include="combin_structor.cpp" />
     <ClCompile Include="cp_struct.cpp" />
+    <ClCompile Include="cr.cpp" />
     <ClCompile Include="default_class.cpp" />
+    <ClCompile Include="employee.cpp" />
     <ClCompile Include="empty_mapcpp.cpp" />
     <ClCompile Include="exam1240.cpp" />
     <ClCompile Include="st.cpp" />
     <ClCompile Include="String.cpp" />
     <ClCompile Include="vitrual_class.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cr.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

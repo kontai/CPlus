@@ -18,5 +18,8 @@
     <ClCompile Include="指針數組cpp.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="..\TEST\3x3矩陣反轉.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
