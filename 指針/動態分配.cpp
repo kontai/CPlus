@@ -20,7 +20,7 @@ struct D : B {
 enum class E { ONE = 1, TWO, THREE };
 enum EU { ONE = 1, TWO, THREE };
 
-int main()
+int maindy1()
 {
 	// 1: initializing conversion
 	int n = static_cast<int>(3.14);

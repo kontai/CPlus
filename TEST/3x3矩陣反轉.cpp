@@ -15,7 +15,6 @@ void swapI(int &i, int &j) {
 }
 
 int mainD3() {
-	time(&st);  //獲取當前時間
 	const int row = 4, col = 4;
 	int **p = new int *[col];
 	for (int i = 0; i < row; i++)

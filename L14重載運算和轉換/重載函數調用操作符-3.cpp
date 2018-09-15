@@ -22,7 +22,7 @@ private:
 
 };
 
-int main_¤G¤¸(){
+int main(){
 	vector<int> a, b;
 	for(vector<int>::size_type i=0,j=0;i<10 ;i++,j++)
 	{

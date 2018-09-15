@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\TEST\3x3矩陣反轉.cpp" />
+    <ClCompile Include="動態分配.cpp" />
     <ClCompile Include="指針數組cpp.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
