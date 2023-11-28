@@ -1,4 +1,4 @@
-cscope 15 $HOME/workspace/CPlus/cpp_primer_v5/ch2 -q 0000006461 0001072261
+cscope 15 $HOME/workspace/CPlus/cpp_primer_v5/ch2 -q 0000006467 0001073531
 	@.ccls-cache/@@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/@usr@include@alloca.h
 
 18 #iâdef 
@@ -149089,19 +149089,95 @@ r2
 r1
 ;
 
-16 
+15 
 i
 =
 r2
 ;
 
-19 
+18 
 r1
 =
 d
 ;
 
-22 
+19 
+¡d
+::
+cout
+ << "˜ð"<< 
+i
+ << std::
+’dl
+;
+
+20 
+¡d
+::
+cout
+ << "r1 = "<< 
+r1
+ << std::
+’dl
+;
+
+24 
+	}
+}
+
+	@.ccls-cache/@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/excise2_17.cpp
+
+1 
+	~<io¡»am
+>
+
+4 
+	$maš
+(
+¬gc
+, *
+¬gv
+[])
+
+6 
+i
+,&
+ri
+=i;
+
+7 
+j
+=2,&
+rj
+=j;
+
+8 
+ri
+=
+rj
+;
+
+9 
+i
+=5;
+
+10 
+ri
+=10;
+
+12 
+¡d
+::
+cout
+ << 
+i
+ << " "<<
+ri
+<<¡d::
+’dl
+;
+
+15 
 	}
 }
 
@@ -149307,6 +149383,90 @@ DoubË
 	}
 }
 
+	@.ccls-cache/@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/ptr_demo.cpp
+
+1 
+	~<io¡»am
+>
+
+2 
+	~<c¡dlib
+>
+
+4 
+	$maš
+(
+¬gc
+, *
+¬gv
+[])
+
+6 
+i
+=42;
+
+7 &
+r
+=
+i
+;
+
+10 *
+p1
+=
+nuÎ±r
+;
+
+11 *
+p2
+=(*)0;
+
+12 *
+p3
+=
+NULL
+;
+
+14 *
+p
+;
+
+15 
+p
+=&
+i
+;
+
+16 *
+p
+=
+i
+;
+
+17 &
+r2
+=*
+p
+;
+
+18 
+r2
+=20;
+
+19 
+¡d
+::
+cout
+ << 
+i
+ << std::
+’dl
+;
+
+21 
+	}
+}
+
 	@demo.cpp
 
 1 
@@ -149387,19 +149547,95 @@ r2
 r1
 ;
 
-16 
+15 
 i
 =
 r2
 ;
 
-19 
+18 
 r1
 =
 d
 ;
 
-22 
+19 
+¡d
+::
+cout
+ << "˜ð"<< 
+i
+ << std::
+’dl
+;
+
+20 
+¡d
+::
+cout
+ << "r1 = "<< 
+r1
+ << std::
+’dl
+;
+
+24 
+	}
+}
+
+	@excise2_17.cpp
+
+1 
+	~<io¡»am
+>
+
+4 
+	$maš
+(
+¬gc
+, *
+¬gv
+[])
+
+6 
+i
+,&
+ri
+=i;
+
+7 
+j
+=2,&
+rj
+=j;
+
+8 
+ri
+=
+rj
+;
+
+9 
+i
+=5;
+
+10 
+ri
+=10;
+
+12 
+¡d
+::
+cout
+ << 
+i
+ << " "<<
+ri
+<<¡d::
+’dl
+;
+
+15 
 	}
 }
 
@@ -149602,6 +149838,90 @@ DoubË
  = 3.14;
 
 18 
+	}
+}
+
+	@ptr_demo.cpp
+
+1 
+	~<io¡»am
+>
+
+2 
+	~<c¡dlib
+>
+
+4 
+	$maš
+(
+¬gc
+, *
+¬gv
+[])
+
+6 
+i
+=42;
+
+7 &
+r
+=
+i
+;
+
+10 *
+p1
+=
+nuÎ±r
+;
+
+11 *
+p2
+=(*)0;
+
+12 *
+p3
+=
+NULL
+;
+
+14 *
+p
+;
+
+15 
+p
+=&
+i
+;
+
+16 *
+p
+=
+i
+;
+
+17 &
+r2
+=*
+p
+;
+
+18 
+r2
+=20;
+
+19 
+¡d
+::
+cout
+ << 
+i
+ << std::
+’dl
+;
+
+21 
 	}
 }
 
@@ -187830,8 +188150,8 @@ _LINUX_CLOSE_RANGE_H
 .
 1
 /usr/include
-257
-17987
+261
+18161
 .ccls-cache/@@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/@usr@include@alloca.h
 .ccls-cache/@@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/@usr@include@asm-generic@errno-base.h
 .ccls-cache/@@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/@usr@include@asm-generic@errno.h
@@ -187983,14 +188303,18 @@ _LINUX_CLOSE_RANGE_H
 .ccls-cache/@@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/@var@lib@snapd@snap@ccls@90@usr@lib@llvm-7@lib@clang@7.0.0@include@stddef.h
 .ccls-cache/@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/demo.cpp
 .ccls-cache/@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/excise2_16.cpp
+.ccls-cache/@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/excise2_17.cpp
 .ccls-cache/@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/excise2_3.cpp
 .ccls-cache/@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/ini_demo.cpp
 .ccls-cache/@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/ini_demo2.cpp
+.ccls-cache/@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/ptr_demo.cpp
 demo.cpp
 excise2_16.cpp
+excise2_17.cpp
 excise2_3.cpp
 ini_demo.cpp
 ini_demo2.cpp
+ptr_demo.cpp
 /usr/include/alloca.h
 /usr/include/asm-generic/errno-base.h
 /usr/include/asm-generic/errno.h

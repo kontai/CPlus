@@ -3808,14 +3808,18 @@ lt	.ccls-cache/@@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/@usr@include@c++@
 lt	.ccls-cache/@@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/@usr@include@c++@13@bits@char_traits.h	/^      lt(const char_type& __c1, const char_type& __c2)$/;"	f	struct:__gnu_cxx::char_traits	typeref:typename:_GLIBCXX_CONSTEXPR bool
 main	.ccls-cache/@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/demo.cpp	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
 main	.ccls-cache/@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/excise2_16.cpp	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	.ccls-cache/@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/excise2_17.cpp	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
 main	.ccls-cache/@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/excise2_3.cpp	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
 main	.ccls-cache/@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/ini_demo.cpp	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
 main	.ccls-cache/@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/ini_demo2.cpp	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	.ccls-cache/@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/ptr_demo.cpp	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
 main	demo.cpp	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
 main	excise2_16.cpp	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	excise2_17.cpp	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
 main	excise2_3.cpp	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
 main	ini_demo.cpp	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
 main	ini_demo2.cpp	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	ptr_demo.cpp	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
 make_const_iterator	.ccls-cache/@@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/@usr@include@c++@13@bits@stl_iterator.h	/^    make_const_iterator(_It __it)$/;"	f	namespace:std	typeref:typename:const_iterator<_It>
 make_const_sentinel	.ccls-cache/@@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/@usr@include@c++@13@bits@stl_iterator.h	/^    make_const_sentinel(_Sent __s)$/;"	f	namespace:std	typeref:typename:const_sentinel<_Sent>
 make_error_code	.ccls-cache/@@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/@usr@include@c++@13@bits@ios_base.h	/^  make_error_code(io_errc __e) noexcept$/;"	f	namespace:std	typeref:typename:error_code

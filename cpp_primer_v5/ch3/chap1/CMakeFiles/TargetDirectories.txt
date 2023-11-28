@@ -1,0 +1,3 @@
+/home/kontai/workspace/CPlus/cpp_primer_v5/ch3/chap1/CMakeFiles/excise3_5.dir
+/home/kontai/workspace/CPlus/cpp_primer_v5/ch3/chap1/CMakeFiles/edit_cache.dir
+/home/kontai/workspace/CPlus/cpp_primer_v5/ch3/chap1/CMakeFiles/rebuild_cache.dir

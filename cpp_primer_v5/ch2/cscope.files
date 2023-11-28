@@ -3,6 +3,8 @@
 ./.ccls-cache/@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/ini_demo.cpp
 ./.ccls-cache/@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/ini_demo2.cpp
 ./.ccls-cache/@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/excise2_16.cpp
+./.ccls-cache/@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/excise2_17.cpp
+./.ccls-cache/@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/ptr_demo.cpp
 ./.ccls-cache/@@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/@usr@include@c++@13@x86_64-redhat-linux@bits@ctype_inline.h
 ./.ccls-cache/@@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/@usr@include@c++@13@x86_64-redhat-linux@bits@ctype_base.h
 ./.ccls-cache/@@home@kontai@workspace@CPlus@cpp_primer_v5@ch2/@usr@include@c++@13@bits@basic_ios.h
@@ -157,3 +159,5 @@
 ./ini_demo.cpp
 ./ini_demo2.cpp
 ./excise2_16.cpp
+./excise2_17.cpp
+./ptr_demo.cpp
