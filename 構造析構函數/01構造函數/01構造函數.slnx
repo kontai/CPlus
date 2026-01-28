@@ -1,0 +1,12 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="../02複製構造函數/02複製構造函數/02複製構造函數.vcxproj" Id="260ef9bc-6941-4ecb-97ad-1fe2d2a4ee96" />
+  <Project Path="../03函數返回/03函數返回/03函數返回.vcxproj" Id="df873410-d7e5-4ba8-b592-7dee21af91e9" />
+  <Project Path="01構造函數/01構造函數.vcxproj" Id="4beb44c4-ce7b-46a6-b665-4d4292bbcf0c" />
+  <Project Path="04多個對象構造與析構/04多個對象構造與析構.vcxproj" Id="bdff5f03-898e-47d2-807f-349f50f8657f" />
+  <Project Path="05深淺拷貝/05深淺拷貝.vcxproj" Id="3341cdb2-cb70-473f-8bd2-51f99d9d383b" />
+  <Project Path="06explicity的作用/06explicity的作用.vcxproj" Id="4821251b-7e99-4f91-99ed-806cf75f980c" />
+</Solution>

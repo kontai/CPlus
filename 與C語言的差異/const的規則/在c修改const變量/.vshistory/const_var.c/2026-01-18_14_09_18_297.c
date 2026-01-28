@@ -1,0 +1,1 @@
+const int cont_var = 10;
