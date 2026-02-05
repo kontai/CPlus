@@ -40,7 +40,7 @@ void constIterator() {
 void exerice3_23() {
 	vector <int> v{ 1,2,3,4,5 };
 	for (auto i = v.begin(); i != v.end(); i++) {
-		*i<<=1 ;
+		(*i)<<=1 ;
 	}
 	for (auto i : v) {
 		cout << i << " ";

@@ -1,4 +1,4 @@
-ï»¿#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS
 #include<iostream>
 #include <vector>
 
@@ -13,7 +13,7 @@ using namespace std;
 void func() {
 	string s("some string");
 
-	//åˆ©ç”¨è¿­ä»£å™¨ä¿®æ”¹stringå…§å®¹
+	//§Q¥Î­¡¥N¾¹­×§ïstring¤º®e
 	if (s.begin() != s.end()) {
 		auto it = s.begin();
 		*it = toupper(*it);
@@ -22,25 +22,25 @@ void func() {
 }
 
 void constIterator() {
-	vector<int>::iterator it;	//iteratorå¯ä»¥ä¿®æ”¹å…§å®¹
-	vector<int>::const_iterator cit;	//const_iteratorä¸èƒ½ä¿®æ”¹å…§å®¹
+	vector<int>::iterator it;	//iterator¥i¥H­×§ï¤º®e
+	vector<int>::const_iterator cit;	//const_iterator¤£¯à­×§ï¤º®e
 
 	vector<int> v01{ 1,2,3,4,5 };
 	const vector<int> cv01{ 10,11 };
-	auto it1 = v01.begin();		//it1æ˜¯vector<int>::iteratoré¡å‹
-	auto cit1 = cv01.begin();	//cit1æ˜¯vector<int>::const_iteratoré¡å‹
+	auto it1 = v01.begin();		//it1¬Ovector<int>::iteratorÃş«¬
+	auto cit1 = cv01.begin();	//cit1¬Ovector<int>::const_iteratorÃş«¬
 
-	auto it2 = v01.cbegin();		//it2æ˜¯vector<int>::const_iteratoré¡å‹(c++11)
-									//ä¸ç®¡v01æ˜¯å¦ç‚ºconstï¼Œcbegin(),cend()éƒ½æœƒè¿”å›const_iteratoré¡å‹
+	auto it2 = v01.cbegin();		//it2¬Ovector<int>::const_iteratorÃş«¬(c++11)
+									//¤£ºŞv01¬O§_¬°const¡Acbegin(),cend()³£·|ªğ¦^const_iteratorÃş«¬
 	cout << *it1 << endl;
 	cout << *cit1 << endl;
 }
 
-//ç»ƒä¹ 3.23ï¼šç¼–å†™ä¸€ä¸ªç¨‹åºï¼Œä½¿ç”¨è¿­ä»£å™¨å°†vectorä¸­çš„å…ƒç´ åŠ å€ã€‚
+//??3.23¡G??¤@?µ{§Ç¡A¨Ï¥Î­¡¥N¾¹?vector¤¤ªº¤¸¯À¥[­¿¡C
 void exerice3_23() {
 	vector <int> v{ 1,2,3,4,5 };
 	for (auto i = v.begin(); i != v.end(); i++) {
-		*i<<=1 ;
+		*i << 1;
 	}
 	for (auto i : v) {
 		cout << i << " ";
