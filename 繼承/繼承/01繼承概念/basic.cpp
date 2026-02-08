@@ -23,6 +23,5 @@ public: void func3() {}	//func3()是DerivedClass的成員函式，BaseClass沒�
 int main() {
 	BaseClass bc;
 	DerivedClass dc;
-	dc.fu3;
 	//bc.func3();	//error: ‘class BaseClass’ has no member named ‘func3’
 }

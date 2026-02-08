@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="來源檔案">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DiamondInheritance.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryLayout.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualBasePointerAnalysis.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="虛繼承記憶體分析.md" />
+    <None Include="虛繼承完整對比.md" />
+    <None Include="README_虛繼承完整分析.md" />
+    <None Include="虛繼承速查手冊.md" />
+    <None Include="資源索引.md" />
+    <None Include="完成總結.md" />
+    <None Include="快速索引.md" />
+    <None Include="崩潰修復說明.md" />
+    <None Include="修復快速參考.md" />
+    <None Include="修復完整報告.md" />
+    <None Include="虛繼承視覺化指南.md" />
+    <None Include="快速開始指南.md" />
+    <None Include="README_修復指南.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="修復總結.txt" />
+  </ItemGroup>
+</Project>

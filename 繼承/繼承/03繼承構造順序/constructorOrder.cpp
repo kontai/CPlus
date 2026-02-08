@@ -31,7 +31,6 @@ public:
 	{
 		cout << "Derived Destructor" << endl;
 	}
-
 };
 
 class A
@@ -45,6 +44,7 @@ public:
 	{
 		cout << "A Destructor" << endl;
 	}
+	Derived d;	//類A中包含類Derived的物件d，會在構造A物件時先構造d物件
 };
 class B
 {
@@ -70,7 +70,7 @@ public:
 		cout << "C Destructor" << endl;
 	}
 };
-class D:public A
+class D :public A
 {
 public:
 	D()
@@ -93,7 +93,6 @@ void func()
 	cout << "------------------" << endl;
 	D d;	//創建D類的物件d，會依次調用A類的構造函數、B類的構造函數、C類的構造函數和D類的構造函數，輸出構造順序
 }
-
 
 int main()
 {
