@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.3.11505.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01多態的實現", "01多態的實現\01多態的實現.vcxproj", "{58010E9A-D7FC-48CA-BD1C-5029B7EC05AC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02純虛函數和抽象類", "02純虛函數和抽象類\02純虛函數和抽象類.vcxproj", "{43B540B5-AD64-483A-8F42-AEA79D0D0DCB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03抽象類與接口", "03抽象類與接口\03抽象類與接口.vcxproj", "{83472D10-1D7D-42A4-9580-DCE326E933C4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04父類引用子類對象", "04父類引用子類對象\04父類引用子類對象.vcxproj", "{AA2B6C9B-8ABC-4E65-A4BD-5E57D0266A07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58010E9A-D7FC-48CA-BD1C-5029B7EC05AC}.Debug|x64.ActiveCfg = Debug|x64
+		{58010E9A-D7FC-48CA-BD1C-5029B7EC05AC}.Debug|x64.Build.0 = Debug|x64
+		{58010E9A-D7FC-48CA-BD1C-5029B7EC05AC}.Debug|x86.ActiveCfg = Debug|Win32
+		{58010E9A-D7FC-48CA-BD1C-5029B7EC05AC}.Debug|x86.Build.0 = Debug|Win32
+		{58010E9A-D7FC-48CA-BD1C-5029B7EC05AC}.Release|x64.ActiveCfg = Release|x64
+		{58010E9A-D7FC-48CA-BD1C-5029B7EC05AC}.Release|x64.Build.0 = Release|x64
+		{58010E9A-D7FC-48CA-BD1C-5029B7EC05AC}.Release|x86.ActiveCfg = Release|Win32
+		{58010E9A-D7FC-48CA-BD1C-5029B7EC05AC}.Release|x86.Build.0 = Release|Win32
+		{43B540B5-AD64-483A-8F42-AEA79D0D0DCB}.Debug|x64.ActiveCfg = Debug|x64
+		{43B540B5-AD64-483A-8F42-AEA79D0D0DCB}.Debug|x64.Build.0 = Debug|x64
+		{43B540B5-AD64-483A-8F42-AEA79D0D0DCB}.Debug|x86.ActiveCfg = Debug|Win32
+		{43B540B5-AD64-483A-8F42-AEA79D0D0DCB}.Debug|x86.Build.0 = Debug|Win32
+		{43B540B5-AD64-483A-8F42-AEA79D0D0DCB}.Release|x64.ActiveCfg = Release|x64
+		{43B540B5-AD64-483A-8F42-AEA79D0D0DCB}.Release|x64.Build.0 = Release|x64
+		{43B540B5-AD64-483A-8F42-AEA79D0D0DCB}.Release|x86.ActiveCfg = Release|Win32
+		{43B540B5-AD64-483A-8F42-AEA79D0D0DCB}.Release|x86.Build.0 = Release|Win32
+		{83472D10-1D7D-42A4-9580-DCE326E933C4}.Debug|x64.ActiveCfg = Debug|x64
+		{83472D10-1D7D-42A4-9580-DCE326E933C4}.Debug|x64.Build.0 = Debug|x64
+		{83472D10-1D7D-42A4-9580-DCE326E933C4}.Debug|x86.ActiveCfg = Debug|Win32
+		{83472D10-1D7D-42A4-9580-DCE326E933C4}.Debug|x86.Build.0 = Debug|Win32
+		{83472D10-1D7D-42A4-9580-DCE326E933C4}.Release|x64.ActiveCfg = Release|x64
+		{83472D10-1D7D-42A4-9580-DCE326E933C4}.Release|x64.Build.0 = Release|x64
+		{83472D10-1D7D-42A4-9580-DCE326E933C4}.Release|x86.ActiveCfg = Release|Win32
+		{83472D10-1D7D-42A4-9580-DCE326E933C4}.Release|x86.Build.0 = Release|Win32
+		{AA2B6C9B-8ABC-4E65-A4BD-5E57D0266A07}.Debug|x64.ActiveCfg = Debug|x64
+		{AA2B6C9B-8ABC-4E65-A4BD-5E57D0266A07}.Debug|x64.Build.0 = Debug|x64
+		{AA2B6C9B-8ABC-4E65-A4BD-5E57D0266A07}.Debug|x86.ActiveCfg = Debug|Win32
+		{AA2B6C9B-8ABC-4E65-A4BD-5E57D0266A07}.Debug|x86.Build.0 = Debug|Win32
+		{AA2B6C9B-8ABC-4E65-A4BD-5E57D0266A07}.Release|x64.ActiveCfg = Release|x64
+		{AA2B6C9B-8ABC-4E65-A4BD-5E57D0266A07}.Release|x64.Build.0 = Release|x64
+		{AA2B6C9B-8ABC-4E65-A4BD-5E57D0266A07}.Release|x86.ActiveCfg = Release|Win32
+		{AA2B6C9B-8ABC-4E65-A4BD-5E57D0266A07}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B9C198C-F580-4C44-9CB2-745277B7D1FE}
+	EndGlobalSection
+EndGlobal
