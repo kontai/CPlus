@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03抽象類與接口", "03�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04父類引用子類對象", "04父類引用子類對象\04父類引用子類對象.vcxproj", "{AA2B6C9B-8ABC-4E65-A4BD-5E57D0266A07}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05實例-動物園", "05實例-動物園\05實例-動物園.vcxproj", "{1F768DB7-0B0A-4E8B-83CD-7D97BD35CF30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{AA2B6C9B-8ABC-4E65-A4BD-5E57D0266A07}.Release|x64.Build.0 = Release|x64
 		{AA2B6C9B-8ABC-4E65-A4BD-5E57D0266A07}.Release|x86.ActiveCfg = Release|Win32
 		{AA2B6C9B-8ABC-4E65-A4BD-5E57D0266A07}.Release|x86.Build.0 = Release|Win32
+		{1F768DB7-0B0A-4E8B-83CD-7D97BD35CF30}.Debug|x64.ActiveCfg = Debug|x64
+		{1F768DB7-0B0A-4E8B-83CD-7D97BD35CF30}.Debug|x64.Build.0 = Debug|x64
+		{1F768DB7-0B0A-4E8B-83CD-7D97BD35CF30}.Debug|x86.ActiveCfg = Debug|Win32
+		{1F768DB7-0B0A-4E8B-83CD-7D97BD35CF30}.Debug|x86.Build.0 = Debug|Win32
+		{1F768DB7-0B0A-4E8B-83CD-7D97BD35CF30}.Release|x64.ActiveCfg = Release|x64
+		{1F768DB7-0B0A-4E8B-83CD-7D97BD35CF30}.Release|x64.Build.0 = Release|x64
+		{1F768DB7-0B0A-4E8B-83CD-7D97BD35CF30}.Release|x86.ActiveCfg = Release|Win32
+		{1F768DB7-0B0A-4E8B-83CD-7D97BD35CF30}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
