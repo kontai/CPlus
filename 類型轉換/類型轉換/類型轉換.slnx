@@ -1,0 +1,11 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="00隱式轉換/00隱式轉換.vcxproj" />
+  <Project Path="01static_cast/01static_cast.vcxproj" />
+  <Project Path="02dynamic_cast/02dynamic_cast.vcxproj" />
+  <Project Path="03const_cast/03const_cast.vcxproj" />
+  <Project Path="04reinterpret_cast/04reinterpret_cast.vcxproj" />
+</Solution>

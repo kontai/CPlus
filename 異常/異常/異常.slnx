@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="01異常的類型匹配/01異常的類型匹配.vcxproj" Id="4b0ff0fe-4f66-4b0e-9123-c7d4b66f02cc" />
+  <Project Path="02棧解旋/02棧解旋.vcxproj" Id="3dc3c388-871c-4076-93e0-884ce7850cba" />
+  <Project Path="03異常的生命週期/03異常的生命週期.vcxproj" Id="d1c41e0b-0349-49d1-a9a9-9c8c8036f853" />
+  <Project Path="04異常的多態/04異常的多態.vcxproj" Id="a13eb658-fef2-4cac-8570-eab0f0033587" />
+</Solution>

@@ -30,7 +30,7 @@ public:
 	}
 
 	virtual ~Animal() {
-		cout << name << " 被釋放了" << endl;
+		cout << name << " 已從動物園移出" << endl;
 	}
 };
 
@@ -175,5 +175,5 @@ void test_optimized() {
 }
 
 int main() {
-	test_optimized();;
+	test_optimized();
 }

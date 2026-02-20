@@ -1,0 +1,16 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="01函數模版/01函數模版.vcxproj" Id="3a3f033d-0423-4d58-a46a-5808a73f837d" />
+  <Project Path="02函數模版排序/02函數模版排序.vcxproj" Id="1806105e-4304-4e9a-b704-b166ad71b601" />
+  <Project Path="03普通函數和模版函數/03普通函數和模版函數.vcxproj" Id="97c010ec-7d57-4395-af6f-5f283e17d088" />
+  <Project Path="04類模版/04類模版.vcxproj" Id="a47d15c9-b574-48a7-9389-4a438e009b4e" />
+  <Project Path="05類模版作函數參數/05類模版作函數參數.vcxproj" Id="3d9fa33d-70da-477f-8b3a-04b7eae92989" />
+  <Project Path="06類模版的繼承/06類模版的繼承.vcxproj" Id="cff2c486-7e85-4883-8449-86a2a8289fc1" />
+  <Project Path="07類模版成員函數類內類外實現/07類模版成員函數類內類外實現.vcxproj" Id="3eb46c2e-f314-4d23-bcdc-46469dd9c701" />
+  <Project Path="08類模版分文件編寫/08類模版分文件編寫.vcxproj" Id="f78a23d0-2c6f-460f-8af9-ab4793b1cf80" />
+  <Project Path="09類模版分文件編寫-進階/09類模版分文件編寫-進階.vcxproj" Id="966d99fa-03f6-42f9-8c07-efe64d8ca98b" />
+  <Project Path="10類模版和友元/10類模版和友元.vcxproj" Id="a28338ec-3c03-4a95-a4eb-cb6e4f9b040d" />
+</Solution>
