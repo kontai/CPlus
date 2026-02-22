@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="01標準輸入/01標準輸入.vcxproj" />
+  <Project Path="02標準輸出/02標準輸出.vcxproj" />
+  <Project Path="03文件讀寫/03文件讀寫.vcxproj" />
+  <Project Path="04二進制讀寫/04二進制讀寫.vcxproj" />
+</Solution>
