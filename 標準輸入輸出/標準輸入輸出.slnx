@@ -3,8 +3,8 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="01標準輸入/01標準輸入.vcxproj" />
-  <Project Path="02標準輸出/02標準輸出.vcxproj" />
-  <Project Path="03文件讀寫/03文件讀寫.vcxproj" />
-  <Project Path="04二進制讀寫/04二進制讀寫.vcxproj" />
+  <Project Path="01標準輸入/01標準輸入.vcxproj" Id="4a7aef1b-29a2-48a8-81d2-b4977178d8a5" />
+  <Project Path="02標準輸出/02標準輸出.vcxproj" Id="54e1048e-a4fa-484f-bcea-63c80b7f8e96" />
+  <Project Path="03文件讀寫/03文件讀寫.vcxproj" Id="274b3ad7-47fe-40ca-96d8-c8abb60af113" />
+  <Project Path="04二進制讀寫/04二進制讀寫.vcxproj" Id="8bcd4487-1a5e-4608-acb8-9da8c49bd808" />
 </Solution>
