@@ -44,11 +44,33 @@ void fun3() {
 void fun4() {
 	string str = "user@domain.com";
 	size_t pos = str.find("@");
+	string user;
+	string domain;
 
 	if (pos != string::npos) {
 		// 找到了！切出使用者名稱
-		string user = str.substr(0, pos);
+		user = str.substr(0, pos);	//
+		domain = str.substr(pos + 1);
+		cout << user << endl;
+		cout << domain << endl;
 	}
+}
+
+void fun5() {
+	//string 開辟的空間如果大於16個字莭，就在堆區(heap)，小於就在棧(stack)
+	string str = "Hello";	//小於16字元，會放在stack
+	//str.reserve(32);	//如果調整容量,會放在heap
+	char& a = str[2];
+	char& b = str[3];
+	a = '1';
+	b = '2';
+
+	cout << &str << endl;
+	cout << (int*)str.c_str() << endl;	//string的內容放在string裡,所以這裡的地址會很接近
+
+	str = "some string.lalallalallaala";	//超過16字元，會重新分配內存於heap
+	cout << &str << endl;
+	cout << (int*)str.c_str() << endl;
 }
 
 int main()
@@ -56,7 +78,8 @@ int main()
 	//init_demo();
 	//fun1();
 	//fun2();
-	fun3();
+	//fun3();
 	//fun4();
+	fun5();
 	return 0;
 }
