@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="01聲明/01聲明.vcxproj" />
+  <Project Path="02左值與石值的賦值/02左值與石值的賦值.vcxproj" />
+  <Project Path="03萬能引用/03萬能引用.vcxproj" />
+</Solution>

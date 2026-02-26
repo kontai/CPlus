@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="友元/友元.vcxproj" Id="398a8c89-c964-400d-a8ff-4bc341bd22d6" />
+  <Project Path="01move建構式/01move建構式.vcxproj" Id="bfd1eae6-5d2c-4a0f-a073-ac782865d762" />
 </Solution>
