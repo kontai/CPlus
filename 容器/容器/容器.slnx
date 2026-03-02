@@ -4,4 +4,13 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="01string/01string.vcxproj" Id="7e03e2d2-5e0c-468b-a64c-3fca9cd8dd96" />
+  <Project Path="02vector/02vector.vcxproj" Id="74249a52-9028-4c89-972a-2c5810dde66d" />
+  <Project Path="03deque/03deque.vcxproj" Id="6a225bb8-f794-4bd0-9dc0-aa621fe8bb40" />
+  <Project Path="04stack/04stack.vcxproj" Id="fc48b79a-c053-421c-860f-762a04c006b1" />
+  <Project Path="05queue/05queue.vcxproj" Id="caa0c80c-1642-4c02-abc6-b3d27a2f3d43" />
+  <Project Path="06list的數據結構/06list的數據結構.vcxproj" Id="36ffc68a-717d-4228-835c-3fdaa9e758f1" />
+  <Project Path="07list常用api/07list常用api.vcxproj" Id="101eef05-5501-417e-9a76-c66accc2f103" />
+  <Project Path="08電梯案例/08電梯案例.vcxproj" Id="bae8b5e6-78f9-4750-93bb-95ad71ac266f" />
+  <Project Path="09pair/09pair.vcxproj" Id="175f31d1-1868-4807-bd25-340502772843" />
+  <Project Path="10set/10set.vcxproj" Id="8a0fc41e-d89a-4ab7-bf39-a71da222d52c" />
 </Solution>
