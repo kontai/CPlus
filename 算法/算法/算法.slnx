@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="01適配器/01適配器.vcxproj" />
+  <Project Path="02遍歴算法/02遍歴算法.vcxproj" />
+  <Project Path="03查找算法/03查找算法.vcxproj" />
+</Solution>
