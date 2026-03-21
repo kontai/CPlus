@@ -15,20 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <ClCompile Include="source.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
   </ItemGroup>
-=======
-    <ClCompile Include="fixed_source.cpp">
-      <Filter>來源檔案</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="source.cpp">
-      <Filter>來源檔案</Filter>
-    </None>
-  </ItemGroup>
->>>>>>> c4efb85a52017d13ba2126a09e7f911c11100edb
 </Project>

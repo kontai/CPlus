@@ -3,5 +3,12 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+<<<<<<< HEAD
   <Project Path="01適配器/01適配器.vcxproj" />
+=======
+  <Project Path="01適配器/01適配器.vcxproj" Id="9024e8e9-e414-4f37-9586-81497fa5f829" />
+  <Project Path="02遍歴算法/02遍歴算法.vcxproj" Id="ed7e3ebe-b8dd-44bc-80d4-981bd9e165c4" />
+  <Project Path="03查找算法/03查找算法.vcxproj" Id="bd3c4ca5-de0f-400c-aa30-4dfe21bd6745" />
+  <Project Path="04查找算法2/04查找算法2.vcxproj" Id="c890473f-954f-42ce-80d5-acd4c283ee22" />
+>>>>>>> c4efb85a52017d13ba2126a09e7f911c11100edb
 </Solution>

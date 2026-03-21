@@ -21,12 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-<<<<<<< HEAD
-    <ProjectGuid>{777d3f04-cbe5-4649-ba66-ccf409fe071a}</ProjectGuid>
-=======
-    <ProjectGuid>{9024e8e9-e414-4f37-9586-81497fa5f829}</ProjectGuid>
->>>>>>> c4efb85a52017d13ba2126a09e7f911c11100edb
-    <RootNamespace>My01適配器</RootNamespace>
+    <ProjectGuid>{c890473f-954f-42ce-80d5-acd4c283ee22}</ProjectGuid>
+    <RootNamespace>My04查找算法2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -80,12 +76,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-<<<<<<< HEAD
       <LanguageStandard>stdcpp20</LanguageStandard>
-=======
-      <LanguageStandard>stdcpp14</LanguageStandard>
-      <LanguageStandard_C>stdc11</LanguageStandard_C>
->>>>>>> c4efb85a52017d13ba2126a09e7f911c11100edb
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -136,12 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <ClCompile Include="source.cpp" />
-=======
-    <ClCompile Include="fixed_source.cpp" />
-    <None Include="source.cpp" />
->>>>>>> c4efb85a52017d13ba2126a09e7f911c11100edb
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
