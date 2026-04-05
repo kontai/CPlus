@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuexample">
+    <property name="title">
+     <string>example</string>
+    </property>
+    <addaction name="actioninfo"/>
+    <addaction name="actionwarning"/>
+    <addaction name="actioncritical"/>
+    <addaction name="actionquestion"/>
+   </widget>
+   <addaction name="menuexample"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actioninfo"/>
+   <addaction name="actionwarning"/>
+   <addaction name="actioncritical"/>
+   <addaction name="actionquestion"/>
+  </widget>
+  <action name="actioninfo">
+   <property name="text">
+    <string>info</string>
+   </property>
+  </action>
+  <action name="actionwarning">
+   <property name="text">
+    <string>warning</string>
+   </property>
+  </action>
+  <action name="actioncritical">
+   <property name="text">
+    <string>critical</string>
+   </property>
+  </action>
+  <action name="actionquestion">
+   <property name="text">
+    <string>question</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
