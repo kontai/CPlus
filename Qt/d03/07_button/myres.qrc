@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/icons8-add-94.png</file>
+        <file>image/icons8-create-94.png</file>
+        <file>image/icons8-features-list-94.png</file>
+        <file>image/icons8-remove-94.png</file>
+        <file>image/Visual_Studio_Icon_2026.svg.png</file>
+    </qresource>
+</RCC>
