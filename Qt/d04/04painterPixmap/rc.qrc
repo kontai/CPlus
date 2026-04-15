@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/Visual_Studio_Icon_2026.svg.png</file>
+    </qresource>
+</RCC>
