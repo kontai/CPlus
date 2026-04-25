@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="exercise7.43/exercise7.43.vcxproj" />
+  <Project Path="explicit顯式構造函數/explicit顯式構造函數.vcxproj" />
+</Solution>
