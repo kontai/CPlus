@@ -3,6 +3,6 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="exercise7.43/exercise7.43.vcxproj" />
-  <Project Path="explicit顯式構造函數/explicit顯式構造函數.vcxproj" />
+  <Project Path="exercise7.43/exercise7.43.vcxproj" Id="5ccc6fe8-c6eb-4c05-b0a3-120388dc989b" />
+  <Project Path="explicit顯式構造函數/explicit顯式構造函數.vcxproj" Id="01e775f4-4470-42f9-9a80-1ec13e015a5f" />
 </Solution>
