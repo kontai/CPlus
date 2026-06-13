@@ -56,10 +56,11 @@ void test3() {
 	cout << "m.a= " << m.a << endl;
 
 }
+
 int main() {
-	test1();
-	test2();
-	test3();
+	////test1();
+	////test2();
+	////test3();
 
 	return EXIT_SUCCESS;
 }
